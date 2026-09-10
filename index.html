@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="青年老吴实木工厂店家具选品库" />
+  <title>青年老吴实木工厂店｜家具选品库</title>
+  <style>
+    :root{--bg:#f5f1e9;--ink:#211b16;--card:#fbf9f4;--soft:#eae3d8;--line:#d9cfc2;--red:#8e3b2b;--dark:#2e2119;--muted:#766a5e}
+    *{box-sizing:border-box}html{background:var(--bg);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif}body{margin:0}button,input,select{font:inherit}
+    header{position:sticky;top:0;z-index:20;background:rgba(245,241,233,.94);backdrop-filter:blur(16px);border-bottom:1px solid rgba(217,207,194,.85)}
+    .bar,.wrap{max-width:1480px;margin:auto;padding-left:32px;padding-right:32px}.bar{height:80px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:12px}.mark{width:42px;height:42px;border-radius:50%;background:var(--dark);color:#fffaf1;display:grid;place-items:center;font-size:20px}.brand b{font-size:18px;letter-spacing:.08em}.brand small{display:block;margin-top:3px;color:var(--muted);letter-spacing:.14em}.place{font-size:14px;color:var(--muted)}
+    .wrap{padding-top:44px;padding-bottom:50px}.intro{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:30px}.eyebrow{font-size:12px;color:var(--red);font-weight:700;letter-spacing:.22em;margin-bottom:12px}.intro h1{font-size:48px;line-height:1.16;margin:0;letter-spacing:-.04em}.intro h1 em{font-family:serif;color:var(--red);font-weight:500}.intro p{max-width:430px;color:var(--muted);line-height:1.8;margin:0}
+    .filters{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:15px;box-shadow:0 12px 40px rgba(36,28,20,.05)}.fields{display:grid;grid-template-columns:1fr 190px 190px;gap:12px}.search{position:relative}.search span{position:absolute;left:16px;top:13px;color:var(--muted)}input,select{width:100%;height:48px;border:0;border-radius:12px;background:var(--soft);color:var(--ink);padding:0 16px}input{padding-left:46px}select{cursor:pointer}.tabs{display:flex;gap:8px;overflow:auto;padding-top:12px}.tab{border:0;border-radius:999px;background:transparent;padding:10px 20px;white-space:nowrap;cursor:pointer;color:var(--ink)}.tab.active{background:var(--dark);color:white}
+    .count{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:14px;margin:34px 0 18px}.count b{color:var(--ink)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:38px 20px}.product{border:0;background:none;text-align:left;padding:0;cursor:pointer;color:inherit}.photo{position:relative;aspect-ratio:4/3;border-radius:18px;overflow:hidden;background:var(--soft)}.photo img{width:100%;height:100%;object-fit:cover;transition:.65s}.product:hover img{transform:scale(1.035)}.status{position:absolute;left:15px;top:15px;background:rgba(255,253,249,.92);padding:7px 12px;border-radius:999px;font-size:13px}.meta{display:flex;justify-content:space-between;gap:12px;padding-top:14px}.code{font-size:12px;color:var(--muted);letter-spacing:.1em}.meta h2{font-size:20px;margin:5px 0 0}.wood{background:var(--soft);padding:6px 11px;border-radius:999px;font-size:13px;height:max-content;white-space:nowrap}.size{font-size:13px;color:var(--muted);margin-top:9px}.empty{display:none;padding:90px 20px;text-align:center;border:1px dashed var(--line);border-radius:18px}
+    footer{background:var(--dark);color:#fffaf1}.foot{max-width:1480px;margin:auto;padding:28px 32px;display:flex;justify-content:space-between;align-items:center}.foot small{color:rgba(255,250,241,.58)}
+    dialog{padding:0;border:0;border-radius:20px;width:min(590px,calc(100% - 28px));max-height:90vh;background:var(--bg);color:var(--ink);box-shadow:0 30px 90px rgba(0,0,0,.3);overflow:auto}dialog::backdrop{background:rgba(20,14,10,.58);backdrop-filter:blur(3px)}.close{position:sticky;float:right;top:14px;margin:14px 14px -56px 0;width:40px;height:40px;border:0;border-radius:50%;background:rgba(255,255,255,.9);font-size:23px;cursor:pointer;z-index:2}.detail-img{width:100%;aspect-ratio:4/3;object-fit:cover}.detail{padding:28px 30px 32px}.detail h2{font-size:30px;margin:12px 0}.detail p{color:var(--muted);line-height:1.8}.facts{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:16px 0;margin:20px 0;display:grid;grid-template-columns:90px 1fr;gap:14px;font-size:14px}.facts dt{color:var(--muted)}.facts dd{margin:0}.contact{width:100%;height:48px;border:0;border-radius:12px;background:var(--dark);color:white;font-weight:700;cursor:pointer}
+    @media(max-width:900px){.intro{align-items:start;flex-direction:column}.intro h1{font-size:38px}.fields{grid-template-columns:1fr 1fr}.search{grid-column:1/-1}.grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:600px){.bar,.wrap{padding-left:18px;padding-right:18px}.place{display:none}.wrap{padding-top:28px}.intro h1{font-size:31px}.intro p{font-size:14px}.fields{grid-template-columns:1fr}.search{grid-column:auto}.grid{grid-template-columns:1fr}.count span:last-child{display:none}.foot{padding:24px 18px;align-items:start;flex-direction:column;gap:8px}.detail{padding:22px}}
+  </style>
+</head>
+<body>
+  <header><div class="bar"><div class="brand"><span class="mark">木</span><div><b>青年老吴</b><small>实木工厂店 · 家具选品库</small></div></div><div class="place">河北怀来 · 华美家具城</div></div></header>
+  <main class="wrap">
+    <section class="intro"><div><div class="eyebrow">原木家具 · 按需定制</div><h1>找到喜欢的款式，<br><em>再选合适的木材。</em></h1></div><p>当前为演示选品库。产品图片、尺寸和状态将在正式上线前替换为店内真实资料。</p></section>
+    <section class="filters">
+      <div class="fields"><label class="search"><span>⌕</span><input id="query" placeholder="搜索款式、编号、木材……"></label><select id="wood"><option>全部木材</option><option>奥古曼</option><option>北美黑胡桃</option><option>北美樱桃木</option><option>白蜡木</option><option>红橡木</option></select><select id="status"><option>全部状态</option><option>展厅现货</option><option>可定制</option><option>案例同款</option></select></div>
+      <div class="tabs" id="tabs"></div>
+    </section>
+    <div class="count"><span><b id="count">0</b> 件符合条件的家具</span><span>支持组合筛选</span></div>
+    <section class="grid" id="grid"></section><div class="empty" id="empty">暂时没有符合条件的家具</div>
+  </main>
+  <footer><div class="foot"><div><b>青年老吴实木工厂店</b><br><small>京津冀原木家具与全屋定制</small></div><small>演示版本 · 联系方式上线前补充</small></div></footer>
+  <dialog id="detail"><button class="close" aria-label="关闭">×</button><img class="detail-img" id="detailImg"><div class="detail"><small id="detailCode"></small><h2 id="detailName"></h2><p id="detailDesc"></p><dl class="facts"><dt>木材</dt><dd id="detailWood"></dd><dt>参考尺寸</dt><dd id="detailSize"></dd><dt>支持调整</dt><dd id="detailOptions"></dd></dl><button class="contact">联系销售了解详情</button></div></dialog>
+  <script>
+    const products=[
+      ["CZ-018","山岚长餐桌","餐桌","奥古曼","1800 × 850 × 750 mm","展厅现货","products/dining.webp","厚实桌面配内收桌腿，保留原木的自然纹理，适合六人日常用餐。","尺寸、木材、颜色"],
+      ["CZ-026","弧岸餐桌","餐桌","北美黑胡桃","2000 × 900 × 750 mm","可定制","products/dining.webp","柔和圆角与沉稳深色木纹，适合中古与现代空间。","尺寸、木材、桌腿"],
+      ["C-012","栖木双人床","床","北美樱桃木","1800 × 2000 mm","可定制","products/bed.webp","低重心靠背和温润樱桃木色，让卧室更放松、耐看。","床宽、木材、床头高度"],
+      ["C-009","云靠实木床","床","白蜡木","1500 × 2000 mm","案例同款","products/bed.webp","轻盈直纹与简洁靠背，适合明亮的现代卧室。","床宽、颜色"],
+      ["DSG-021","长川电视柜","电视柜","奥古曼","2200 × 420 × 480 mm","展厅现货","products/console.webp","通长横向比例，兼顾抽屉、翻门和设备走线。","长度、木材、收纳布局"],
+      ["DSG-015","悬浮电视柜","电视柜","北美黑胡桃","2000 × 400 × 420 mm","可定制","products/console.webp","悬浮感底座弱化体量，深色木纹适合客厅视觉中心。","长度、木材、颜色"],
+      ["CJ-033","叠石茶几","茶几","红橡木","1200 × 650 × 380 mm","可定制","products/dining.webp","圆润桌角搭配开放层板，满足小物收纳与日常使用。","尺寸、木材"],
+      ["ST-008","木序三人沙发","沙发","白蜡木","2180 × 880 × 780 mm","案例同款","products/console.webp","实木框架搭配松软坐垫，坐感和木作结构都清晰可见。","面料、木材、长度"],
+      ["CT-014","微光床头柜","床头柜","奥古曼","500 × 400 × 520 mm","展厅现货","products/bed.webp","小体量双层收纳，圆角处理更适合床侧通行。","木材、颜色"]
+    ];
+    const cats=["全部","餐桌","床","电视柜","茶几","沙发","床头柜"];let cat="全部";
+    const tabs=document.querySelector("#tabs"),grid=document.querySelector("#grid"),dialog=document.querySelector("#detail");
+    cats.forEach(c=>{const b=document.createElement("button");b.className="tab"+(c==="全部"?" active":"");b.textContent=c;b.onclick=()=>{cat=c;document.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x===b));render()};tabs.appendChild(b)});
+    function openDetail(p){detailImg.src=p[6];detailImg.alt=p[1];detailCode.textContent=p[0]+" · "+p[2]+" · "+p[5];detailName.textContent=p[1];detailDesc.textContent=p[7];detailWood.textContent=p[3];detailSize.textContent=p[4];detailOptions.textContent=p[8];dialog.showModal()}
+    function render(){const q=query.value.trim().toLowerCase(),w=wood.value,s=status.value;const list=products.filter(p=>(cat==="全部"||p[2]===cat)&&(w==="全部木材"||p[3]===w)&&(s==="全部状态"||p[5]===s)&&p.join("").toLowerCase().includes(q));count.textContent=list.length;grid.innerHTML="";empty.style.display=list.length?"none":"block";list.forEach(p=>{const b=document.createElement("button");b.className="product";b.innerHTML=`<div class="photo"><img src="${p[6]}" alt="${p[1]}"><span class="status">${p[5]}</span></div><div class="meta"><div><div class="code">${p[0]} · ${p[2]}</div><h2>${p[1]}</h2></div><span class="wood">${p[3]}</span></div><div class="size">${p[4]}</div>`;b.onclick=()=>openDetail(p);grid.appendChild(b)})}
+    query.oninput=render;wood.onchange=render;status.onchange=render;document.querySelector(".close").onclick=()=>dialog.close();dialog.onclick=e=>{if(e.target===dialog)dialog.close()};render();
+  </script>
+</body>
+</html>
