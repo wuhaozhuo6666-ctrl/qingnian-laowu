@@ -7,7 +7,43 @@
 @media(max-width:540px){.intro{margin-top:8px;padding:12px 20px}.intro h1{font-size:27px}.intro .eyebrow{display:none}.intro p{font-size:14px}.intro p br{display:none}.brand b{font-size:16px}.bar .mark{display:none}.bar{min-height:72px}.rooms button{padding:8px 12px}.fields{grid-template-columns:1fr}.categories{margin-top:10px}.resultbar{margin:12px 0}.picture{aspect-ratio:4/3}.badge{max-width:calc(100% - 63px)}.save{width:44px;height:44px}.woodtag,.card p{font-size:14px}.gallery-controls{flex-wrap:wrap}}
 
 .brand-logo{width:68px;height:72px;object-fit:contain;background:white;flex-shrink:0}.bar{min-height:94px}@media(max-width:540px){.brand-logo{width:52px;height:60px}.brand b{font-size:14px}.brand small{font-size:12px}.bar{padding-left:12px;padding-right:12px;gap:6px}.brand{gap:7px}.bar .plain{font-size:13px;padding:8px}}
-</style></head><body>
+</style><script>
+(function(){
+  const states=new WeakMap();
+  document.addEventListener('error',function(event){
+    const img=event.target;
+    if(!(img instanceof HTMLImageElement))return;
+    const url=new URL(img.currentSrc||img.src,location.href);
+    if(url.origin!==location.origin||!url.pathname.includes('/products/'))return;
+    url.searchParams.delete('image_retry');
+    const original=url.href;
+    let state=states.get(img);
+    if(!state||state.original!==original){state={original,attempt:0,button:null};states.set(img,state);}
+    if(state.attempt<2){
+      state.attempt++;
+      setTimeout(function(){
+        if(!img.isConnected||states.get(img)!==state)return;
+        const current=new URL(img.src,location.href);current.searchParams.delete('image_retry');
+        if(current.href!==state.original)return;
+        const retry=new URL(state.original);retry.searchParams.set('image_retry',Date.now()+'-'+state.attempt);
+        img.src=retry.href;
+      },state.attempt*1000);
+      return;
+    }
+    const picture=img.closest('.picture');
+    if(!picture||state.button)return;
+    const button=document.createElement('button');
+    button.type='button';button.className='primary image-retry';button.textContent='图片未加载，点击重试';
+    button.style.cssText='position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);z-index:3;width:max-content;max-width:90%;font-size:14px';
+    button.onclick=function(event){event.preventDefault();event.stopPropagation();button.remove();state.button=null;state.attempt=0;const retry=new URL(state.original);retry.searchParams.set('image_retry',Date.now());img.src=retry.href;};
+    state.button=button;picture.append(button);
+  },true);
+  document.addEventListener('load',function(event){
+    const state=states.get(event.target);
+    if(state&&state.button){state.button.remove();state.button=null;}
+  },true);
+})();
+</script></head><body>
 <header><div class="bar"><div class="brand"><img class="brand-logo" src="products/showroom/logo.webp" alt="青年老吴实木整装 Logo"><div><b>青年老吴实木工厂店</b><small>原木家具 · 全屋定制</small></div></div><button id="collectionBtn" class="plain">选品清单 <span id="savedCount">0</span></button></div></header>
 <main><section class="intro"><div><div class="eyebrow">让木的温度，贯穿整个家</div><h1>从一件家具，到一屋自然。</h1></div><p>先看空间与款式，再选择木材和尺寸。<br>把喜欢的选进清单，带着想法聊定制。</p></section>
 <nav class="nav" aria-label="选品方式"><button data-view="products" class="active">家具选品</button><button data-view="spaces">全屋案例</button><button data-view="woods">木材与实样</button></nav>
