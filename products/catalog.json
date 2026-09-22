@@ -1,6 +1,18 @@
 {
   "products": [
     {
+      "id": "LW-MUCOJTLV",
+      "name": "测试家具",
+      "category": "餐桌",
+      "room": "餐厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790081907972-3aFksazzLC.webp",
+      "real": true,
+      "options": "",
+      "desc": ""
+    },
+    {
       "id": "LW-MUCFFCYM",
       "name": "橱柜",
       "category": "橱柜",
