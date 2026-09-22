@@ -267,10 +267,14 @@ header{
 .hero-line-two{padding-left:1em!important}
 .hero-tree,.tree-journey{display:none!important}
 
-/* Desktop product layout stays as-is. Mobile becomes vertical and sticky. */
+/* Desktop product layout stays as-is. Mobile uses a fixed-width, two-column feed. */
 @media(max-width:900px){
   .bar{min-height:64px!important;padding-left:16px!important;padding-right:16px!important}
-  .workspace{grid-template-columns:1fr!important;gap:10px!important;margin-left:0!important}
+  main,.workspace,.catalog-main,.huangma-view,.huangma-mobile-panel{
+    width:100%!important;max-width:100%!important;min-width:0!important;
+  }
+  main{overflow-x:hidden!important}
+  .workspace{grid-template-columns:minmax(0,1fr)!important;gap:10px!important;margin-left:0!important}
   .sidebar{transform:none!important}
   .sidebar h2,.side-note{display:block!important}
   .side-note{margin-top:10px!important;padding:12px 2px 6px!important;font-size:12px!important;line-height:1.65!important}
@@ -286,22 +290,24 @@ header{
     padding:4px 0 8px!important;
     margin-top:12px!important;
     scrollbar-width:thin;
+    overscroll-behavior-inline:contain;
   }
 
   .catalog-main,.huangma-mobile-panel{
-    position:sticky!important;
-    top:70px!important;
-    max-height:calc(100svh - 78px)!important;
-    overflow-y:auto!important;
+    position:relative!important;
+    top:auto!important;
+    max-height:none!important;
+    overflow-y:visible!important;
     overflow-x:hidden!important;
-    -webkit-overflow-scrolling:touch;
     background:rgba(243,241,234,.985)!important;
     padding:8px 0 14px!important;
   }
 
   #productGrid,#huangmaGrid,#creativeGrid{
     display:grid!important;
-    grid-template-columns:1fr!important;
+    width:100%!important;
+    min-width:0!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
     grid-template-rows:none!important;
     grid-auto-flow:row!important;
     grid-auto-columns:auto!important;
@@ -311,17 +317,26 @@ header{
     padding:0!important;
     scroll-snap-type:none!important;
   }
-  #productGrid .picture,#huangmaGrid .picture,#creativeGrid .picture{aspect-ratio:4/3!important}
+  #productGrid .card,#huangmaGrid .card,#creativeGrid .card{min-width:0!important;padding:7px!important}
+  #productGrid .picture,#huangmaGrid .picture,#creativeGrid .picture{aspect-ratio:4/3!important;min-width:0!important}
   #productGrid .picture img,#huangmaGrid .picture img,#creativeGrid .picture img{
-    width:100%!important;height:100%!important;object-fit:contain!important;padding:4.5%!important;box-sizing:border-box!important;
+    width:100%!important;height:100%!important;max-width:100%!important;
+    object-fit:contain!important;padding:3.5%!important;box-sizing:border-box!important;
   }
+  #productGrid .card h3,#huangmaGrid .card h3,#creativeGrid .card h3{font-size:16px!important;line-height:1.4!important;margin:9px 0 3px!important}
+  #productGrid .card p,#huangmaGrid .card p,#creativeGrid .card p{font-size:12px!important;line-height:1.5!important;overflow-wrap:anywhere}
+  #productGrid .bottom,#huangmaGrid .bottom,#creativeGrid .bottom{font-size:12px!important;line-height:1.45!important}
+  .foot{width:100%!important;max-width:100%!important;min-width:0!important;box-sizing:border-box!important}
 }
 @media(max-width:540px){
   .bar{min-height:62px!important}
   .hero-cinematic{background-position:54% center!important}
   .hero-cinematic-copy{padding-bottom:32px!important}
   .hero-line-two{padding-left:.85em!important}
-  #productGrid .picture img,#huangmaGrid .picture img,#creativeGrid .picture img{padding:5%!important}
+  #productGrid,#huangmaGrid,#creativeGrid{gap:12px 8px!important}
+  #productGrid .picture img,#huangmaGrid .picture img,#creativeGrid .picture img{padding:3%!important}
+  #productGrid .badge,#huangmaGrid .badge,#creativeGrid .badge{font-size:10px!important;padding:2px 5px!important}
+  #productGrid .save,#huangmaGrid .save,#creativeGrid .save{width:32px!important;height:32px!important;font-size:18px!important}
 }
 </style><script>
 (function(){
