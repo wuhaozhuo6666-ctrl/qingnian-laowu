@@ -1,9 +1,22 @@
 {
   "products": [
     {
+      "id": "LW-MUCVUHQP",
+      "name": "云朴餐边柜",
+      "brand": "原木家具",
+      "category": "餐边柜",
+      "room": "餐厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790094163359-oixVHpn4JH.webp",
+      "real": true,
+      "options": "",
+      "desc": "云朴餐边柜，明榫工艺尽显原木质感。三抽搭配玻璃柜门，收纳展示兼顾，温润木色适配餐厅茶室。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUCVJV0A",
       "name": "云屏博古架",
-      "brand": "原木家具",
       "category": "博古架",
       "room": "茶室",
       "wood": "金花梨木",
