@@ -1,0 +1,10 @@
+[build]
+  command = "mkdir -p dist && cp index.html dist/ && cp -R products dist/"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[functions]
+  node_bundler = "esbuild"
