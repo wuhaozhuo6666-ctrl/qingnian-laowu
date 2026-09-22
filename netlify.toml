@@ -1,4 +1,5 @@
 [build]
+  ignore = "node ./netlify/ignore-build.mjs"
   command = "mkdir -p dist && cp index.html preview-elegant.html dist/ && cp -R products dist/"
   publish = "dist"
   functions = "netlify/functions"
