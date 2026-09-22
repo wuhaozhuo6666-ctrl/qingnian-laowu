@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="青年老吴实木工厂店｜优雅画册版视觉预览">
+<title>青年老吴｜视觉预览</title>
+<style>
+:root{
+  --bg:#f4f2ed;
+  --paper:#faf9f6;
+  --ink:#1f211f;
+  --muted:#77756f;
+  --line:#d8d4ca;
+  --wood:#705747;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font:15px/1.65 "PingFang SC","Microsoft YaHei",sans-serif;
+}
+img{display:block;width:100%}
+button,a{font:inherit;color:inherit}
+a{text-decoration:none}
+.site-header{
+  height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 clamp(20px,4vw,64px);
+  border-bottom:1px solid rgba(31,33,31,.09);
+  background:rgba(244,242,237,.94);
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.brand img{
+  width:45px;
+  height:48px;
+  object-fit:contain;
+}
+.brand-text b{
+  display:block;
+  font:500 16px/1.25 "Songti SC",SimSun,serif;
+  letter-spacing:.08em;
+}
+.brand-text span{
+  color:var(--muted);
+  font-size:10px;
+  letter-spacing:.16em;
+}
+.topnav{
+  display:flex;
+  gap:28px;
+  font-size:12px;
+  letter-spacing:.08em;
+}
+.topnav a{color:#565852}
+.wrap{
+  width:min(1420px,calc(100% - 40px));
+  margin:auto;
+}
+.hero{
+  display:grid;
+  grid-template-columns:34% 66%;
+  min-height:680px;
+  padding:48px 0 68px;
+}
+.hero-copy{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding-right:clamp(24px,4vw,70px);
+}
+.kicker{
+  color:var(--wood);
+  font-size:10px;
+  letter-spacing:.28em;
+  text-transform:uppercase;
+  margin-bottom:22px;
+}
+.hero h1{
+  margin:0;
+  font:400 clamp(40px,5.1vw,74px)/1.1 "Songti SC",SimSun,serif;
+  letter-spacing:-.035em;
+}
+.hero h1 span{color:#755f50}
+.hero p{
+  max-width:430px;
+  color:var(--muted);
+  margin:30px 0 0;
+  line-height:1.9;
+}
+.hero-link{
+  margin-top:38px;
+  display:inline-flex;
+  width:max-content;
+  padding-bottom:5px;
+  border-bottom:1px solid #6d655e;
+  font-size:12px;
+  letter-spacing:.12em;
+}
+.hero-visual{
+  position:relative;
+  overflow:hidden;
+  min-height:560px;
+  background:#ddd9d1;
+}
+.hero-visual img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  filter:saturate(.82) contrast(.98);
+}
+.hero-note{
+  position:absolute;
+  left:22px;
+  bottom:18px;
+  color:#fff;
+  font-size:11px;
+  letter-spacing:.08em;
+  text-shadow:0 1px 10px rgba(0,0,0,.35);
+}
+.section{
+  padding:82px 0;
+  border-top:1px solid var(--line);
+}
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  gap:30px;
+  align-items:end;
+  margin-bottom:36px;
+}
+.section-head h2{
+  margin:0;
+  font:400 clamp(28px,3vw,42px)/1.25 "Songti SC",SimSun,serif;
+}
+.section-head p{
+  margin:0;
+  max-width:420px;
+  color:var(--muted);
+  text-align:right;
+  font-size:13px;
+}
+.products{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:42px 18px;
+}
+.card{min-width:0}
+.card-media{
+  aspect-ratio:1.15/1;
+  overflow:hidden;
+  background:#dedbd3;
+}
+.card-media img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  filter:saturate(.86);
+  transition:transform .5s ease;
+}
+.card:hover .card-media img{transform:scale(1.02)}
+.card-meta{
+  padding-top:13px;
+  border-top:1px solid transparent;
+}
+.card-row{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+}
+.card h3{
+  margin:0;
+  font:500 17px/1.4 "Songti SC",SimSun,serif;
+  letter-spacing:.02em;
+}
+.card small{
+  color:#9a958d;
+  font-size:10px;
+  letter-spacing:.08em;
+}
+.card p{
+  margin:5px 0 0;
+  color:var(--muted);
+  font-size:12px;
+}
+.materials{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.material{
+  padding:28px 24px 30px 0;
+  border-right:1px solid var(--line);
+}
+.material:nth-child(3n){border-right:0;padding-left:24px}
+.material:nth-child(3n+2){padding-left:24px}
+.material .num{
+  color:#9b8170;
+  font:18px "Times New Roman",serif;
+}
+.material h3{
+  margin:22px 0 5px;
+  font:500 20px/1.3 "Songti SC",SimSun,serif;
+}
+.material p{
+  margin:0;
+  color:var(--muted);
+  font-size:12px;
+}
+.custom{
+  display:grid;
+  grid-template-columns:1.15fr .85fr;
+  min-height:500px;
+  background:#262724;
+  color:#f1eee8;
+}
+.custom-image{min-height:500px}
+.custom-image img{height:100%;object-fit:cover;filter:saturate(.78) brightness(.83)}
+.custom-copy{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:clamp(36px,6vw,88px);
+}
+.custom-copy .kicker{color:#bca18e}
+.custom-copy h2{
+  margin:0;
+  font:400 clamp(32px,4vw,54px)/1.2 "Songti SC",SimSun,serif;
+}
+.custom-copy p{
+  color:#c8c8c2;
+  margin:24px 0 0;
+  line-height:1.9;
+}
+.custom-copy a{
+  margin-top:34px;
+  width:max-content;
+  padding-bottom:5px;
+  border-bottom:1px solid #a9a49d;
+  font-size:12px;
+  letter-spacing:.1em;
+}
+footer{
+  display:flex;
+  justify-content:space-between;
+  gap:24px;
+  padding:34px clamp(20px,4vw,64px);
+  font-size:11px;
+  color:#7b7973;
+  border-top:1px solid var(--line);
+}
+.preview-badge{
+  position:fixed;
+  right:14px;
+  bottom:14px;
+  z-index:10;
+  background:#1f211f;
+  color:#fff;
+  padding:8px 11px;
+  font-size:10px;
+  letter-spacing:.08em;
+}
+@media(max-width:900px){
+  .topnav{display:none}
+  .hero{grid-template-columns:1fr;padding-top:28px;min-height:0}
+  .hero-copy{padding:35px 0 30px}
+  .hero-visual{min-height:0;aspect-ratio:1.25/1}
+  .products{grid-template-columns:repeat(2,1fr)}
+  .custom{grid-template-columns:1fr}
+  .custom-image{min-height:0;aspect-ratio:1.25/1}
+}
+@media(max-width:560px){
+  .site-header{height:66px;padding:0 14px}
+  .brand img{width:38px;height:40px}
+  .brand-text b{font-size:14px}
+  .wrap{width:calc(100% - 24px)}
+  .hero{padding:10px 0 46px}
+  .hero-copy{padding:28px 0 24px}
+  .hero h1{font-size:40px;line-height:1.14}
+  .hero p{font-size:13px;margin-top:20px}
+  .hero-link{margin-top:26px}
+  .hero-visual{aspect-ratio:1/1.02}
+  .section{padding:56px 0}
+  .section-head{align-items:start;flex-direction:column;margin-bottom:24px}
+  .section-head p{text-align:left}
+  .products{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 10px}
+  .card-media{aspect-ratio:1/1}
+  .card h3{font-size:15px}
+  .card p{font-size:10px}
+  .card small{font-size:9px}
+  .materials{grid-template-columns:1fr}
+  .material,.material:nth-child(3n),.material:nth-child(3n+2){padding:20px 0;border-right:0;border-bottom:1px solid var(--line)}
+  .material:last-child{border-bottom:0}
+  .material h3{margin-top:10px}
+  .custom-image{aspect-ratio:1/1}
+  .custom-copy{padding:40px 24px 46px}
+  footer{flex-direction:column;padding:28px 14px}
+}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">
+    <img src="products/showroom/logo.webp" alt="青年老吴实木工厂店">
+    <div class="brand-text"><b>青年老吴</b><span>SOLID WOOD FURNITURE</span></div>
+  </div>
+  <nav class="topnav" aria-label="预览导航">
+    <a href="#furniture">家具</a>
+    <a href="#materials">木材</a>
+    <a href="#custom">全屋定制</a>
+  </nav>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="kicker">QINGNIAN LAOWU · 2026</div>
+      <h1>让家具安静一点，<br><span>让木头更耐看。</span></h1>
+      <p>不急着堆满空间。先看木材的纹理、家具的比例，再决定它应该出现在家里的什么位置。</p>
+      <a class="hero-link" href="#furniture">浏览家具　→</a>
+    </div>
+    <div class="hero-visual">
+      <img src="products/showroom/slab-2.webp" alt="青年老吴展厅原木家具实拍">
+      <div class="hero-note">展厅实拍 · 河北怀来</div>
+    </div>
+  </section>
+
+  <section class="section" id="furniture">
+    <div class="section-head">
+      <h2>家具，不需要太多解释。</h2>
+      <p>先看比例、线条和木材。喜欢的款式，再继续聊尺寸、做法和适合你家的版本。</p>
+    </div>
+    <div id="products" class="products"></div>
+  </section>
+
+  <section class="section" id="materials">
+    <div class="section-head">
+      <h2>木材档案</h2>
+      <p>同一种结构，换一种木材，气质就会不同。这里先从材种开始认识。</p>
+    </div>
+    <div id="materialsGrid" class="materials"></div>
+  </section>
+</main>
+
+<section class="custom" id="custom">
+  <div class="custom-image"><img src="products/dining.webp" alt="原木全屋定制空间示意"></div>
+  <div class="custom-copy">
+    <div class="kicker">WHOLE HOME</div>
+    <h2>从一件家具，<br>慢慢做到一个家。</h2>
+    <p>柜体、家具、木色和空间尺度一起考虑。青年老吴提供原木家具与原木全屋定制，服务以京津冀及周边为主。</p>
+    <a href="#">咨询全屋定制　→</a>
+  </div>
+</section>
+
+<footer>
+  <span>青年老吴实木工厂店 · 河北怀来 · 华美家具城</span>
+  <span>原木家具 · 原木全屋定制</span>
+</footer>
+<div class="preview-badge">视觉预览 · 不影响正式首页</div>
+
+<script>
+(async()=>{
+  const fallback=[
+    {id:'DB-001',name:'展厅大板桌 · 板面 01',category:'大板桌',wood:'南美胡桃',image:'products/showroom/slab-1.webp'},
+    {id:'DB-002',name:'展厅大板桌 · 成桌展示',category:'大板桌',wood:'木材待确认',image:'products/showroom/slab-2.webp'},
+    {id:'DB-004',name:'展厅大板桌 · 板面 04',category:'大板桌',wood:'南美胡桃',image:'products/showroom/slab-4.webp'},
+    {id:'CZ-018',name:'山岚长餐桌',category:'餐桌',wood:'实材待确认',image:'products/dining.webp'},
+    {id:'C-012',name:'栖木双人床',category:'床',wood:'实材待确认',image:'products/bed.webp'},
+    {id:'DSG-021',name:'长川电视柜',category:'电视柜',wood:'实材待确认',image:'products/console.webp'}
+  ];
+  let products=fallback,woods=['奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木','南美胡桃'];
+  try{
+    const r=await fetch('products/catalog.json',{cache:'no-store'});
+    if(r.ok){
+      const d=await r.json();
+      if(Array.isArray(d.products)&&d.products.length)products=d.products;
+      if(Array.isArray(d.settings?.woods)&&d.settings.woods.length)woods=d.settings.woods;
+    }
+  }catch{}
+  const selected=products.filter(p=>p.image).slice(0,6);
+  const box=document.getElementById('products');
+  selected.forEach(p=>{
+    const a=document.createElement('article');a.className='card';
+    const img=document.createElement('img');img.src=p.image;img.alt=p.name||'家具';
+    const media=document.createElement('div');media.className='card-media';media.append(img);
+    const meta=document.createElement('div');meta.className='card-meta';
+    const row=document.createElement('div');row.className='card-row';
+    const h=document.createElement('h3');h.textContent=p.name||'未命名家具';
+    const small=document.createElement('small');small.textContent=p.real===false?'款式示意':'实物 / 实拍';
+    row.append(h,small);
+    const desc=document.createElement('p');desc.textContent=[p.category,p.wood].filter(Boolean).join(' · ');
+    meta.append(row,desc);a.append(media,meta);box.append(a);
+  });
+  const mbox=document.getElementById('materialsGrid');
+  [...new Set(woods)].slice(0,6).forEach((w,i)=>{
+    const a=document.createElement('article');a.className='material';
+    const num=document.createElement('span');num.className='num';num.textContent=String(i+1).padStart(2,'0');
+    const h=document.createElement('h3');h.textContent=w;
+    const p=document.createElement('p');p.textContent='查看材种，再结合实样确认纹理、颜色与适用做法。';
+    a.append(num,h,p);mbox.append(a);
+  });
+})();
+</script>
+</body>
+</html>
