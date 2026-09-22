@@ -1,9 +1,22 @@
 {
   "products": [
     {
+      "id": "LW-MUCW7W1F",
+      "name": "乌澜餐桌",
+      "brand": "原木家具",
+      "category": "餐桌",
+      "room": "餐厅",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790094788161-zgtY54GdwL.webp",
+      "real": true,
+      "options": "",
+      "desc": "乌澜餐桌，甄选乌金木打造，桌腿弧度流畅。木纹自然细腻，成套桌椅，让餐厅兼具质感与温润氛围。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUCW45SE",
       "name": "简禾餐桌",
-      "brand": "原木家具",
       "category": "餐桌",
       "room": "餐厅",
       "wood": "奥古曼",
