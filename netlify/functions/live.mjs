@@ -1,12 +1,14 @@
 const REPO = 'wuhaozhuo6666-ctrl/qingnian-laowu';
-const RAW = 'https://raw.githubusercontent.com/' + REPO + '/main/';
+const CONTENTS = 'https://api.github.com/repos/' + REPO + '/contents/';
 
 function json(body, status = 200) {
   return new Response(typeof body === 'string' ? body : JSON.stringify(body), {
     status,
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
-      'Cache-Control': 'no-store, max-age=0',
+      'Cache-Control': 'no-store, max-age=0, must-revalidate',
+      'CDN-Cache-Control': 'no-store',
+      'Netlify-CDN-Cache-Control': 'no-store',
       'X-Content-Type-Options': 'nosniff'
     }
   });
@@ -25,10 +27,30 @@ function imageType(path) {
   return 'image/webp';
 }
 
-async function raw(path) {
-  return fetch(RAW + path + '?v=' + Date.now(), {
+function apiPath(path) {
+  return path.split('/').map(encodeURIComponent).join('/');
+}
+
+function githubHeaders() {
+  const headers = {
+    'Accept': 'application/vnd.github.raw+json',
+    'User-Agent': 'qingnian-laowu-live-catalog',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'Cache-Control': 'no-cache'
+  };
+  const id = process.env.GITHUB_CLIENT_ID;
+  const secret = process.env.GITHUB_CLIENT_SECRET;
+  if (id && secret) {
+    headers.Authorization = 'Basic ' + Buffer.from(id + ':' + secret).toString('base64');
+  }
+  return headers;
+}
+
+async function githubContent(path) {
+  return fetch(CONTENTS + apiPath(path) + '?ref=main&_=' + Date.now(), {
+    method: 'GET',
     cache: 'no-store',
-    headers: { 'Cache-Control': 'no-cache' }
+    headers: githubHeaders()
   });
 }
 
@@ -38,20 +60,24 @@ export default async function handler(request) {
     const url = new URL(request.url);
 
     if (url.pathname === '/api/live-catalog') {
-      const upstream = await raw('products/catalog.json');
-      if (!upstream.ok) return json({ error: 'Catalog unavailable' }, 502);
+      const upstream = await githubContent('products/catalog.json');
+      if (!upstream.ok) return json({ error: 'Catalog unavailable', upstream: upstream.status }, 502);
 
       const text = await upstream.text();
       let data;
       try { data = JSON.parse(text); } catch { return json({ error: 'Catalog invalid' }, 502); }
       if (!data || !Array.isArray(data.products)) return json({ error: 'Catalog invalid' }, 502);
 
-      return new Response(text, {
+      return new Response(JSON.stringify(data), {
         status: 200,
         headers: {
           'Content-Type': 'application/json; charset=utf-8',
           'Cache-Control': 'no-store, max-age=0, must-revalidate',
-          'X-Content-Type-Options': 'nosniff'
+          'CDN-Cache-Control': 'no-store',
+          'Netlify-CDN-Cache-Control': 'no-store',
+          'Pragma': 'no-cache',
+          'X-Content-Type-Options': 'nosniff',
+          'X-Catalog-Source': 'github-contents-api'
         }
       });
     }
@@ -62,8 +88,8 @@ export default async function handler(request) {
       catch { return json({ error: 'Bad path' }, 400); }
 
       if (!validUploadPath(path)) return json({ error: 'Image not found' }, 404);
-      const upstream = await raw(path);
-      if (!upstream.ok) return json({ error: 'Image not found' }, upstream.status === 404 ? 404 : 502);
+      const upstream = await githubContent(path);
+      if (!upstream.ok) return json({ error: 'Image not found', upstream: upstream.status }, upstream.status === 404 ? 404 : 502);
 
       return new Response(upstream.body, {
         status: 200,
