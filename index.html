@@ -58,7 +58,7 @@
 'use strict';
 (async()=>{
 const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const $=id=>document.getElementById(id);let woods=['奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木'];
+const $=id=>document.getElementById(id);let woods=['奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木'];let catalogSettings={woods:[],categories:[],rooms:[]};
 let products=[
 {"id":"DB-001","name":"展厅大板桌 · 板面 01","category":"大板桌","room":"餐厅","wood":"木材待确认","size":"实际长、宽、厚度待测量","image":"products/showroom/slab-1.webp","real":true,"options":"桌架、用途与配置需到店确认","desc":"展厅大板板面实拍，保留照片中的自然纹理与板形。本展示编号用于选品沟通，不是原有出厂型号。木材、尺寸和价格待店内确认。"},
 {"id":"DB-002","name":"展厅大板桌 · 成桌展示","category":"大板桌","room":"餐厅","wood":"木材待确认","size":"实际长、宽、厚度待测量","image":"products/showroom/slab-2.webp","real":true,"options":"桌架、用途与配置需到店确认","desc":"展厅大板桌成桌实拍，可查看板面纹理、边缘与桌架搭配。实际木材、尺寸及在售情况需店内确认。"},
@@ -76,12 +76,13 @@ const catalogController=new AbortController(),catalogTimeout=setTimeout(()=>cata
 try{
  const response=await fetch('products/catalog.json',{cache:'no-store',signal:catalogController.signal});if(!response.ok)throw Error();
  const data=await response.json();
+ if(data.settings&&typeof data.settings==='object')catalogSettings={woods:Array.isArray(data.settings.woods)?data.settings.woods:[],categories:Array.isArray(data.settings.categories)?data.settings.categories:[],rooms:Array.isArray(data.settings.rooms)?data.settings.rooms:[]};
  if(Array.isArray(data.products)){
   const clean=data.products.filter(p=>p&&typeof p.id==='string'&&typeof p.name==='string'&&typeof p.category==='string'&&typeof p.wood==='string'&&typeof p.image==='string');
   if(clean.length)products=clean.map(p=>({...p,room:typeof p.room==='string'&&p.room.trim()?p.room.trim():'其他',real:p.real!==false}));
  }
 } catch{} finally{clearTimeout(catalogTimeout)}
-woods=[...new Set(['奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木',...products.map(p=>p.wood).filter(w=>w&&!/待确认|待核实|实材待确认/.test(w))])];
+woods=[...new Set([...(catalogSettings.woods||[]),'奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木',...products.map(p=>p.wood).filter(w=>w&&!/待确认|待核实|实材待确认/.test(w))])];
 
 const spaces=[{name:'餐厅 · 一张长桌的日常',room:'餐厅',image:'products/dining.webp',desc:'先看桌型与空间的关系，再选适合家人的用餐尺度。'},{name:'卧室 · 留一份安静',room:'卧室',image:'products/bed.webp',desc:'把床体、床侧通道与收纳放在一起考虑。'},{name:'客厅 · 木作与收纳',room:'客厅',image:'products/console.webp',desc:'统一木作语言，让收纳成为空间的一部分。'}];
 let favorites=new Set();try{const data=JSON.parse(localStorage.getItem('laowu-favorites')||'[]');if(Array.isArray(data))favorites=new Set(data.filter(id=>products.some(p=>p.id===id)))}catch{}
@@ -102,8 +103,8 @@ function openDetail(p){current=p;imageIndex=0;$('detailTitle').textContent=p.nam
 function closeDetail(){const dialog=$('detailDialog');typeof dialog.close==='function'?dialog.close():dialog.removeAttribute('open')}
 async function copyText(text,fallback){try{if(!navigator.clipboard)throw Error();await navigator.clipboard.writeText(text);notify('已复制，可粘贴到微信')}catch{fallback.value=text;fallback.hidden=false;fallback.focus();fallback.select();notify('请长按或选中文字复制')}}
 function productShare(p){const url=new URL(location.href);url.hash='product='+encodeURIComponent(p.id);return `${p.name}｜${p.id}\n${p.real?"展厅实拍":"款式示意"}｜${p.size}\n青年老吴实木工厂店\n${url.href}\n实拍 / 示意以页面标识为准，尺寸、木材与报价需确认。`}
-['全部空间',...[...new Set(products.map(p=>p.room).filter(Boolean))]].forEach(room=>{const b=document.createElement('button');b.dataset.room=room;b.textContent=room;b.onclick=()=>{state.room=room;state.category='全部';renderProducts()};$('rooms').append(b)});
-['全部',...[...new Set(products.map(p=>p.category).filter(Boolean))]].forEach(category=>{const b=document.createElement('button');b.className='pill';b.dataset.category=category;b.textContent=category;b.onclick=()=>{state.category=category;renderProducts()};$('categories').append(b)});
+['全部空间',...[...new Set([...(catalogSettings.rooms||[]),...products.map(p=>p.room).filter(Boolean)])]].forEach(room=>{const b=document.createElement('button');b.dataset.room=room;b.textContent=room;b.onclick=()=>{state.room=room;state.category='全部';renderProducts()};$('rooms').append(b)});
+['全部',...[...new Set([...(catalogSettings.categories||[]),...products.map(p=>p.category).filter(Boolean)])]].forEach(category=>{const b=document.createElement('button');b.className='pill';b.dataset.category=category;b.textContent=category;b.onclick=()=>{state.category=category;renderProducts()};$('categories').append(b)});
 $('woodSelect').innerHTML='<option value="all">全部木材</option><option value="unconfirmed">实拍 · 木材待确认</option>'+[...new Set([...woods,...products.filter(p=>p.real&&!/待确认|待核实/.test(p.wood)&&p.wood).map(p=>p.wood)])].map(w=>`<option>${escapeHTML(w)}</option>`).join('');
 woods.forEach((wood,index)=>{const card=document.createElement('article');card.className='woodcard';card.innerHTML=`<span class="number">0${index+1}</span><h3>${wood}</h3><p>可讨论的材料选项 · 实样待上传</p><button class="plain">查看款式示意 ↗</button>`;card.querySelector('button').onclick=()=>{resetFilters();state.wood=wood;$('woodSelect').value=wood;setView('products');renderProducts()};$('woodGrid').append(card)});
 spaces.forEach(space=>{const card=document.createElement('article');card.className='card';card.innerHTML=`<div class="picture"><button class="open-picture" aria-label="查看${space.room}家具"><img src="${space.image}" alt="${space.room}空间 AI 示意" loading="lazy"></button><span class="badge">空间示意 · 非交付案例</span></div><h3>${space.name}</h3><p>${space.desc}</p><button class="textbutton">查看${space.room}家具 ↗</button>`;card.querySelector('.open-picture').onclick=card.querySelector('.textbutton').onclick=()=>goRoom(space.room);$('spaceGrid').append(card)});
