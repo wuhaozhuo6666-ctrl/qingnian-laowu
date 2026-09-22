@@ -1,5 +1,5 @@
 [build]
-  command = "mkdir -p dist && cp index.html preview-elegant.html dist/ && cp -R products dist/"
+  command = "mkdir -p dist && cp index.html preview-elegant.html dist/ && cp -R products dist/ && cat products/hero/hero-q22.part00 products/hero/hero-q22.part01 products/hero/hero-q22.part02 products/hero/hero-q22.part03 products/hero/hero-q22.part04 products/hero/hero-q22.part05 | base64 -d > dist/products/hero/hero-dining.webp"
   publish = "dist"
   functions = "netlify/functions"
 
