@@ -2,19 +2,6 @@
   "products": [
     {
       "brand": "原木家具",
-      "id": "LW-MUCFFCYM",
-      "name": "橱柜",
-      "category": "橱柜",
-      "room": "餐厅",
-      "wood": "奥古曼",
-      "size": "",
-      "image": "products/uploads/1790066583326-4A-lgsOF0C.webp",
-      "real": true,
-      "options": "",
-      "desc": ""
-    },
-    {
-      "brand": "原木家具",
       "id": "LW-MUC4XM50",
       "name": "白蜡凳",
       "category": "椅子",
