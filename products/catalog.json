@@ -1,9 +1,22 @@
 {
   "products": [
     {
+      "id": "LW-MUCW28TT",
+      "name": "境禾高餐柜",
+      "brand": "原木家具",
+      "category": "餐边柜",
+      "room": "餐厅",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790094524996-0fb6szj0rG.webp",
+      "real": true,
+      "options": "",
+      "desc": "境禾高餐柜，乌金木质感温润。玻璃展格搭配多区储物，展藏兼具，错落层次打造餐厅雅致空间。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUCVXHX3",
       "name": "木隅餐边柜",
-      "brand": "原木家具",
       "category": "餐边柜",
       "room": "餐厅",
       "wood": "奥古曼",
