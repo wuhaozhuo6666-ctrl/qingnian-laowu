@@ -23,6 +23,26 @@ dialog{border-radius:2px}.gallery{background:#dedbd2}.detailbody h2{font-weight:
 @media(max-width:900px){header{position:relative}.premium-hero{grid-template-columns:1fr;margin-top:14px;gap:18px}.hero-copy{padding:16px 0 4px}.hero-visual{aspect-ratio:1.4/1}.premium-hero h1{font-size:clamp(36px,9vw,54px)}.brand-proof{margin-bottom:30px}.brand-proof>div{padding:18px 16px}.workspace{grid-template-columns:1fr;gap:10px}.grid{gap:34px 16px}}
 @media(max-width:540px){.bar{min-height:72px}.brand-logo{width:45px;height:50px}.brand b{font-size:14px}.brand small{font-size:10px;letter-spacing:.07em}.collection-pill{padding:8px 10px}.premium-hero{margin:8px 0 24px}.hero-copy{padding-top:18px}.premium-hero .eyebrow{display:block;margin-bottom:14px;font-size:9px}.premium-hero h1{font-size:35px;line-height:1.18;margin-bottom:17px}.premium-hero p{font-size:14px;line-height:1.8}.hero-actions{margin-top:22px}.hero-visual{aspect-ratio:1.08/1}.hero-caption{left:14px;right:14px;bottom:13px;display:block}.hero-caption span{display:block;margin-bottom:5px}.hero-caption b{font-size:15px}.brand-proof{grid-template-columns:1fr;margin:0 0 26px}.brand-proof>div{border-right:0;border-bottom:1px solid #d5d1c6;padding:14px 4px}.brand-proof>div:last-child{border-bottom:0}.brand-proof span{font-size:18px}.nav{gap:26px}.notice{font-size:12px}.notice strong{display:none}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 10px}.picture{aspect-ratio:1/1}.card h3{font-size:16px;margin-top:9px}.card p,.bottom span{font-size:11px}.bottom{display:block}.bottom span{display:block;margin-top:2px}.woodgrid{grid-template-columns:1fr}.foot{flex-direction:column;gap:20px}}
 
+
+/* 2026-09-22 elegant refinement */
+.elegant-hero{grid-template-columns:minmax(300px,.72fr) minmax(560px,1.28fr);gap:clamp(34px,5vw,86px);margin:28px 0 54px;align-items:center}
+.elegant-hero .hero-copy{padding:44px 0}
+.elegant-hero .eyebrow{font-size:10px;letter-spacing:.26em;color:#806956;margin-bottom:24px}
+.elegant-hero h1{font:400 clamp(42px,4.7vw,66px)/1.13 "Songti SC",SimSun,serif;letter-spacing:-.035em;margin:0;color:#242823}
+.elegant-hero h1 span{color:#806956}
+.elegant-hero p{max-width:440px;color:#73766f;font-size:14px;line-height:1.95;margin:28px 0 0}
+.elegant-hero .hero-actions{margin-top:34px;display:flex;gap:26px;align-items:center}
+.hero-link{display:inline-flex;align-items:center;width:max-content;padding:0 0 5px;border:0;border-bottom:1px solid #78736b;background:transparent;border-radius:0;color:#424640;text-decoration:none;font-size:12px;letter-spacing:.1em}
+.button-link{cursor:pointer}
+.elegant-hero .hero-visual{aspect-ratio:1.58/1;min-height:0;border-radius:0;background:#dedbd3}
+.elegant-hero .hero-visual img{width:100%;height:100%;object-fit:cover;filter:saturate(.87) contrast(.98)}
+.elegant-hero .hero-caption{left:18px;right:18px;bottom:15px;align-items:end}
+.elegant-hero .hero-caption span{font-size:10px;letter-spacing:.16em}
+.elegant-hero .hero-caption b{font-size:14px;font-weight:400}
+.nav{margin-top:0}
+@media(max-width:900px){.elegant-hero{grid-template-columns:1fr;margin-top:12px;gap:18px}.elegant-hero .hero-copy{padding:26px 0 8px}.elegant-hero .hero-visual{aspect-ratio:1.36/1}.elegant-hero h1{font-size:48px}}
+@media(max-width:540px){.elegant-hero{margin-bottom:34px}.elegant-hero .hero-copy{padding:20px 0 6px}.elegant-hero h1{font-size:37px}.elegant-hero p{font-size:13px;margin-top:18px}.elegant-hero .hero-actions{margin-top:24px}.elegant-hero .hero-visual{aspect-ratio:1.03/1}.elegant-hero .hero-caption b{font-size:12px}}
+
 </style><script>
 (function(){
   const states=new WeakMap();
@@ -59,22 +79,32 @@ dialog{border-radius:2px}.gallery{background:#dedbd2}.detailbody h2{font-weight:
     if(state&&state.button){state.button.remove();state.button=null;}
   },true);
 })();
+</script><script>
+document.addEventListener('DOMContentLoaded',async()=>{
+  const img=document.getElementById('heroImage');
+  if(!img)return;
+  try{
+    const r=await fetch('products/hero/hero-dining.txt',{cache:'no-store'});
+    if(r.ok){
+      const data=(await r.text()).trim();
+      if(data.startsWith('data:image/')) img.src=data;
+    }
+  }catch{}
+});
 </script></head><body>
-<header><div class="bar"><div class="brand"><img class="brand-logo" src="products/showroom/logo.webp" alt="青年老吴实木工厂店"><div><b>青年老吴实木工厂店</b><small>实木家具 · 原木全屋定制</small></div></div><button id="collectionBtn" class="plain collection-pill">选品清单 <span id="savedCount">0</span></button></div></header>
+<header><div class="bar"><div class="brand"><img class="brand-logo" src="products/showroom/logo.webp" alt="青年老吴实木工厂店"><div><b>青年老吴</b><small>实木家具 · 原木全屋定制</small></div></div><button id="collectionBtn" class="plain collection-pill">选品清单 <span id="savedCount">0</span></button></div></header>
 <main>
-<section class="intro premium-hero">
+<section class="intro premium-hero elegant-hero">
   <div class="hero-copy">
     <div class="eyebrow">QINGNIAN LAOWU · SOLID WOOD</div>
-    <h1>木材真实，设计克制。<br><span>把家具做得更耐看。</span></h1>
-    <p>从展厅实拍到原木全屋定制，以木材、比例和真实使用为起点。先挑喜欢的家具，再慢慢聊尺寸、木材和做法。</p>
-    <div class="hero-actions"><a class="primary hero-primary" href="#catalogView">浏览家具</a><button class="plain hero-secondary" data-view="woods">查看木材</button></div>
+    <h1>让家具安静一点，<br><span>让木头更耐看。</span></h1>
+    <p>从木材、比例和真实使用出发。先看喜欢的家具，再慢慢聊尺寸、做法与适合你家的版本。</p>
+    <div class="hero-actions"><a class="hero-link" href="#catalogView">浏览家具　→</a><button class="hero-link button-link" data-view="woods">查看木材　→</button></div>
   </div>
-  <div class="hero-visual" aria-label="青年老吴展厅家具实拍"><img src="products/showroom/slab-2.webp" alt="青年老吴展厅原木家具实拍"><div class="hero-caption"><span>展厅实拍</span><b>一块木料，从纹理开始被看见。</b></div></div>
-</section>
-<section class="brand-proof" aria-label="品牌信息">
-  <div><span>01</span><strong>自有工厂</strong><small>材料、白茬与制作过程都可以真实了解</small></div>
-  <div><span>02</span><strong>实体展厅</strong><small>家具不只看图片，也可以到店看实物与比例</small></div>
-  <div><span>03</span><strong>区域服务</strong><small>以京津冀及周边为主，沟通与落地更直接</small></div>
+  <div class="hero-visual">
+    <img id="heroImage" src="products/dining.webp" alt="原木家具品牌氛围图">
+    <div class="hero-caption"><span>品牌氛围图</span><b>自然光 · 原木 · 安静的生活感</b></div>
+  </div>
 </section>
 <nav class="nav" aria-label="选品方式"><button data-view="products" class="active">家具选品</button><button data-view="spaces">空间与全屋</button><button data-view="woods">木材档案</button></nav>
 <div class="notice"><strong>关于图片</strong><span>标注“展厅实拍”的为店内真实家具；“定制示意”为款式参考。木材、尺寸、做法与报价以实际沟通为准。</span></div>
