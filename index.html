@@ -27,6 +27,82 @@ dialog{border-radius:2px}.gallery{background:#dedbd2}.detailbody h2{font-weight:
 .premium-hero h1{color:#242421}
 .premium-hero h1 span{color:#7A6252}
 .premium-hero p{color:#73736E}
+
+/* ===== cinematic homepage refresh ===== */
+body{background:#f3f1ea;overflow-x:hidden}
+header,main,footer{position:relative;z-index:1}
+.hero-cinematic{
+  position:relative;width:100vw;min-height:clamp(500px,68vh,720px);
+  margin:0 calc(50% - 50vw) 34px;display:flex;align-items:flex-end;
+  overflow:hidden;isolation:isolate;
+  background:#171717 url("data:image/webp;base64,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") center center/cover no-repeat;
+}
+.hero-cinematic::before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background:
+    linear-gradient(90deg,rgba(7,8,8,.72) 0%,rgba(7,8,8,.42) 38%,rgba(7,8,8,.08) 69%,rgba(7,8,8,.30) 100%),
+    linear-gradient(0deg,rgba(7,8,8,.48) 0%,rgba(7,8,8,.04) 58%);
+}
+.hero-cinematic-copy{width:min(1360px,100%);margin:0 auto;padding:0 32px clamp(56px,8vh,92px);color:#f3f0e8}
+.hero-kicker{opacity:0;transform:translateY(12px);font-size:11px;letter-spacing:.28em;color:rgba(242,238,227,.72);margin-bottom:19px;animation:heroReveal .8s .12s cubic-bezier(.2,.72,.2,1) forwards}
+.hero-cinematic h1{margin:0;max-width:760px;font:400 clamp(48px,6vw,88px)/1.08 "Songti SC","STSong",SimSun,serif;letter-spacing:-.035em;color:#f0ede5;text-shadow:0 2px 22px rgba(0,0,0,.34)}
+.hero-line{display:block;opacity:0;transform:translateY(28px);will-change:transform,opacity}
+.hero-line-one{animation:heroReveal 1s .25s cubic-bezier(.18,.76,.22,1) forwards}
+.hero-line-two{color:#d8c5af;animation:heroReveal 1s .42s cubic-bezier(.18,.76,.22,1) forwards}
+.hero-lead{max-width:620px!important;margin:25px 0 0!important;color:rgba(242,239,231,.78)!important;font-size:15px!important;line-height:1.9!important;opacity:0;transform:translateY(16px);animation:heroReveal .9s .62s cubic-bezier(.2,.72,.2,1) forwards}
+.hero-cinematic-actions{opacity:0;transform:translateY(12px);animation:heroReveal .9s .78s cubic-bezier(.2,.72,.2,1) forwards}
+.hero-ghost{display:inline-flex;align-items:center;justify-content:center;min-height:43px;padding:10px 18px;border:1px solid rgba(244,240,229,.48);background:rgba(16,18,17,.20);color:#f3efe5;text-decoration:none;border-radius:2px;letter-spacing:.06em;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.hero-ghost:hover{background:rgba(244,240,229,.12);border-color:rgba(244,240,229,.78)}
+@keyframes heroReveal{to{opacity:1;transform:translateY(0)}}
+
+.main-directory{position:relative;z-index:3;gap:clamp(22px,4vw,52px);margin-top:2px;padding-top:2px;background:rgba(243,241,234,.72);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.main-directory button{font:500 15px/1.3 "PingFang SC","Microsoft YaHei",sans-serif;letter-spacing:.06em;color:#5f625e;border-bottom-width:1px;padding:17px 1px 14px}
+.main-directory button.active{color:#242c27;border-color:#7a6252;font-weight:600}
+
+.card{padding:10px;border:1px solid rgba(132,129,119,.18);background:rgba(255,254,249,.34);box-shadow:0 14px 36px rgba(65,61,54,.045);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);transition:transform .35s ease,background .35s ease,border-color .35s ease}
+.card:hover{transform:translateY(-2px);background:rgba(255,254,249,.46);border-color:rgba(122,98,82,.24)}
+.card .picture{border:1px solid rgba(255,255,255,.26);background:rgba(223,221,213,.46)}
+.card .picture img{filter:saturate(.88) contrast(.99)}
+.woodcard,.filter-panel,input,select{background-color:rgba(255,254,249,.54)!important;backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px)}
+
+.breeze-layer{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.leaf-cluster{position:absolute;width:270px;height:430px;opacity:.075;transform-origin:50% 100%;background-repeat:no-repeat;background-position:center bottom;background-size:contain;filter:blur(.15px);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 360'%3E%3Cg fill='none' stroke='%235f735f' stroke-width='5' stroke-linecap='round'%3E%3Cpath d='M112 360 C108 275 118 197 103 88'/%3E%3Cpath d='M105 280 C78 246 55 220 34 188'/%3E%3Cpath d='M109 245 C141 211 161 175 179 130'/%3E%3Cpath d='M104 205 C78 174 61 144 50 112'/%3E%3Cpath d='M107 167 C132 139 147 112 158 78'/%3E%3C/g%3E%3Cg fill='%23778974'%3E%3Cellipse cx='35' cy='188' rx='16' ry='7' transform='rotate(34 35 188)'/%3E%3Cellipse cx='178' cy='130' rx='18' ry='7' transform='rotate(-48 178 130)'/%3E%3Cellipse cx='50' cy='112' rx='15' ry='6' transform='rotate(42 50 112)'/%3E%3Cellipse cx='158' cy='78' rx='17' ry='7' transform='rotate(-48 158 78)'/%3E%3C/g%3E%3C/svg%3E")}
+.leaf-a{left:-70px;bottom:-72px;animation:breezeLeft 9s ease-in-out infinite alternate}
+.leaf-b{right:-58px;top:34%;transform:scale(.82) rotate(7deg);opacity:.055;animation:breezeRight 11s ease-in-out infinite alternate}
+@keyframes breezeLeft{from{transform:rotate(-2.4deg) translateX(-3px)}to{transform:rotate(3.2deg) translateX(7px)}}
+@keyframes breezeRight{from{transform:scale(.82) rotate(5deg) translateX(2px)}to{transform:scale(.82) rotate(10deg) translateX(-7px)}}
+
+.huangma-view{min-height:420px}
+.brand-empty{min-height:300px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:1px solid rgba(126,117,105,.20);background:rgba(255,254,249,.28);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.brand-empty span{font-size:10px;letter-spacing:.24em;color:#8a7b6d}
+.brand-empty strong{margin-top:12px;font:400 28px/1.35 "Songti SC","STSong",SimSun,serif;color:#3a3935}
+.brand-empty p{margin:8px 0 0;color:#7a7b76;font-size:13px}
+
+@media(max-width:900px){
+  .hero-cinematic{min-height:600px;background-position:52% center}
+  .hero-cinematic-copy{padding:0 24px 54px}
+  .hero-cinematic h1{font-size:clamp(44px,10vw,68px)}
+  .main-directory{gap:28px}
+}
+@media(max-width:540px){
+  .hero-cinematic{min-height:67svh;max-height:680px;margin-bottom:24px;background-position:54% center}
+  .hero-cinematic::before{background:linear-gradient(90deg,rgba(9,10,10,.72),rgba(9,10,10,.24)),linear-gradient(0deg,rgba(7,8,8,.50),transparent 62%)}
+  .hero-cinematic-copy{padding:0 20px 38px}
+  .hero-kicker{font-size:9px;letter-spacing:.22em;margin-bottom:13px}
+  .hero-cinematic h1{font-size:clamp(38px,11.8vw,56px)}
+  .hero-lead{font-size:13px!important;margin-top:18px!important}
+  .hero-cinematic-actions{margin-top:22px}
+  .hero-ghost{font-size:13px;padding:9px 13px}
+  .main-directory{gap:24px;margin-left:-2px;margin-right:-2px}
+  .main-directory button{font-size:14px;padding-top:14px}
+  .card{padding:7px}
+  .leaf-a{opacity:.052;left:-125px}
+  .leaf-b{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-kicker,.hero-line,.hero-lead,.hero-cinematic-actions{animation:none!important;opacity:1!important;transform:none!important}
+  .leaf-cluster{animation:none!important}
+}
 </style><script>
 (function(){
   const states=new WeakMap();
@@ -64,28 +140,41 @@ dialog{border-radius:2px}.gallery{background:#dedbd2}.detailbody h2{font-weight:
   },true);
 })();
 </script><!-- deploy: hero-v2-20260922-1534 -->\n</head><body>
+<div class="breeze-layer" aria-hidden="true"><span class="leaf-cluster leaf-a"></span><span class="leaf-cluster leaf-b"></span></div>
 <header><div class="bar"><div class="brand"><img class="brand-logo" src="products/showroom/logo.webp" alt="青年老吴实木工厂店"><div><b>青年老吴</b><small>实木家具 · 原木全屋定制</small></div></div><button id="collectionBtn" class="plain collection-pill">选品清单 <span id="savedCount">0</span></button></div></header>
 <main>
-<section class="intro premium-hero">
-  <div class="hero-copy">
-    <div class="eyebrow">QINGNIAN LAOWU · SOLID WOOD</div>
-    <h1>木材有性格，<br><span>家具有分寸。</span></h1>
-    <p>从木材、比例和真实使用出发，做适合长期生活的原木家具。</p>
-    <div class="hero-actions">
-      <a class="primary hero-primary" href="#catalogView">浏览家具</a>
-      <button class="plain hero-secondary" data-view="woods">查看木材</button>
+<section class="hero-cinematic" aria-label="青年老吴木作首页主视觉">
+  <div class="hero-cinematic-copy">
+    <div class="hero-kicker">QINGNIAN LAOWU · WOODWORK</div>
+    <h1>
+      <span class="hero-line hero-line-one">木材有性格，</span>
+      <span class="hero-line hero-line-two">家具有分寸。</span>
+    </h1>
+    <p class="hero-lead">从木材、比例与真实使用出发，呈现适合长期生活的原木家具。</p>
+    <div class="hero-actions hero-cinematic-actions">
+      <a class="hero-ghost" href="#catalogView">浏览原木家具</a>
+      <button class="hero-ghost" data-view="woods">查看木材</button>
     </div>
   </div>
-  <div class="hero-visual" aria-label="青年老吴展厅家具实拍">
-    <img src="products/showroom/slab-2.webp" alt="青年老吴展厅原木家具实拍">
-    <div class="hero-caption"><span>展厅实拍</span><b>实木家具 · 原木全屋定制</b></div>
-  </div>
 </section>
-<nav class="nav" aria-label="选品方式"><button data-view="products" class="active">家具选品</button><button data-view="spaces">空间与全屋</button><button data-view="woods">木材档案</button></nav>
+<nav class="nav main-directory" aria-label="主要目录"><button data-view="products" class="active">原木家具</button><button data-view="huangma">皇玛康之家</button><button data-view="spaces">全屋定制案例</button><button data-view="woods">木材展示</button></nav>
 <div class="notice"><strong>关于图片</strong><span>标注“展厅实拍”的为店内真实家具；“定制示意”为款式参考。木材、尺寸、做法与报价以实际沟通为准。</span></div>
 <section id="catalogView" class="workspace"><aside class="sidebar"><h2>按空间选家具</h2><div class="rooms" id="rooms"></div><div class="side-note"><b>真正耐看的空间，先把比例做对。</b>家具、木色与收纳需要一起考虑。具体方案再结合户型、生活习惯与现场尺寸确认。</div></aside><div><details class="filter-panel"><summary>搜索与木材筛选</summary><div class="fields"><input id="searchInput" type="search" aria-label="搜索家具" placeholder="搜索名称、编号、木材"><select id="woodSelect" aria-label="木材筛选"></select></div></details><div id="categories" class="categories" aria-label="家具类别"></div><div class="resultbar"><span id="resultCount" aria-live="polite"></span><button id="resetFilters" class="textbutton">重置筛选</button></div><div class="grid" id="productGrid"></div><div id="productEmpty" class="empty" hidden><h3>还没有符合条件的款式</h3><p>试试其他木材或空间；未上传类别将在收到实拍后补充。</p><button id="emptyReset" class="plain">查看全部家具</button></div></div></section>
-<section id="spacesView" hidden><div class="case-heading"><span class="eyebrow">从整体到细节</span><h2>一个家，统一的木作语言</h2><p>真实交付案例待上传。下方先展示客厅、餐厅与卧室的搭配示意，非工厂项目。</p><button id="caseConsult" class="primary">沟通全屋定制需求</button></div><div id="spaceGrid" class="grid"></div></section>
-<section id="woodsView" hidden><div class="section-heading"><span class="eyebrow">MATERIAL LIBRARY</span><h2>木材不是一个颜色，<br>而是一件家具的性格。</h2><p>这里集中查看可讨论的木材。实际颜色、纹理、等级与供料，以实样和当批木料为准。</p></div><div id="woodGrid" class="woodgrid"></div></section>
+<section id="huangmaView" hidden class="huangma-view">
+  <div class="section-heading">
+    <span class="eyebrow">HUANGMA · HOME</span>
+    <h2>皇玛康之家</h2>
+    <p>皇玛康之家独立展示区。对应产品会在这里单独呈现，不与原木家具混在一起。</p>
+  </div>
+  <div id="huangmaGrid" class="grid"></div>
+  <div id="huangmaEmpty" class="brand-empty">
+    <span>HUANGMA · HOME</span>
+    <strong>皇玛康之家系列正在整理</strong>
+    <p>后续录入对应产品后，这里会自动展示。</p>
+  </div>
+</section>
+<section id="spacesView" hidden><div class="case-heading"><span class="eyebrow">WHOLE HOME · CASES</span><h2>全屋定制案例</h2><p>真实交付案例待上传。下方先展示客厅、餐厅与卧室的搭配示意，非工厂项目。</p><button id="caseConsult" class="primary">沟通全屋定制需求</button></div><div id="spaceGrid" class="grid"></div></section>
+<section id="woodsView" hidden><div class="section-heading"><span class="eyebrow">MATERIAL DISPLAY</span><h2>木材展示</h2><p>这里集中查看可讨论的木材。实际颜色、纹理、等级与供料，以实样和当批木料为准。</p></div><div id="woodGrid" class="woodgrid"></div></section>
 <section id="collectionView" hidden><div class="collection-head"><div><h2>我的选品清单</h2><p>保存在当前浏览器，可复制给店内工作人员沟通。</p></div><div class="actions"><button id="copyCollection" class="primary">复制清单</button><button id="shareCollection" class="plain">分享图文清单</button><button id="backCatalog" class="plain">继续选品</button></div></div><div id="collectionGrid" class="grid"></div><div id="collectionEmpty" class="empty" hidden><h3>清单还是空的</h3><p>点击家具图片右上角的 ♡，收藏喜欢的款式。</p><button id="startPicking" class="primary">去选家具</button></div><textarea id="copyFallback" class="copyarea" aria-label="选品清单，长按复制" readonly hidden></textarea></section>
 </main><footer><div class="foot"><div><b>青年老吴实木工厂店</b><span>河北怀来 · 华美家具城</span></div><div><span>原木家具 · 原木全屋定制</span><span>京津冀及周边服务</span></div></div></footer>
 <dialog id="detailDialog" aria-labelledby="detailTitle"><button id="closeDialog" class="close" aria-label="关闭详情">×</button><div class="modal"><div class="gallery"><img id="detailImage" alt=""><div class="gallery-controls"><span id="imageCaption"></span><button id="zoomImage" aria-pressed="false">放大查看</button></div></div><div class="detailbody"><span class="eyebrow" id="detailCode"></span><h2 id="detailTitle"></h2><p id="detailDescription"></p><dl id="detailFacts"></dl><div class="actions"><button id="detailSave" class="primary">加入选品清单</button><button id="shareProduct" class="plain">分享款式</button><button id="consultProduct" class="plain">咨询这款</button></div><p class="demo">演示款式与 AI 示意图片，非材质实拍。具体工艺、尺寸与报价需到店确认。</p><textarea id="shareFallback" class="copyarea" readonly aria-label="分享文字，长按复制" hidden></textarea></div></div></dialog><dialog id="consultDialog" aria-labelledby="consultTitle"><button id="closeConsult" class="close" aria-label="关闭咨询">×</button><div class="detailbody"><span class="eyebrow">青年老吴实木工厂店</span><h2 id="consultTitle">沟通定制需求</h2><p>复制下面的文字，发给与你沟通的店内工作人员。</p><textarea id="consultText" class="copyarea" aria-label="可编辑的需求文字"></textarea><button id="copyConsult" class="primary">复制需求文字</button><dl><dt>展厅</dt><dd>河北张家口怀来 · 华美家具城</dd><dt>服务区域</dt><dd>京津冀及周边</dd><dt>微信 / 电话</dt><dd>待店方补充。当前页面不能直接提交需求。</dd></dl></div></dialog><div id="toast" class="toast" role="status" hidden></div>
@@ -130,7 +219,8 @@ function liveImage(path){return typeof path==='string'&&path.startsWith('product
 function makeCard(p){const original=p;p={...p,name:escapeHTML(p.name),wood:escapeHTML(p.wood)};const article=document.createElement('article');article.className='card';article.innerHTML=`<div class="picture"><button class="open-picture" aria-label="查看${p.name}"><img src="${liveImage(p.image)}" alt="${p.name}，${p.real?"展厅实拍":"AI 示意图"}" loading="lazy"></button><span class="badge">${p.real?"展厅实拍":"定制示意"}</span><button class="save ${favorites.has(p.id)?'selected':''}" aria-label="${favorites.has(p.id)?'取消收藏':'收藏'}${p.name}" aria-pressed="${favorites.has(p.id)}">${favorites.has(p.id)?'♥':'♡'}</button></div><h3><button>${p.name}</button></h3><p>${p.id} · ${p.room} / ${p.category}</p><div class="bottom"><span class="woodtag">${p.real?p.wood:"款式示意 · 木材可讨论"}</span><span>查看详情 ↗</span></div>`;article.querySelector('.open-picture').onclick=()=>openDetail(original);article.querySelector('h3 button').onclick=()=>openDetail(original);article.querySelector('.save').onclick=()=>toggleFavorite(p.id);return article}
 function renderProducts(){const list=filteredProducts();$('productGrid').replaceChildren(...list.map(makeCard));$('productEmpty').hidden=!!list.length;$('resultCount').textContent=`${list.length} 个展示项 · 实拍与示意已分别标注`;document.querySelectorAll('[data-room]').forEach(b=>{b.classList.toggle('active',b.dataset.room===state.room);b.setAttribute('aria-pressed',b.dataset.room===state.room)});document.querySelectorAll('[data-category]').forEach(b=>{b.classList.toggle('active',b.dataset.category===state.category);b.setAttribute('aria-pressed',b.dataset.category===state.category)})}
 function renderCollection(){if(originalCopyCollection)$('copyCollection').onclick=originalCopyCollection;const list=products.filter(p=>favorites.has(p.id));$('collectionGrid').replaceChildren(...list.map(makeCard));$('collectionEmpty').hidden=!!list.length;$('copyCollection').disabled=!list.length}
-function setView(view){state.view=view;['catalogView','spacesView','woodsView','collectionView'].forEach((id,i)=>$(id).hidden=['products','spaces','woods','collection'][i]!==view);document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-current',b.dataset.view===view?'page':'false')});if(view==='collection')renderCollection()}
+function renderHuangma(){const list=products.filter(p=>/皇玛康之家/.test([p.name||'',p.category||'',p.desc||'',p.options||''].join(' ')));$('huangmaGrid').replaceChildren(...list.map(makeCard));$('huangmaEmpty').hidden=!!list.length}
+function setView(view){state.view=view;['catalogView','huangmaView','spacesView','woodsView','collectionView'].forEach((id,i)=>$(id).hidden=['products','huangma','spaces','woods','collection'][i]!==view);document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-current',b.dataset.view===view?'page':'false')});if(view==='huangma')renderHuangma();if(view==='collection')renderCollection()}
 function resetFilters(){state={...state,room:'全部空间',category:'全部',wood:'all',type:'all',query:''};$('searchInput').value='';$('woodSelect').value='all';renderProducts()}
 function goRoom(room){resetFilters();state.room=room;setView('products');renderProducts();$('catalogView').scrollIntoView({behavior:'smooth',block:'start'})}
 function updateImage(){$('detailImage').src=liveImage(current.image);$('detailImage').alt=current.name+(current.real?' 展厅实拍':' AI 示意');$('detailImage').style.transform=imageIndex?'scale(1.5)':'scale(1)';$('imageCaption').textContent=current.real?'展厅实拍 · 可放大':'整体示意 · 非材质实拍';$('zoomImage').textContent=imageIndex?'恢复全图':'放大查看';$('zoomImage').setAttribute('aria-pressed',!!imageIndex)}
