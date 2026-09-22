@@ -1,9 +1,22 @@
 {
   "products": [
     {
+      "id": "LW-MUCW45SE",
+      "name": "简禾餐桌",
+      "brand": "原木家具",
+      "category": "餐桌",
+      "room": "餐厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790094614426-KsxuFcwunk.webp",
+      "real": true,
+      "options": "",
+      "desc": "简禾餐桌，原木简约造型，线条利落柔和。平整大方桌面，稳固扎实，适配餐厅日常用餐，质朴温润。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUCW28TT",
       "name": "境禾高餐柜",
-      "brand": "原木家具",
       "category": "餐边柜",
       "room": "餐厅",
       "wood": "乌金木",
