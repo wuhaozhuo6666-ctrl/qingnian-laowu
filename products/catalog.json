@@ -1,9 +1,22 @@
 {
   "products": [
     {
+      "id": "LW-MUCVXHX3",
+      "name": "木隅餐边柜",
+      "brand": "原木家具",
+      "category": "餐边柜",
+      "room": "餐厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790094303116-323Jd2j3nG.webp",
+      "real": true,
+      "options": "",
+      "desc": "木隅餐边柜，外露明榫尽显原木质感。三抽实木柜门，大容量收纳，质朴温润，餐厅茶室皆可安放。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUCVUHQP",
       "name": "云朴餐边柜",
-      "brand": "原木家具",
       "category": "餐边柜",
       "room": "餐厅",
       "wood": "奥古曼",
