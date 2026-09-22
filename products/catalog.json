@@ -1,5 +1,19 @@
 {
-  "products": [],
+  "products": [
+    {
+      "id": "LW-MUCVD7DA",
+      "name": "知酌吧台柜",
+      "brand": "原木家具",
+      "category": "吧台柜",
+      "room": "餐厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790093356536-OIqlxqHoHk.webp",
+      "real": true,
+      "options": "",
+      "desc": "明榫工艺尽显原木质感，菱形酒格藏酒，抽屉收纳器物，延展台面自成一方小酌天地。"
+    }
+  ],
   "cases": [],
   "settings": {
     "woods": [
