@@ -2,18 +2,6 @@
   "products": [
     {
       "brand": "原木家具",
-      "id": "C-012",
-      "name": "栖木双人床",
-      "category": "床",
-      "room": "卧室",
-      "wood": "实材待确认",
-      "size": "适配 1800 × 2000 mm 床垫（示例）",
-      "image": "products/bed.webp",
-      "options": "床宽、木材、床头高度、床侧预留",
-      "desc": "床体、床头柜与通行空间一起考虑，让卧室回归简洁、安静。"
-    },
-    {
-      "brand": "原木家具",
       "id": "DSG-021",
       "name": "长川电视柜",
       "category": "电视柜",
