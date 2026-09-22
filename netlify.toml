@@ -1,5 +1,5 @@
 [build]
-  command = "mkdir -p dist && cp index.html dist/ && cp -R products dist/"
+  command = "mkdir -p dist && cp index.html preview-elegant.html dist/ && cp -R products dist/"
   publish = "dist"
   functions = "netlify/functions"
 
