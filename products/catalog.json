@@ -1,9 +1,22 @@
 {
   "products": [
     {
+      "id": "LW-MUCVJV0A",
+      "name": "云屏博古架",
+      "brand": "原木家具",
+      "category": "博古架",
+      "room": "茶室",
+      "wood": "金花梨木",
+      "size": "",
+      "image": "products/uploads/1790093667212-CPH-dzet4Y.webp",
+      "real": true,
+      "options": "",
+      "desc": "云屏博古架，框饰祥云浮雕，竖棂雅致。多格分区，可陈列茶器藏品，一室古韵，尽显东方雅致。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUCVD7DA",
       "name": "知酌吧台柜",
-      "brand": "原木家具",
       "category": "吧台柜",
       "room": "餐厅",
       "wood": "奥古曼",
