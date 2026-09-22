@@ -18,11 +18,11 @@ async function unseal(value,env){try{const [iv,body]=value.split('.');const raw=
 function reply(body,status=200,extra={}){return new Response(typeof body==='string'?body:JSON.stringify(body),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','Referrer-Policy':'no-referrer','X-Content-Type-Options':'nosniff','X-Frame-Options':'DENY',...extra}});}
 function redirect(path,cookies=[]){const headers=new Headers({'Location':path,'Cache-Control':'no-store','Referrer-Policy':'no-referrer'});for(const c of cookies)headers.append('Set-Cookie',c);return new Response(null,{status:303,headers});}
 async function github(path,token,options={}){const response=await fetch('https://api.github.com'+path,{...options,headers:{'Authorization':'Bearer '+token,'Accept':'application/vnd.github+json','User-Agent':'laowu-product-admin','X-GitHub-Api-Version':'2022-11-28',...(options.body?{'Content-Type':'application/json'}:{})}});if(!response.ok){const e=new Error('GitHub request failed');e.status=response.status;throw e;}return response.status===204?null:response.json();}
-async function readCatalog(token){const file=await github(FILE+'?ref=main',token);const data=JSON.parse(dec.decode(un64(file.content.replace(/\s/g,''))));if(!Array.isArray(data.products))throw Error('Invalid catalog');return {sha:file.sha,products:data.products};}
-async function writeCatalog(token,sha,products,message){
- const bytes=enc.encode(JSON.stringify({products},null,2)+'\n');let binary='';for(const byte of bytes)binary+=String.fromCharCode(byte);
+async function readCatalog(token){const file=await github(FILE+'?ref=main',token);const data=JSON.parse(dec.decode(un64(file.content.replace(/\s/g,''))));if(!Array.isArray(data.products))throw Error('Invalid catalog');const settings=data.settings&&typeof data.settings==='object'?data.settings:{};return {sha:file.sha,products:data.products,settings:{woods:Array.isArray(settings.woods)?settings.woods:[],categories:Array.isArray(settings.categories)?settings.categories:[],rooms:Array.isArray(settings.rooms)?settings.rooms:[]}};}
+async function writeCatalog(token,sha,products,settings,message){
+ const bytes=enc.encode(JSON.stringify({products,settings},null,2)+'\n');let binary='';for(const byte of bytes)binary+=String.fromCharCode(byte);
  const result=await github(FILE,token,{method:'PUT',body:JSON.stringify({branch:'main',sha,message,content:btoa(binary)})});
- return {sha:result.content.sha,products};
+ return {sha:result.content.sha,products,settings};
 }
 function cleanText(value,field){if(typeof value!=='string')return '';const v=value.trim();if(v.length>(LIMITS[field]||400)||/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/.test(v))throw Error('Invalid field');return v;}
 function validImagePath(value){return typeof value==='string'&&/^products\/[a-zA-Z0-9/_-]+\.(webp|jpg|jpeg|png)$/i.test(value);}
@@ -58,8 +58,7 @@ const worker = {async fetch(request,env){
    const current=await readCatalog(session.token);if(data.sha!==current.sha)return reply({error:'资料已在其他页面更新。请先复制保留你的修改，再重新加载，避免覆盖。'},409);
    let products;try{products=applyChanges(current.products,data.changes);}catch{return reply({error:'字段无效、超长或产品名称为空。'},400);}
    if(!data.changes.length)return reply({error:'没有需要发布的修改。'},400);
-   const bytes=enc.encode(JSON.stringify({products},null,2)+'\n');let binary='';for(const byte of bytes)binary+=String.fromCharCode(byte);
-   const result=await github(FILE,session.token,{method:'PUT',body:JSON.stringify({branch:'main',sha:current.sha,message:'Update product details from store admin',content:btoa(binary)})});return reply({sha:result.content.sha,products,message:'资料已保存，顾客网站正在自动更新，请稍后查看。'});
+   const result=await writeCatalog(session.token,current.sha,products,current.settings,'Update product details from store admin');return reply({...result,message:'资料已保存，顾客网站正在自动更新，请稍后查看。'});
   }
 
   if(url.pathname==='/admin/api/image'&&request.method==='POST'){
@@ -81,15 +80,34 @@ const worker = {async fetch(request,env){
    if(!name||!category||!wood||!validImagePath(image))return reply({error:'请填写产品名称、产品类型、木材，并上传照片。'},400);
    const id='LW-'+Date.now().toString(36).toUpperCase();
    const product={id,name,category,room,wood,size,image,real:p.real!==false,options,desc};if(price)product.price=price;
-   const result=await writeCatalog(session.token,current.sha,[product,...current.products],'Add product from store admin');
+   const result=await writeCatalog(session.token,current.sha,[product,...current.products],current.settings,'Add product from store admin');
    return reply({...result,message:'新产品已加入，顾客网站正在自动更新。'});
   }
   if(url.pathname==='/admin/api/product/delete'&&request.method==='POST'){
    let data;try{data=await request.json();}catch{return reply({error:'数据格式错误。'},400);}
    const current=await readCatalog(session.token);if(data.sha!==current.sha)return reply({error:'资料已更新，请重新加载后再删除。'},409);
    if(typeof data.id!=='string'||!current.products.some(p=>p.id===data.id))return reply({error:'找不到这个产品。'},404);
-   const result=await writeCatalog(session.token,current.sha,current.products.filter(p=>p.id!==data.id),'Delete product from store admin');
+   const result=await writeCatalog(session.token,current.sha,current.products.filter(p=>p.id!==data.id),current.settings,'Delete product from store admin');
    return reply({...result,message:'产品已删除，顾客网站正在自动更新。'});
+  }
+
+  if(url.pathname==='/admin/api/settings'&&request.method==='POST'){
+   let data;try{data=await request.json();}catch{return reply({error:'数据格式错误。'},400);}
+   const current=await readCatalog(session.token);if(data.sha!==current.sha)return reply({error:'资料已更新，请重新加载后再保存。'},409);
+   const input=data.settings||{}, out={};
+   for(const keyName of ['woods','categories','rooms']){
+    if(!Array.isArray(input[keyName]))return reply({error:'设置格式不正确。'},400);
+    const seen=new Set(), list=[];
+    for(const item of input[keyName]){
+     if(typeof item!=='string')return reply({error:'设置内容不正确。'},400);
+     const v=item.trim();if(!v||v.length>80)return reply({error:'名称不能为空或过长。'},400);
+     if(!seen.has(v)){seen.add(v);list.push(v)}
+    }
+    if(list.length>100)return reply({error:'分类数量过多。'},400);
+    out[keyName]=list;
+   }
+   const result=await writeCatalog(session.token,current.sha,current.products,out,'Update catalog settings from store admin');
+   return reply({...result,message:'分类设置已保存，顾客网站正在自动更新。'});
   }
   return reply({error:'不支持的操作。'},405);
  }catch(error){return reply({error:error.status===401?'登录已过期，请重新登录；未发布的修改仍保留在页面中。':error.status===409||error.status===422?'发生版本冲突，未覆盖现有资料。请保留修改后重新加载。':'服务暂时不可用，请稍后重试。'},error.status===401?401:error.status===409||error.status===422?409:502);}
