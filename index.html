@@ -58,8 +58,8 @@
 'use strict';
 (async()=>{
 const escapeHTML=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const $=id=>document.getElementById(id),woods=['奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木'];
-const products=[
+const $=id=>document.getElementById(id);let woods=['奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木'];
+let products=[
 {"id":"DB-001","name":"展厅大板桌 · 板面 01","category":"大板桌","room":"餐厅","wood":"木材待确认","size":"实际长、宽、厚度待测量","image":"products/showroom/slab-1.webp","real":true,"options":"桌架、用途与配置需到店确认","desc":"展厅大板板面实拍，保留照片中的自然纹理与板形。本展示编号用于选品沟通，不是原有出厂型号。木材、尺寸和价格待店内确认。"},
 {"id":"DB-002","name":"展厅大板桌 · 成桌展示","category":"大板桌","room":"餐厅","wood":"木材待确认","size":"实际长、宽、厚度待测量","image":"products/showroom/slab-2.webp","real":true,"options":"桌架、用途与配置需到店确认","desc":"展厅大板桌成桌实拍，可查看板面纹理、边缘与桌架搭配。实际木材、尺寸及在售情况需店内确认。"},
 {"id":"DB-003","name":"展厅大板桌 · 双板展示","category":"大板桌","room":"餐厅","wood":"木材待确认","size":"实际长、宽、厚度待测量","image":"products/showroom/slab-3.webp","real":true,"options":"桌架、用途与配置需到店确认","desc":"展厅大板板面实拍，保留照片中的自然纹理与板形。本展示编号用于选品沟通，不是原有出厂型号。木材、尺寸和价格待店内确认。"},
@@ -73,7 +73,15 @@ const products=[
 {id:'DSG-021',name:'长川电视柜',category:'电视柜',room:'客厅',wood:'实材待确认',size:'2200 × 420 × 480 mm（示例）',image:'products/console.webp',options:'尺寸、木材、收纳布局、设备走线',desc:'围绕设备、杂物和拿取习惯，一起讨论适合你的客厅收纳布局。'}];
 
 const catalogController=new AbortController(),catalogTimeout=setTimeout(()=>catalogController.abort(),8000);
-try{const response=await fetch('products/catalog.json',{cache:'no-store',signal:catalogController.signal});if(!response.ok)throw Error();const data=await response.json();for(const p of products){const update=data.products?.find(item=>item.id===p.id);if(update)for(const field of ['name','wood','size','desc','options','price'])if(typeof update[field]==='string'&&update[field].length<=1600)p[field]=update[field];}}catch{}finally{clearTimeout(catalogTimeout)}
+try{
+ const response=await fetch('products/catalog.json',{cache:'no-store',signal:catalogController.signal});if(!response.ok)throw Error();
+ const data=await response.json();
+ if(Array.isArray(data.products)){
+  const clean=data.products.filter(p=>p&&typeof p.id==='string'&&typeof p.name==='string'&&typeof p.category==='string'&&typeof p.wood==='string'&&typeof p.image==='string');
+  if(clean.length)products=clean.map(p=>({...p,room:typeof p.room==='string'&&p.room.trim()?p.room.trim():'其他',real:p.real!==false}));
+ }
+} catch{} finally{clearTimeout(catalogTimeout)}
+woods=[...new Set(['奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木',...products.map(p=>p.wood).filter(w=>w&&!/待确认|待核实|实材待确认/.test(w))])];
 
 const spaces=[{name:'餐厅 · 一张长桌的日常',room:'餐厅',image:'products/dining.webp',desc:'先看桌型与空间的关系，再选适合家人的用餐尺度。'},{name:'卧室 · 留一份安静',room:'卧室',image:'products/bed.webp',desc:'把床体、床侧通道与收纳放在一起考虑。'},{name:'客厅 · 木作与收纳',room:'客厅',image:'products/console.webp',desc:'统一木作语言，让收纳成为空间的一部分。'}];
 let favorites=new Set();try{const data=JSON.parse(localStorage.getItem('laowu-favorites')||'[]');if(Array.isArray(data))favorites=new Set(data.filter(id=>products.some(p=>p.id===id)))}catch{}
@@ -81,7 +89,7 @@ let state={view:'products',room:'全部空间',category:'全部',wood:'all',type
 function notify(message){$('toast').textContent=message;$('toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').hidden=true,3000)}
 function updateSaved(){$('savedCount').textContent=favorites.size}
 function toggleFavorite(id){favorites.has(id)?favorites.delete(id):favorites.add(id);try{localStorage.setItem('laowu-favorites',JSON.stringify([...favorites]))}catch{notify('清单仅在本次浏览有效，建议复制保存')}renderProducts();renderCollection();updateSaved();if(current)updateDetailSave()}
-function filteredProducts(){return products.filter(p=>(state.room==='全部空间'||p.room===state.room)&&(state.category==='全部'||p.category===state.category)&&(state.wood==='all'||(state.wood==='unconfirmed'?p.real&&/待确认|待核实/.test(p.wood):p.real?p.wood.includes(state.wood):woods.includes(state.wood)))&&[p.id,p.name,p.wood,...(p.real?[]:woods),p.category,p.room].join(' ').toLowerCase().includes(state.query.toLowerCase()))}
+function filteredProducts(){return products.filter(p=>(state.room==='全部空间'||p.room===state.room)&&(state.category==='全部'||p.category===state.category)&&(state.wood==='all'||(state.wood==='unconfirmed'?/待确认|待核实|实材待确认/.test(p.wood):(p.wood||'').includes(state.wood)))&&[p.id,p.name,p.wood,p.category,p.room].join(' ').toLowerCase().includes(state.query.toLowerCase()))}
 function makeCard(p){const original=p;p={...p,name:escapeHTML(p.name),wood:escapeHTML(p.wood)};const article=document.createElement('article');article.className='card';article.innerHTML=`<div class="picture"><button class="open-picture" aria-label="查看${p.name}"><img src="${p.image}" alt="${p.name}，${p.real?"展厅实拍":"AI 示意图"}" loading="lazy"></button><span class="badge">${p.real?"展厅实拍":"定制示意"}</span><button class="save ${favorites.has(p.id)?'selected':''}" aria-label="${favorites.has(p.id)?'取消收藏':'收藏'}${p.name}" aria-pressed="${favorites.has(p.id)}">${favorites.has(p.id)?'♥':'♡'}</button></div><h3><button>${p.name}</button></h3><p>${p.id} · ${p.room} / ${p.category}</p><div class="bottom"><span class="woodtag">${p.real?p.wood:"款式示意 · 木材可讨论"}</span><span>查看详情 ↗</span></div>`;article.querySelector('.open-picture').onclick=()=>openDetail(original);article.querySelector('h3 button').onclick=()=>openDetail(original);article.querySelector('.save').onclick=()=>toggleFavorite(p.id);return article}
 function renderProducts(){const list=filteredProducts();$('productGrid').replaceChildren(...list.map(makeCard));$('productEmpty').hidden=!!list.length;$('resultCount').textContent=`${list.length} 个展示项 · 实拍与示意已分别标注`;document.querySelectorAll('[data-room]').forEach(b=>{b.classList.toggle('active',b.dataset.room===state.room);b.setAttribute('aria-pressed',b.dataset.room===state.room)});document.querySelectorAll('[data-category]').forEach(b=>{b.classList.toggle('active',b.dataset.category===state.category);b.setAttribute('aria-pressed',b.dataset.category===state.category)})}
 function renderCollection(){if(originalCopyCollection)$('copyCollection').onclick=originalCopyCollection;const list=products.filter(p=>favorites.has(p.id));$('collectionGrid').replaceChildren(...list.map(makeCard));$('collectionEmpty').hidden=!!list.length;$('copyCollection').disabled=!list.length}
@@ -94,8 +102,8 @@ function openDetail(p){current=p;imageIndex=0;$('detailTitle').textContent=p.nam
 function closeDetail(){const dialog=$('detailDialog');typeof dialog.close==='function'?dialog.close():dialog.removeAttribute('open')}
 async function copyText(text,fallback){try{if(!navigator.clipboard)throw Error();await navigator.clipboard.writeText(text);notify('已复制，可粘贴到微信')}catch{fallback.value=text;fallback.hidden=false;fallback.focus();fallback.select();notify('请长按或选中文字复制')}}
 function productShare(p){const url=new URL(location.href);url.hash='product='+encodeURIComponent(p.id);return `${p.name}｜${p.id}\n${p.real?"展厅实拍":"款式示意"}｜${p.size}\n青年老吴实木工厂店\n${url.href}\n实拍 / 示意以页面标识为准，尺寸、木材与报价需确认。`}
-['全部空间','客厅','餐厅','卧室'].forEach(room=>{const b=document.createElement('button');b.dataset.room=room;b.textContent=room;b.onclick=()=>{state.room=room;state.category='全部';renderProducts()};$('rooms').append(b)});
-['全部','大板桌','餐桌','电视柜','床'].forEach(category=>{const b=document.createElement('button');b.className='pill';b.dataset.category=category;b.textContent=category;b.onclick=()=>{state.category=category;renderProducts()};$('categories').append(b)});
+['全部空间',...[...new Set(products.map(p=>p.room).filter(Boolean))]].forEach(room=>{const b=document.createElement('button');b.dataset.room=room;b.textContent=room;b.onclick=()=>{state.room=room;state.category='全部';renderProducts()};$('rooms').append(b)});
+['全部',...[...new Set(products.map(p=>p.category).filter(Boolean))]].forEach(category=>{const b=document.createElement('button');b.className='pill';b.dataset.category=category;b.textContent=category;b.onclick=()=>{state.category=category;renderProducts()};$('categories').append(b)});
 $('woodSelect').innerHTML='<option value="all">全部木材</option><option value="unconfirmed">实拍 · 木材待确认</option>'+[...new Set([...woods,...products.filter(p=>p.real&&!/待确认|待核实/.test(p.wood)&&p.wood).map(p=>p.wood)])].map(w=>`<option>${escapeHTML(w)}</option>`).join('');
 woods.forEach((wood,index)=>{const card=document.createElement('article');card.className='woodcard';card.innerHTML=`<span class="number">0${index+1}</span><h3>${wood}</h3><p>可讨论的材料选项 · 实样待上传</p><button class="plain">查看款式示意 ↗</button>`;card.querySelector('button').onclick=()=>{resetFilters();state.wood=wood;$('woodSelect').value=wood;setView('products');renderProducts()};$('woodGrid').append(card)});
 spaces.forEach(space=>{const card=document.createElement('article');card.className='card';card.innerHTML=`<div class="picture"><button class="open-picture" aria-label="查看${space.room}家具"><img src="${space.image}" alt="${space.room}空间 AI 示意" loading="lazy"></button><span class="badge">空间示意 · 非交付案例</span></div><h3>${space.name}</h3><p>${space.desc}</p><button class="textbutton">查看${space.room}家具 ↗</button>`;card.querySelector('.open-picture').onclick=card.querySelector('.textbutton').onclick=()=>goRoom(space.room);$('spaceGrid').append(card)});
