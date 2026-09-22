@@ -243,6 +243,86 @@ main>section,.main-directory,.notice{position:relative;z-index:1}.brand-categori
 @media(prefers-reduced-motion:reduce){
   .hero-crown-wind,.hero-leaf{animation:none!important}
 }
+
+/* === 2026-09-23 mobile furniture + clear hero final refinement === */
+html,body{margin:0!important;padding:0!important;overflow-x:hidden!important}
+header{
+  position:sticky!important;top:0!important;z-index:60!important;margin:0!important;
+  background:rgba(248,245,238,.95)!important;
+  backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);
+  border-bottom:1px solid rgba(90,70,48,.09);
+}
+.bar{width:100%!important;box-sizing:border-box;min-height:64px!important;padding-top:6px!important;padding-bottom:6px!important}
+.hero-cinematic{
+  background-image:url("products/showroom/home-hero.webp?v=20260923-final")!important;
+  background-size:cover!important;background-position:center center!important;background-repeat:no-repeat!important;
+  background-color:#6f8064!important;
+}
+.hero-cinematic::before{
+  background:linear-gradient(90deg,rgba(8,18,10,.30) 0%,rgba(8,18,10,.16) 42%,rgba(8,18,10,.06) 72%,rgba(8,18,10,.10) 100%),linear-gradient(0deg,rgba(5,12,7,.18) 0%,rgba(5,12,7,0) 60%)!important;
+  backdrop-filter:none!important;-webkit-backdrop-filter:none!important;
+}
+.hero-cinematic-copy{padding-bottom:clamp(28px,4.5vh,50px)!important;will-change:transform,opacity}
+.hero-line-one,.hero-line-two{color:#fff!important;background:none!important;-webkit-text-fill-color:#fff!important}
+.hero-line-two{padding-left:1em!important}
+.hero-tree,.tree-journey{display:none!important}
+
+/* Desktop product layout stays as-is. Mobile becomes vertical and sticky. */
+@media(max-width:900px){
+  .bar{min-height:64px!important;padding-left:16px!important;padding-right:16px!important}
+  .workspace{grid-template-columns:1fr!important;gap:10px!important;margin-left:0!important}
+  .sidebar{transform:none!important}
+  .sidebar h2,.side-note{display:block!important}
+  .side-note{margin-top:10px!important;padding:12px 2px 6px!important;font-size:12px!important;line-height:1.65!important}
+
+  #categories,#huangmaCategories{
+    display:grid!important;
+    grid-template-rows:repeat(2,auto)!important;
+    grid-auto-flow:column!important;
+    grid-auto-columns:max-content!important;
+    gap:7px 8px!important;
+    overflow-x:auto!important;
+    overflow-y:hidden!important;
+    padding:4px 0 8px!important;
+    margin-top:12px!important;
+    scrollbar-width:thin;
+  }
+
+  .catalog-main,.huangma-mobile-panel{
+    position:sticky!important;
+    top:70px!important;
+    max-height:calc(100svh - 78px)!important;
+    overflow-y:auto!important;
+    overflow-x:hidden!important;
+    -webkit-overflow-scrolling:touch;
+    background:rgba(243,241,234,.985)!important;
+    padding:8px 0 14px!important;
+  }
+
+  #productGrid,#huangmaGrid,#creativeGrid{
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    grid-template-rows:none!important;
+    grid-auto-flow:row!important;
+    grid-auto-columns:auto!important;
+    overflow-x:hidden!important;
+    overflow-y:visible!important;
+    gap:14px!important;
+    padding:0!important;
+    scroll-snap-type:none!important;
+  }
+  #productGrid .picture,#huangmaGrid .picture,#creativeGrid .picture{aspect-ratio:4/3!important}
+  #productGrid .picture img,#huangmaGrid .picture img,#creativeGrid .picture img{
+    width:100%!important;height:100%!important;object-fit:contain!important;padding:4.5%!important;box-sizing:border-box!important;
+  }
+}
+@media(max-width:540px){
+  .bar{min-height:62px!important}
+  .hero-cinematic{background-position:54% center!important}
+  .hero-cinematic-copy{padding-bottom:32px!important}
+  .hero-line-two{padding-left:.85em!important}
+  #productGrid .picture img,#huangmaGrid .picture img,#creativeGrid .picture img{padding:5%!important}
+}
 </style><script>
 (function(){
   const states=new WeakMap();
@@ -290,28 +370,7 @@ main>section,.main-directory,.notice{position:relative;z-index:1}.brand-categori
       <span class="hero-line hero-line-two">家具有分寸。</span>
     </h1>
     <p class="hero-lead">从木材、比例与真实使用出发，呈现适合长期生活的原木家具。三分木材，七分工艺。</p>
-    <div id="heroTree" class="hero-tree" aria-hidden="true">
-      <svg viewBox="0 0 300 230" role="presentation">
-        <g class="hero-tree-grow">
-          <path pathLength="1" class="hero-tree-stroke trunk" d="M79 222 C82 187 88 157 94 127 C99 99 101 71 100 42"/>
-          <path pathLength="1" class="hero-tree-stroke branch b1" d="M91 151 C70 133 51 117 31 101"/>
-          <path pathLength="1" class="hero-tree-stroke branch b2" d="M95 127 C119 108 137 87 151 63"/>
-          <path pathLength="1" class="hero-tree-stroke branch b3" d="M98 101 C79 84 68 68 60 48"/>
-          <path pathLength="1" class="hero-tree-stroke branch b4" d="M99 82 C119 69 134 53 145 34"/>
-          <g class="hero-crown">
-            <g class="hero-crown-wind">
-              <ellipse class="hero-leaf l1" cx="32" cy="98" rx="24" ry="14"/>
-              <ellipse class="hero-leaf l2" cx="58" cy="65" rx="29" ry="17"/>
-              <ellipse class="hero-leaf l3" cx="91" cy="42" rx="32" ry="18"/>
-              <ellipse class="hero-leaf l4" cx="128" cy="48" rx="31" ry="18"/>
-              <ellipse class="hero-leaf l5" cx="154" cy="73" rx="29" ry="17"/>
-              <ellipse class="hero-leaf l6" cx="136" cy="101" rx="32" ry="18"/>
-              <ellipse class="hero-leaf l7" cx="92" cy="84" rx="37" ry="20"/>
-            </g>
-          </g>
-        </g>
-      </svg>
-    </div>
+    
     <div class="hero-actions hero-cinematic-actions">
       <a class="hero-ghost" href="#catalogView">浏览原木家具</a>
       <button class="hero-ghost" data-view="woods">查看木材</button>
@@ -320,13 +379,15 @@ main>section,.main-directory,.notice{position:relative;z-index:1}.brand-categori
 </section>
 <nav class="nav main-directory" aria-label="主要目录"><button data-view="products" class="active">原木家具</button><button data-view="huangma">皇玛康之家</button><button data-view="spaces">全屋定制案例</button><button data-view="woods">木材展示</button><button data-view="creative">文创产品</button></nav>
 <div class="notice"><strong>关于图片</strong><span>标注“展厅实拍”的为店内真实家具；“定制示意”为款式参考。木材、尺寸、做法与报价以实际沟通为准。</span></div>
-<section id="catalogView" class="workspace"><aside class="sidebar"><h2>按空间选家具</h2><div class="rooms" id="rooms"></div><div class="side-note"><b>真正耐看的空间，先把比例做对。</b>家具、木色与收纳需要一起考虑。具体方案再结合户型、生活习惯与现场尺寸确认。</div></aside><div><details class="filter-panel"><summary>搜索与木材筛选</summary><div class="fields"><input id="searchInput" type="search" aria-label="搜索家具" placeholder="搜索名称、编号、木材"><select id="woodSelect" aria-label="木材筛选"></select></div></details><div id="categories" class="categories" aria-label="家具类别"></div><div class="resultbar"><span id="resultCount" aria-live="polite"></span><button id="resetFilters" class="textbutton">重置筛选</button></div><div class="grid" id="productGrid"></div><div id="productEmpty" class="empty" hidden><h3>还没有符合条件的款式</h3><p>试试其他木材或空间；未上传类别将在收到实拍后补充。</p><button id="emptyReset" class="plain">查看全部家具</button></div></div></section>
+<section id="catalogView" class="workspace"><aside class="sidebar"><h2>按空间选家具</h2><div class="rooms" id="rooms"></div><div class="side-note"><b>真正耐看的空间，先把比例做对。</b>家具、木色与收纳需要一起考虑。具体方案再结合户型、生活习惯与现场尺寸确认。</div></aside><div class="catalog-main"><details class="filter-panel"><summary>搜索与木材筛选</summary><div class="fields"><input id="searchInput" type="search" aria-label="搜索家具" placeholder="搜索名称、编号、木材"><select id="woodSelect" aria-label="木材筛选"></select></div></details><div id="categories" class="categories" aria-label="家具类别"></div><div class="resultbar"><span id="resultCount" aria-live="polite"></span><button id="resetFilters" class="textbutton">重置筛选</button></div><div class="grid" id="productGrid"></div><div id="productEmpty" class="empty" hidden><h3>还没有符合条件的款式</h3><p>试试其他木材或空间；未上传类别将在收到实拍后补充。</p><button id="emptyReset" class="plain">查看全部家具</button></div></div></section>
 <section id="huangmaView" hidden class="huangma-view">
   <div class="section-heading"><span class="eyebrow">HUANGMA · HOME</span><h2>皇玛康之家</h2><p>按家具类型浏览皇玛康之家产品。</p></div>
-  <div id="huangmaCategories" class="categories brand-categories" aria-label="皇玛康之家家具类别"></div>
-  <div class="resultbar"><span id="huangmaCount"></span></div>
-  <div id="huangmaGrid" class="grid"></div>
-  <div id="huangmaEmpty" class="brand-empty" hidden><span>HUANGMA · HOME</span><strong>这个分类暂时还没有产品</strong><p>可以在店主管理后台继续添加。</p></div>
+  <div class="huangma-mobile-panel">
+    <div id="huangmaCategories" class="categories brand-categories" aria-label="皇玛康之家家具类别"></div>
+    <div class="resultbar"><span id="huangmaCount"></span></div>
+    <div id="huangmaGrid" class="grid"></div>
+    <div id="huangmaEmpty" class="brand-empty" hidden><span>HUANGMA · HOME</span><strong>这个分类暂时还没有产品</strong><p>可以在店主管理后台继续添加。</p></div>
+  </div>
 </section>
 <section id="creativeView" hidden class="creative-view">
   <div class="section-heading"><span class="eyebrow">CULTURAL · CREATIVE</span><h2>文创产品</h2><p>木作之外的小件与文创产品，统一在这里展示。</p></div>
@@ -403,25 +464,17 @@ document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.data
 $('shareProduct').onclick=async()=>{const text=productShare(current);try{if(navigator.share){await navigator.share({title:current.name,text});return}}catch(e){if(e.name==='AbortError')return}await copyText(text,$('shareFallback'))};$('copyCollection').onclick=()=>{const lines=products.filter(p=>favorites.has(p.id)).map(p=>`${p.id} ${p.name}｜${p.real?"展厅实拍，木材待确认":"定制示意"}｜${p.size}`);copyText('青年老吴实木工厂店 · 我的选品清单\n'+lines.join('\n')+'\n'+location.href.split('#')[0]+'\n请按页面的实拍 / 示意标识查看，实际尺寸、木材与报价需确认。',$('copyFallback'))};
 function openSharedProduct(){try{const match=location.hash.match(/^#product=(.+)$/);if(match){const p=products.find(p=>p.id===decodeURIComponent(match[1]));if(p)openDetail(p)}}catch{}}
 $('closeCase').onclick=()=>{const d=$('caseDialog');typeof d.close==='function'?d.close():d.removeAttribute('open')};$('caseDialog').onclick=e=>{if(e.target===$('caseDialog'))$('closeCase').onclick()};
-const hero=document.querySelector('.hero-cinematic'),heroCopy=document.querySelector('.hero-cinematic-copy'),heroTree=$('heroTree');let scrollTick=false;
+const hero=document.querySelector('.hero-cinematic'),heroCopy=document.querySelector('.hero-cinematic-copy');let scrollTick=false;
 function syncScrollMotion(){
  scrollTick=false;
- const y=Math.max(0,window.scrollY||0);
- if(hero&&heroCopy){
-   const hp=Math.min(1,y/Math.max(1,hero.offsetHeight*.92));
-   heroCopy.style.transform='translate3d(0,'+(-64*hp)+'px,0)';
-   heroCopy.style.opacity=String(Math.max(0,1-hp*1.08));
-   if(heroTree){
-     const grow=Math.min(1,.08+hp*1.15);
-     const crown=Math.max(.10,Math.min(1,(grow-.28)/.72));
-     heroTree.style.setProperty('--tree-zoom',String(.42+grow*.58));
-     heroTree.style.setProperty('--trunk-offset',String(1-grow));
-     heroTree.style.setProperty('--crown-scale',String(.12+crown*.88));
-     heroTree.style.setProperty('--leaf-opacity',String(Math.max(0,crown*.82)));
-   }
- }
+ if(!hero||!heroCopy)return;
+ const rect=hero.getBoundingClientRect(),h=Math.max(1,hero.offsetHeight);
+ const p=Math.min(1,Math.max(0,-rect.top/(h*.88)));
+ heroCopy.style.transform='translate3d(0,'+(28-76*p)+'px,0)';
+ heroCopy.style.opacity=String(Math.max(0,1-p*1.08));
 }
-window.addEventListener('scroll',()=>{if(!scrollTick){scrollTick=true;requestAnimationFrame(syncScrollMotion)}},{passive:true});window.addEventListener('resize',syncScrollMotion);syncScrollMotion();
+window.addEventListener('scroll',()=>{if(!scrollTick){scrollTick=true;requestAnimationFrame(syncScrollMotion)}},{passive:true});
+window.addEventListener('resize',syncScrollMotion);syncScrollMotion();
 updateSaved();renderProducts();renderCollection();openSharedProduct();window.addEventListener('hashchange',openSharedProduct);
 var originalCopyCollection=$('copyCollection').onclick;
 function showConsult(text){$('consultText').value=text;const d=$('consultDialog');if(typeof d.showModal==='function')d.showModal();else{d.setAttribute('open','');Object.assign(d.style,{position:'fixed',top:'5vh',left:'0',right:'0',zIndex:40})}}

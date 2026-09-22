@@ -1,6 +1,6 @@
 [build]
   ignore = "node ./netlify/ignore-build.mjs"
-  command = "mkdir -p dist && cp index.html preview-elegant.html dist/ && cp -R products dist/"
+  command = "mkdir -p dist && cp index.html preview-elegant.html dist/ && cp -R products dist/ && mkdir -p dist/products/showroom && cat netlify/hero/park-*.txt | tr -d '\\n' | base64 -d > dist/products/showroom/home-hero.webp"
   publish = "dist"
   functions = "netlify/functions"
 
