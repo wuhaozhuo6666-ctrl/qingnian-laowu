@@ -119,6 +119,130 @@ main>section,.main-directory,.notice{position:relative;z-index:1}.brand-categori
 .case-cover-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.case-cover-card{background:rgba(255,254,249,.38);border:1px solid rgba(120,115,104,.2)}.case-cover-button{width:100%;padding:0;border:0;background:none;text-align:left;color:inherit}.case-cover-picture{position:relative;aspect-ratio:1.42/1;overflow:hidden;background:#ddd9d0}.case-cover-picture img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .45s ease}.case-cover-button:hover .case-cover-picture img{transform:scale(1.025)}.case-cover-picture span{position:absolute;left:14px;bottom:12px;padding:5px 9px;background:rgba(20,23,21,.62);color:#f3efe7;font-size:11px;letter-spacing:.08em}.case-cover-copy{padding:17px 18px 19px}.case-cover-copy h3{margin:0 0 5px;font:500 21px/1.4 "Songti SC",serif}.case-cover-copy p{margin:0;color:#74756f}.case-cover-copy b{display:block;margin-top:12px;font-size:12px;font-weight:500;color:#7a6252}.case-dialog{width:min(1120px,calc(100% - 24px))}.case-dialog-body{padding:34px}.case-dialog-body h2{font:400 32px/1.3 "Songti SC",serif;margin:6px 0 8px}.case-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:24px}.case-gallery figure{margin:0;background:#ddd9d0}.case-gallery img{display:block;width:100%;height:auto}
 @media(max-width:700px){.hero-cinematic h1{font-size:clamp(34px,9.5vw,48px)!important}.tree-journey{right:-105px;width:265px;opacity:.105}.case-cover-grid,.case-gallery{grid-template-columns:1fr}.case-dialog-body{padding:24px 18px}}
 @media(prefers-reduced-motion:reduce){.tree-crown-wind,.tree-crown-wind .leaf{animation:none!important}}
+
+/* === 2026-09-23 clear-park / responsive-product refinement === */
+.hero-cinematic{
+  background-image:url("products/showroom/home-hero.webp")!important;
+  background-size:cover!important;
+  background-position:center 52%!important;
+  image-rendering:auto;
+}
+.hero-cinematic::before{
+  background:
+    linear-gradient(90deg,rgba(8,18,10,.48) 0%,rgba(8,18,10,.29) 38%,rgba(8,18,10,.08) 68%,rgba(8,18,10,.16) 100%),
+    linear-gradient(0deg,rgba(5,12,7,.30) 0%,rgba(5,12,7,.02) 58%)!important;
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+}
+.hero-cinematic h1{max-width:700px!important}
+.hero-line-one,.hero-line-two{
+  color:#fff!important;
+  background:none!important;
+  -webkit-background-clip:border-box!important;
+  background-clip:border-box!important;
+  -webkit-text-fill-color:#fff!important;
+  text-shadow:0 2px 18px rgba(0,0,0,.36);
+}
+.hero-line-two{padding-left:1em}
+.hero-lead{max-width:720px!important;color:rgba(255,255,255,.90)!important}
+
+.hero-tree{
+  --tree-zoom:.47;
+  --trunk-offset:.92;
+  --crown-scale:.12;
+  --leaf-opacity:0;
+  width:210px;height:158px;
+  margin:10px 0 -4px 0;
+  transform:scale(var(--tree-zoom));
+  transform-origin:left bottom;
+  opacity:.93;
+  overflow:visible;
+  will-change:transform;
+}
+.hero-tree svg{width:100%;height:100%;overflow:visible}
+.hero-tree-stroke{
+  fill:none;
+  stroke:rgba(245,247,240,.94);
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-dasharray:1;
+  stroke-dashoffset:var(--trunk-offset);
+  transition:stroke-dashoffset .08s linear;
+}
+.hero-tree-stroke.trunk{stroke-width:7}
+.hero-tree-stroke.branch{stroke-width:4}
+.hero-crown{transform-box:fill-box;transform-origin:42% 88%;transform:scale(var(--crown-scale));transition:transform .08s linear}
+.hero-crown-wind{transform-origin:43% 82%;animation:heroTreeWind 4.4s ease-in-out infinite alternate}
+.hero-leaf{fill:rgba(245,247,240,var(--leaf-opacity));transform-box:fill-box;transform-origin:center;animation:heroLeafWind 3.6s ease-in-out infinite alternate}
+.hero-leaf.l2,.hero-leaf.l5{animation-delay:-1.2s}.hero-leaf.l3,.hero-leaf.l7{animation-delay:-2.4s}
+@keyframes heroTreeWind{from{transform:rotate(-1.5deg)}to{transform:rotate(2deg)}}
+@keyframes heroLeafWind{from{transform:translateX(-1px) rotate(-1deg)}to{transform:translateX(2px) rotate(1.5deg)}}
+.tree-journey{display:none!important}
+
+.workspace{
+  grid-template-columns:170px minmax(0,1fr)!important;
+  gap:16px!important;
+  margin-left:-18px;
+}
+.sidebar{transform:translateX(-6px)}
+#productGrid,#huangmaGrid,#creativeGrid{
+  display:grid!important;
+  grid-template-columns:none!important;
+  grid-template-rows:repeat(2,minmax(0,auto));
+  grid-auto-flow:column;
+  grid-auto-columns:minmax(290px,36%);
+  gap:24px 16px!important;
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding:2px 8px 16px 0;
+  scroll-snap-type:x proximity;
+  scrollbar-gutter:stable;
+  scrollbar-width:thin;
+  scrollbar-color:#8f7f6d #dedbd2;
+}
+#productGrid::-webkit-scrollbar,#huangmaGrid::-webkit-scrollbar,#creativeGrid::-webkit-scrollbar{height:9px}
+#productGrid::-webkit-scrollbar-track,#huangmaGrid::-webkit-scrollbar-track,#creativeGrid::-webkit-scrollbar-track{background:#dedbd2;border-radius:20px}
+#productGrid::-webkit-scrollbar-thumb,#huangmaGrid::-webkit-scrollbar-thumb,#creativeGrid::-webkit-scrollbar-thumb{background:#8f7f6d;border-radius:20px}
+#productGrid .card,#huangmaGrid .card,#creativeGrid .card{scroll-snap-align:start;min-width:0}
+#productGrid .picture,#huangmaGrid .picture,#creativeGrid .picture{
+  aspect-ratio:4/3!important;
+  background:rgba(238,236,229,.66)!important;
+  overflow:hidden;
+}
+#productGrid .picture img,#huangmaGrid .picture img,#creativeGrid .picture img{
+  width:100%!important;height:100%!important;
+  object-fit:contain!important;
+  padding:4.5%!important;
+  box-sizing:border-box!important;
+  transform:none!important;
+}
+#productGrid .open-picture:hover img,#huangmaGrid .open-picture:hover img,#creativeGrid .open-picture:hover img{transform:scale(1.015)!important}
+
+@media(max-width:900px){
+  .workspace{grid-template-columns:1fr!important;gap:12px!important;margin-left:0!important}
+  .sidebar{transform:none!important}
+  .sidebar h2,.side-note{display:block!important}
+  .side-note{margin-top:12px!important;padding:12px 2px 4px!important;font-size:12px!important;line-height:1.65!important}
+  .rooms{margin-bottom:4px}
+  #productGrid,#huangmaGrid,#creativeGrid{
+    grid-template-rows:1fr;
+    grid-auto-columns:minmax(250px,78vw);
+    gap:18px!important;
+    padding-bottom:15px;
+  }
+  #productGrid .picture,#huangmaGrid .picture,#creativeGrid .picture{aspect-ratio:4/3!important}
+}
+@media(max-width:540px){
+  .hero-cinematic{background-position:58% center!important}
+  .hero-line-two{padding-left:.8em}
+  .hero-tree{width:155px;height:118px;margin-top:8px}
+  .hero-lead{font-size:12.5px!important;line-height:1.7!important}
+  #productGrid,#huangmaGrid,#creativeGrid{grid-auto-columns:82vw}
+  #productGrid .picture img,#huangmaGrid .picture img,#creativeGrid .picture img{padding:5.5%!important}
+}
+@media(prefers-reduced-motion:reduce){
+  .hero-crown-wind,.hero-leaf{animation:none!important}
+}
 </style><script>
 (function(){
   const states=new WeakMap();
@@ -156,7 +280,6 @@ main>section,.main-directory,.notice{position:relative;z-index:1}.brand-categori
   },true);
 })();
 </script><!-- deploy: hero-v2-20260922-1534 -->\n</head><body>
-<div id="treeJourney" class="tree-journey" aria-hidden="true"><svg viewBox="0 0 360 620" role="presentation"><g class="tree-root"><path class="tree-trunk" d="M181 615 C180 520 177 452 182 382 C187 313 184 235 178 155"/><path class="tree-branch b1" d="M181 450 C143 408 112 372 73 337"/><path class="tree-branch b2" d="M182 405 C221 365 253 324 287 279"/><path class="tree-branch b3" d="M180 345 C145 306 123 266 99 221"/><path class="tree-branch b4" d="M181 303 C219 269 242 226 259 180"/><path class="tree-branch b5" d="M179 250 C157 218 145 184 138 145"/><g class="tree-crown-scale"><g class="tree-crown-wind"><ellipse class="leaf l1" cx="70" cy="331" rx="45" ry="27"/><ellipse class="leaf l2" cx="103" cy="280" rx="55" ry="31"/><ellipse class="leaf l3" cx="91" cy="220" rx="48" ry="29"/><ellipse class="leaf l4" cx="142" cy="172" rx="54" ry="32"/><ellipse class="leaf l5" cx="184" cy="135" rx="60" ry="34"/><ellipse class="leaf l6" cx="238" cy="176" rx="58" ry="33"/><ellipse class="leaf l7" cx="278" cy="235" rx="53" ry="30"/><ellipse class="leaf l8" cx="288" cy="295" rx="46" ry="28"/><ellipse class="leaf l9" cx="231" cy="262" rx="60" ry="34"/><ellipse class="leaf l10" cx="157" cy="250" rx="62" ry="35"/></g></g></g></svg></div>
 <header><div class="bar"><div class="brand"><img class="brand-logo" src="products/showroom/logo.webp" alt="青年老吴实木工厂店"><div><b>青年老吴</b><small>实木家具 · 原木全屋定制</small></div></div><button id="collectionBtn" class="plain collection-pill">选品清单 <span id="savedCount">0</span></button></div></header>
 <main>
 <section class="hero-cinematic" aria-label="青年老吴木作首页主视觉">
@@ -166,14 +289,36 @@ main>section,.main-directory,.notice{position:relative;z-index:1}.brand-categori
       <span class="hero-line hero-line-one">木材有性格，</span>
       <span class="hero-line hero-line-two">家具有分寸。</span>
     </h1>
-    <p class="hero-lead">从木材、比例与真实使用出发，呈现适合长期生活的原木家具。</p>
+    <p class="hero-lead">从木材、比例与真实使用出发，呈现适合长期生活的原木家具。三分木材，七分工艺。</p>
+    <div id="heroTree" class="hero-tree" aria-hidden="true">
+      <svg viewBox="0 0 300 230" role="presentation">
+        <g class="hero-tree-grow">
+          <path pathLength="1" class="hero-tree-stroke trunk" d="M79 222 C82 187 88 157 94 127 C99 99 101 71 100 42"/>
+          <path pathLength="1" class="hero-tree-stroke branch b1" d="M91 151 C70 133 51 117 31 101"/>
+          <path pathLength="1" class="hero-tree-stroke branch b2" d="M95 127 C119 108 137 87 151 63"/>
+          <path pathLength="1" class="hero-tree-stroke branch b3" d="M98 101 C79 84 68 68 60 48"/>
+          <path pathLength="1" class="hero-tree-stroke branch b4" d="M99 82 C119 69 134 53 145 34"/>
+          <g class="hero-crown">
+            <g class="hero-crown-wind">
+              <ellipse class="hero-leaf l1" cx="32" cy="98" rx="24" ry="14"/>
+              <ellipse class="hero-leaf l2" cx="58" cy="65" rx="29" ry="17"/>
+              <ellipse class="hero-leaf l3" cx="91" cy="42" rx="32" ry="18"/>
+              <ellipse class="hero-leaf l4" cx="128" cy="48" rx="31" ry="18"/>
+              <ellipse class="hero-leaf l5" cx="154" cy="73" rx="29" ry="17"/>
+              <ellipse class="hero-leaf l6" cx="136" cy="101" rx="32" ry="18"/>
+              <ellipse class="hero-leaf l7" cx="92" cy="84" rx="37" ry="20"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
     <div class="hero-actions hero-cinematic-actions">
       <a class="hero-ghost" href="#catalogView">浏览原木家具</a>
       <button class="hero-ghost" data-view="woods">查看木材</button>
     </div>
   </div>
 </section>
-<nav class="nav main-directory" aria-label="主要目录"><button data-view="products" class="active">原木家具</button><button data-view="huangma">皇玛康之家</button><button data-view="spaces">全屋定制案例</button><button data-view="woods">木材展示</button></nav>
+<nav class="nav main-directory" aria-label="主要目录"><button data-view="products" class="active">原木家具</button><button data-view="huangma">皇玛康之家</button><button data-view="spaces">全屋定制案例</button><button data-view="woods">木材展示</button><button data-view="creative">文创产品</button></nav>
 <div class="notice"><strong>关于图片</strong><span>标注“展厅实拍”的为店内真实家具；“定制示意”为款式参考。木材、尺寸、做法与报价以实际沟通为准。</span></div>
 <section id="catalogView" class="workspace"><aside class="sidebar"><h2>按空间选家具</h2><div class="rooms" id="rooms"></div><div class="side-note"><b>真正耐看的空间，先把比例做对。</b>家具、木色与收纳需要一起考虑。具体方案再结合户型、生活习惯与现场尺寸确认。</div></aside><div><details class="filter-panel"><summary>搜索与木材筛选</summary><div class="fields"><input id="searchInput" type="search" aria-label="搜索家具" placeholder="搜索名称、编号、木材"><select id="woodSelect" aria-label="木材筛选"></select></div></details><div id="categories" class="categories" aria-label="家具类别"></div><div class="resultbar"><span id="resultCount" aria-live="polite"></span><button id="resetFilters" class="textbutton">重置筛选</button></div><div class="grid" id="productGrid"></div><div id="productEmpty" class="empty" hidden><h3>还没有符合条件的款式</h3><p>试试其他木材或空间；未上传类别将在收到实拍后补充。</p><button id="emptyReset" class="plain">查看全部家具</button></div></div></section>
 <section id="huangmaView" hidden class="huangma-view">
@@ -182,6 +327,11 @@ main>section,.main-directory,.notice{position:relative;z-index:1}.brand-categori
   <div class="resultbar"><span id="huangmaCount"></span></div>
   <div id="huangmaGrid" class="grid"></div>
   <div id="huangmaEmpty" class="brand-empty" hidden><span>HUANGMA · HOME</span><strong>这个分类暂时还没有产品</strong><p>可以在店主管理后台继续添加。</p></div>
+</section>
+<section id="creativeView" hidden class="creative-view">
+  <div class="section-heading"><span class="eyebrow">CULTURAL · CREATIVE</span><h2>文创产品</h2><p>木作之外的小件与文创产品，统一在这里展示。</p></div>
+  <div id="creativeGrid" class="grid"></div>
+  <div id="creativeEmpty" class="brand-empty" hidden><span>WOOD · CREATIVE</span><strong>文创产品正在整理</strong><p>后续可直接从店主管理后台添加。</p></div>
 </section>
 <section id="spacesView" hidden><div class="case-heading"><span class="eyebrow">WHOLE HOME · CASES</span><h2>全屋定制案例</h2><p>每个项目只展示一张封面；点击后再查看该客户的一整组交付照片。</p><button id="caseConsult" class="primary">沟通全屋定制需求</button></div><div id="caseGrid" class="case-cover-grid"></div><div id="caseEmpty" class="brand-empty" hidden><span>WHOLE HOME</span><strong>真实案例正在整理</strong><p>可在店主管理后台添加封面和整组案例图。</p></div></section>
 <section id="woodsView" hidden><div class="section-heading"><span class="eyebrow">MATERIAL DISPLAY</span><h2>木材展示</h2><p>这里集中查看可讨论的木材。实际颜色、纹理、等级与供料，以实样和当批木料为准。</p></div><div id="woodGrid" class="woodgrid"></div></section>
@@ -231,10 +381,11 @@ function liveImage(path){return typeof path==='string'&&path.startsWith('product
 function makeCard(p){const original=p;p={...p,name:escapeHTML(p.name),wood:escapeHTML(p.wood)};const article=document.createElement('article');article.className='card';article.innerHTML=`<div class="picture"><button class="open-picture" aria-label="查看${p.name}"><img src="${liveImage(p.image)}" alt="${p.name}，${p.real?"展厅实拍":"AI 示意图"}" loading="lazy"></button><span class="badge">${p.real?"展厅实拍":"定制示意"}</span><button class="save ${favorites.has(p.id)?'selected':''}" aria-label="${favorites.has(p.id)?'取消收藏':'收藏'}${p.name}" aria-pressed="${favorites.has(p.id)}">${favorites.has(p.id)?'♥':'♡'}</button></div><h3><button>${p.name}</button></h3><p>${p.id} · ${p.room} / ${p.category}</p><div class="bottom"><span class="woodtag">${p.real?p.wood:"款式示意 · 木材可讨论"}</span><span>查看详情 ↗</span></div>`;article.querySelector('.open-picture').onclick=()=>openDetail(original);article.querySelector('h3 button').onclick=()=>openDetail(original);article.querySelector('.save').onclick=()=>toggleFavorite(p.id);return article}
 function renderProducts(){const list=filteredProducts();$('productGrid').replaceChildren(...list.map(makeCard));$('productEmpty').hidden=!!list.length;$('resultCount').textContent=`${list.length} 个展示项 · 实拍与示意已分别标注`;document.querySelectorAll('[data-room]').forEach(b=>{b.classList.toggle('active',b.dataset.room===state.room);b.setAttribute('aria-pressed',b.dataset.room===state.room)});document.querySelectorAll('[data-category]').forEach(b=>{b.classList.toggle('active',b.dataset.category===state.category);b.setAttribute('aria-pressed',b.dataset.category===state.category)})}
 function renderCollection(){if(originalCopyCollection)$('copyCollection').onclick=originalCopyCollection;const list=products.filter(p=>favorites.has(p.id));$('collectionGrid').replaceChildren(...list.map(makeCard));$('collectionEmpty').hidden=!!list.length;$('copyCollection').disabled=!list.length}
-function renderHuangma(){const all=products.filter(p=>(p.brand||'原木家具')==='皇玛康之家');const cats=[...new Set([...(catalogSettings.categories||[]),'沙发','茶几','电视柜','床','餐桌','餐椅','餐边柜'].filter(Boolean))];$('huangmaCategories').replaceChildren(...['全部',...cats].map(cat=>{const b=document.createElement('button');b.className='pill'+(state.huangmaCategory===cat?' active':'');b.textContent=cat;b.onclick=()=>{state.huangmaCategory=cat;renderHuangma()};return b}));const list=all.filter(p=>state.huangmaCategory==='全部'||p.category===state.huangmaCategory);$('huangmaGrid').replaceChildren(...list.map(makeCard));$('huangmaEmpty').hidden=!!list.length;$('huangmaCount').textContent=list.length+' 个产品'}
+function renderHuangma(){const all=products.filter(p=>(p.brand||'原木家具')==='皇玛康之家');const cats=[...new Set([...(catalogSettings.categories||[]),'沙发','茶几','电视柜','床','餐桌','餐椅','餐边柜'].filter(v=>v&&v!=='其他'))];$('huangmaCategories').replaceChildren(...['全部',...cats].map(cat=>{const b=document.createElement('button');b.className='pill'+(state.huangmaCategory===cat?' active':'');b.textContent=cat;b.onclick=()=>{state.huangmaCategory=cat;renderHuangma()};return b}));const list=all.filter(p=>state.huangmaCategory==='全部'||p.category===state.huangmaCategory);$('huangmaGrid').replaceChildren(...list.map(makeCard));$('huangmaEmpty').hidden=!!list.length;$('huangmaCount').textContent=list.length+' 个产品'}
 function renderCases(){$('caseGrid').replaceChildren(...cases.map(c=>{const card=document.createElement('article');card.className='case-cover-card';card.innerHTML=`<button class="case-cover-button"><div class="case-cover-picture"><img src="${liveImage(c.cover)}" alt="${escapeHTML(c.title)}" loading="lazy"><span>${escapeHTML(c.tag||'全屋定制')}</span></div><div class="case-cover-copy"><h3>${escapeHTML(c.title)}</h3><p>${escapeHTML(c.summary||'点击查看整组案例图')}</p><b>查看完整案例 →</b></div></button>`;card.querySelector('button').onclick=()=>openCase(c);return card}));$('caseEmpty').hidden=!!cases.length}
 function openCase(c){currentCase=c;$('caseTitle').textContent=c.title||'全屋定制案例';$('caseTag').textContent=c.tag||'WHOLE HOME';$('caseSummary').textContent=c.summary||'';const imgs=[c.cover,...(Array.isArray(c.images)?c.images:[])].filter((x,i,a)=>x&&a.indexOf(x)===i);$('caseGallery').replaceChildren(...imgs.map((src,i)=>{const fig=document.createElement('figure');const im=document.createElement('img');im.src=liveImage(src);im.loading='lazy';im.alt=(c.title||'案例')+' '+(i+1);fig.append(im);return fig}));const d=$('caseDialog');if(typeof d.showModal==='function')d.showModal();else{d.setAttribute('open','');Object.assign(d.style,{position:'fixed',top:'4vh',left:'0',right:'0',zIndex:50})}}
-function setView(view){state.view=view;['catalogView','huangmaView','spacesView','woodsView','collectionView'].forEach((id,i)=>$(id).hidden=['products','huangma','spaces','woods','collection'][i]!==view);document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-current',b.dataset.view===view?'page':'false')});if(view==='huangma')renderHuangma();if(view==='collection')renderCollection()}
+function renderCreative(){const list=products.filter(p=>(p.brand||'原木家具')==='文创产品');$('creativeGrid').replaceChildren(...list.map(makeCard));$('creativeEmpty').hidden=!!list.length}
+function setView(view){state.view=view;['catalogView','huangmaView','spacesView','woodsView','creativeView','collectionView'].forEach((id,i)=>$(id).hidden=['products','huangma','spaces','woods','creative','collection'][i]!==view);document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===view);b.setAttribute('aria-current',b.dataset.view===view?'page':'false')});if(view==='huangma')renderHuangma();if(view==='creative')renderCreative();if(view==='collection')renderCollection()}
 function resetFilters(){state={...state,room:'全部空间',category:'全部',wood:'all',type:'all',query:''};$('searchInput').value='';$('woodSelect').value='all';renderProducts()}
 function goRoom(room){resetFilters();state.room=room;setView('products');renderProducts();$('catalogView').scrollIntoView({behavior:'smooth',block:'start'})}
 function updateImage(){$('detailImage').src=liveImage(current.image);$('detailImage').alt=current.name+(current.real?' 展厅实拍':' AI 示意');$('detailImage').style.transform=imageIndex?'scale(1.5)':'scale(1)';$('imageCaption').textContent=current.real?'展厅实拍 · 可放大':'整体示意 · 非材质实拍';$('zoomImage').textContent=imageIndex?'恢复全图':'放大查看';$('zoomImage').setAttribute('aria-pressed',!!imageIndex)}
@@ -244,16 +395,32 @@ function closeDetail(){const dialog=$('detailDialog');typeof dialog.close==='fun
 async function copyText(text,fallback){try{if(!navigator.clipboard)throw Error();await navigator.clipboard.writeText(text);notify('已复制，可粘贴到微信')}catch{fallback.value=text;fallback.hidden=false;fallback.focus();fallback.select();notify('请长按或选中文字复制')}}
 function productShare(p){const url=new URL(location.href);url.hash='product='+encodeURIComponent(p.id);return `${p.name}｜${p.id}\n${p.real?"展厅实拍":"款式示意"}｜${p.size}\n青年老吴实木工厂店\n${url.href}\n实拍 / 示意以页面标识为准，尺寸、木材与报价需确认。`}
 ['全部空间',...[...new Set([...(catalogSettings.rooms||[]),'餐厅','卧室','客厅','厨房','茶室',...products.filter(p=>(p.brand||'原木家具')==='原木家具').map(p=>p.room).filter(Boolean)])]].forEach(room=>{const b=document.createElement('button');b.dataset.room=room;b.textContent=room;b.onclick=()=>{state.room=room;state.category='全部';renderProducts()};$('rooms').append(b)});
-['全部',...[...new Set([...(catalogSettings.categories||[]),...products.filter(p=>(p.brand||'原木家具')==='原木家具').map(p=>p.category).filter(Boolean)])]].forEach(category=>{const b=document.createElement('button');b.className='pill';b.dataset.category=category;b.textContent=category;b.onclick=()=>{state.category=category;renderProducts()};$('categories').append(b)});
+['全部',...[...new Set([...(catalogSettings.categories||[]),...products.filter(p=>(p.brand||'原木家具')==='原木家具').map(p=>p.category).filter(Boolean)])].filter(category=>category!=='其他')].forEach(category=>{const b=document.createElement('button');b.className='pill';b.dataset.category=category;b.textContent=category;b.onclick=()=>{state.category=category;renderProducts()};$('categories').append(b)});
 $('woodSelect').innerHTML='<option value="all">全部木材</option><option value="unconfirmed">实拍 · 木材待确认</option>'+[...new Set([...woods,...products.filter(p=>p.real&&!/待确认|待核实/.test(p.wood)&&p.wood).map(p=>p.wood)])].map(w=>`<option>${escapeHTML(w)}</option>`).join('');
 woods.forEach((wood,index)=>{const card=document.createElement('article');card.className='woodcard';card.innerHTML=`<span class="number">${String(index+1).padStart(2,'0')}</span><h3>${wood}</h3><p>木色、纹理与手感需要看实样。这里先从材种进入，查看目前对应家具。</p><button class="plain">查看相关家具 ↗</button>`;card.querySelector('button').onclick=()=>{resetFilters();state.wood=wood;$('woodSelect').value=wood;setView('products');renderProducts()};$('woodGrid').append(card)});
-renderCases();renderHuangma();
+renderCases();renderHuangma();renderCreative();
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>setView(b.dataset.view));$('searchInput').oninput=e=>{state.query=e.target.value.trim();renderProducts()};$('woodSelect').onchange=e=>{state.wood=e.target.value;renderProducts()};$('resetFilters').onclick=$('emptyReset').onclick=resetFilters;$('collectionBtn').onclick=()=>setView('collection');$('backCatalog').onclick=$('startPicking').onclick=()=>setView('products');$('closeDialog').onclick=closeDetail;$('detailDialog').onclick=e=>{if(e.target===$('detailDialog'))closeDetail()};$('detailSave').onclick=()=>toggleFavorite(current.id);$('zoomImage').onclick=()=>{imageIndex=(imageIndex+1)%2;updateImage()};
 $('shareProduct').onclick=async()=>{const text=productShare(current);try{if(navigator.share){await navigator.share({title:current.name,text});return}}catch(e){if(e.name==='AbortError')return}await copyText(text,$('shareFallback'))};$('copyCollection').onclick=()=>{const lines=products.filter(p=>favorites.has(p.id)).map(p=>`${p.id} ${p.name}｜${p.real?"展厅实拍，木材待确认":"定制示意"}｜${p.size}`);copyText('青年老吴实木工厂店 · 我的选品清单\n'+lines.join('\n')+'\n'+location.href.split('#')[0]+'\n请按页面的实拍 / 示意标识查看，实际尺寸、木材与报价需确认。',$('copyFallback'))};
 function openSharedProduct(){try{const match=location.hash.match(/^#product=(.+)$/);if(match){const p=products.find(p=>p.id===decodeURIComponent(match[1]));if(p)openDetail(p)}}catch{}}
 $('closeCase').onclick=()=>{const d=$('caseDialog');typeof d.close==='function'?d.close():d.removeAttribute('open')};$('caseDialog').onclick=e=>{if(e.target===$('caseDialog'))$('closeCase').onclick()};
-const hero=document.querySelector('.hero-cinematic'),heroCopy=document.querySelector('.hero-cinematic-copy'),tree=$('treeJourney');let scrollTick=false;
-function syncScrollMotion(){scrollTick=false;const y=Math.max(0,window.scrollY||0);if(hero&&heroCopy){const hp=Math.min(1,y/Math.max(1,hero.offsetHeight*.92));heroCopy.style.transform='translate3d(0,'+(-72*hp)+'px,0)';heroCopy.style.opacity=String(Math.max(0,1-hp*1.08))}if(tree){const max=Math.max(1,document.documentElement.scrollHeight-window.innerHeight);const p=Math.min(1,y/(max*.78));tree.style.setProperty('--tree-scale',String(.16+.84*p));tree.style.setProperty('--crown-scale',String(.18+.82*p));tree.style.setProperty('--leaf-opacity',String(Math.max(0,(p-.18)/.82)))}}
+const hero=document.querySelector('.hero-cinematic'),heroCopy=document.querySelector('.hero-cinematic-copy'),heroTree=$('heroTree');let scrollTick=false;
+function syncScrollMotion(){
+ scrollTick=false;
+ const y=Math.max(0,window.scrollY||0);
+ if(hero&&heroCopy){
+   const hp=Math.min(1,y/Math.max(1,hero.offsetHeight*.92));
+   heroCopy.style.transform='translate3d(0,'+(-64*hp)+'px,0)';
+   heroCopy.style.opacity=String(Math.max(0,1-hp*1.08));
+   if(heroTree){
+     const grow=Math.min(1,.08+hp*1.15);
+     const crown=Math.max(.10,Math.min(1,(grow-.28)/.72));
+     heroTree.style.setProperty('--tree-zoom',String(.42+grow*.58));
+     heroTree.style.setProperty('--trunk-offset',String(1-grow));
+     heroTree.style.setProperty('--crown-scale',String(.12+crown*.88));
+     heroTree.style.setProperty('--leaf-opacity',String(Math.max(0,crown*.82)));
+   }
+ }
+}
 window.addEventListener('scroll',()=>{if(!scrollTick){scrollTick=true;requestAnimationFrame(syncScrollMotion)}},{passive:true});window.addEventListener('resize',syncScrollMotion);syncScrollMotion();
 updateSaved();renderProducts();renderCollection();openSharedProduct();window.addEventListener('hashchange',openSharedProduct);
 var originalCopyCollection=$('copyCollection').onclick;
