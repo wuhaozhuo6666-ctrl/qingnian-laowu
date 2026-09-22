@@ -1,18 +1,5 @@
 {
-  "products": [
-    {
-      "brand": "原木家具",
-      "id": "DSG-021",
-      "name": "长川电视柜",
-      "category": "电视柜",
-      "room": "客厅",
-      "wood": "实材待确认",
-      "size": "2200 × 420 × 480 mm（示例）",
-      "image": "products/console.webp",
-      "options": "尺寸、木材、收纳布局、设备走线",
-      "desc": "围绕设备、杂物和拿取习惯，一起讨论适合你的客厅收纳布局。"
-    }
-  ],
+  "products": [],
   "cases": [],
   "settings": {
     "woods": [
