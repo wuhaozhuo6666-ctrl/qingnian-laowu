@@ -1,6 +1,18 @@
 {
   "products": [
     {
+      "id": "LW-MUCOX2YG",
+      "name": "家具测试2",
+      "category": "大板桌",
+      "room": "卧室",
+      "wood": "北美樱桃木",
+      "size": "",
+      "image": "products/uploads/1790082526860-SHyNov_ZLj.webp",
+      "real": true,
+      "options": "",
+      "desc": ""
+    },
+    {
       "id": "LW-MUCOJTLV",
       "name": "测试家具",
       "category": "餐桌",
