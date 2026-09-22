@@ -2,18 +2,6 @@
   "products": [
     {
       "brand": "原木家具",
-      "id": "CZ-018",
-      "name": "山岚长餐桌",
-      "category": "餐桌",
-      "room": "餐厅",
-      "wood": "实材待确认",
-      "size": "1800 × 850 × 750 mm（示例）",
-      "image": "products/dining.webp",
-      "options": "尺寸、木材、桌腿形式",
-      "desc": "从用餐人数、餐椅位置与通道宽度出发，讨论适合家人的桌型与尺度。"
-    },
-    {
-      "brand": "原木家具",
       "id": "C-012",
       "name": "栖木双人床",
       "category": "床",
