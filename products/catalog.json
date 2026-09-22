@@ -2,19 +2,6 @@
   "products": [
     {
       "brand": "原木家具",
-      "id": "DB-002",
-      "name": "展厅大板桌 · 成桌展示",
-      "category": "大板桌",
-      "room": "餐厅",
-      "wood": "木材待确认",
-      "size": "实际长、宽、厚度待测量",
-      "image": "products/showroom/slab-2.webp",
-      "real": true,
-      "options": "桌架、用途与配置需到店确认",
-      "desc": "展厅大板桌成桌实拍，可查看板面纹理、边缘与桌架搭配。实际木材、尺寸及在售情况需店内确认。"
-    },
-    {
-      "brand": "原木家具",
       "id": "DB-003",
       "name": "展厅大板桌 · 双板展示",
       "category": "大板桌",
