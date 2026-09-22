@@ -2,20 +2,6 @@
   "products": [
     {
       "brand": "原木家具",
-      "id": "LW-MUC4XM50",
-      "name": "白蜡凳",
-      "category": "椅子",
-      "room": "餐厅",
-      "wood": "奥古曼",
-      "size": "1",
-      "image": "products/uploads/1790048959532-nztQbq_CBc.webp",
-      "real": true,
-      "options": "1",
-      "desc": "1",
-      "price": "350"
-    },
-    {
-      "brand": "原木家具",
       "id": "DB-001",
       "name": "展厅大板桌 · 板面 01",
       "category": "大板桌",
