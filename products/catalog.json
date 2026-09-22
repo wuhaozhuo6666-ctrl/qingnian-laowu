@@ -2,19 +2,6 @@
   "products": [
     {
       "brand": "原木家具",
-      "id": "LW-MUCOX2YG",
-      "name": "家具测试2",
-      "category": "大板桌",
-      "room": "卧室",
-      "wood": "北美樱桃木",
-      "size": "",
-      "image": "products/uploads/1790082526860-SHyNov_ZLj.webp",
-      "real": true,
-      "options": "",
-      "desc": ""
-    },
-    {
-      "brand": "原木家具",
       "id": "LW-MUCOJTLV",
       "name": "测试家具",
       "category": "餐桌",
@@ -182,6 +169,7 @@
       "desc": "围绕设备、杂物和拿取习惯，一起讨论适合你的客厅收纳布局。"
     }
   ],
+  "cases": [],
   "settings": {
     "woods": [
       "奥古曼",
@@ -214,6 +202,5 @@
       "厨房",
       "茶室"
     ]
-  },
-  "cases": []
+  }
 }
