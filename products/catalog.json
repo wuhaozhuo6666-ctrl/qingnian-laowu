@@ -1,9 +1,9 @@
 {
   "products": [
     {
+      "brand": "原木家具",
       "id": "LW-MUE8SAMD",
       "name": "林隙书架",
-      "brand": "原木家具",
       "category": "书架",
       "room": "书房",
       "wood": "北美白橡",
@@ -228,7 +228,7 @@
       "brand": "原木家具",
       "id": "LW-MUE4FSL1",
       "name": "旋筑艺术书架",
-      "category": "书柜",
+      "category": "书架",
       "room": "书房",
       "wood": "乌金木",
       "size": "",
