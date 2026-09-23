@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE4UDX4",
+      "name": "木隐云栖沙发",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790169740892-92G-wjbasp.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "整体采用厚实实木框架，温润木色搭配柔和布艺坐垫，扶手融入储物设计，兼顾舒适、收纳与质感，沉稳耐看，适合客厅长期使用。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE4Q7FV",
       "name": "花影小凳",
-      "brand": "原木家具",
       "category": "原木椅",
       "room": "客厅",
       "wood": "白蜡木",
