@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE5FO9X",
+      "name": "榫韵雅榻床",
+      "brand": "原木家具",
+      "category": "罗汉床",
+      "room": "书房",
+      "wood": "北美黑胡桃",
+      "size": "",
+      "image": "products/uploads/1790170734162-HylIeoVYrQ.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "沉稳厚实的实木框架，融入中式围合靠背与雕花细节，床体下方巧设多格抽屉，兼顾休憩、收纳与品茗功能，古朴大气。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE57NLM",
       "name": "木榫和居榻",
-      "brand": "原木家具",
       "category": "罗汉床",
       "room": "茶室",
       "wood": "奥古曼",
