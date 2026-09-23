@@ -1009,7 +1009,6 @@
     }
   ],
   "settings": {
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "woods": [
       "奥古曼",
       "北美黑胡桃",
@@ -1036,7 +1035,6 @@
       "餐椅",
       "餐边柜",
       "衣柜",
-      "书柜",
       "斗柜",
       "橱柜"
     ],
@@ -1047,6 +1045,7 @@
       "厨房",
       "茶室",
       "书房"
-    ]
+    ],
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp"
   }
 }
