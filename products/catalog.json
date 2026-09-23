@@ -1,6 +1,20 @@
 {
   "products": [
     {
+      "id": "LW-MUDRT46F",
+      "name": "静纳单元柜",
+      "brand": "原木家具",
+      "category": "衣柜",
+      "room": "卧室",
+      "wood": "新西兰松木",
+      "size": "",
+      "image": "products/uploads/1790147846902-L2uI16i7v7.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "静纳衣柜，原木质感温润通透。多柜格搭配抽屉设计，衣物分类收纳，结构规整，营造简约舒适的卧室储物空间。"
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUDRLSB4",
       "name": "观纹单元柜",
