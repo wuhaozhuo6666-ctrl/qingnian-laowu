@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDUDIDU",
+      "name": "山隐原木门",
+      "brand": "原木家具",
+      "category": "原木门",
+      "room": "其他",
+      "wood": "铅笔柏",
+      "size": "",
+      "image": "products/uploads/1790152157594-mxx9akAMqZ.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "门板上下双层轮廓，线条温润干净，原生木纹清晰自然，百搭新中式、原木风家装。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDU3Z08",
       "name": "清禾实木门",
-      "brand": "原木家具",
       "category": "原木门",
       "room": "卧室",
       "wood": "北美鹅掌楸",
