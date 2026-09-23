@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE4Q7FV",
+      "name": "花影小凳",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "客厅",
+      "wood": "白蜡木",
+      "size": "",
+      "image": "products/uploads/1790169546327-9MWeYu3L5I.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "温润实木搭配精致花鸟纹饰，配合优雅弧形腿脚，古朴中透着灵动，既可独立使用，也能组合陈设，为空间增添东方韵味。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE4KEYG",
       "name": "木藏斗柜",
-      "brand": "原木家具",
       "category": "斗柜",
       "room": "卧室",
       "wood": "奥古曼",
