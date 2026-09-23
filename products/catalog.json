@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDSAT69",
+      "name": "承古客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "木材待确认",
+      "size": "",
+      "image": "products/uploads/1790148672064-ihaTGI3iJd.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "中式实木整套搭配。雕花细腻，形制端庄，沙发、圈椅、茶几、电视柜一应俱全，打造沉稳雅致的中式客厅。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDS0CTO",
       "name": "双阙电视柜",
-      "brand": "原木家具",
       "category": "电视柜",
       "room": "客厅",
       "wood": "北美樱桃木",
