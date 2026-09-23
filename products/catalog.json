@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDT0NVY",
+      "name": "青岚客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "木材待确认",
+      "size": "",
+      "image": "products/uploads/1790149878424-EDRlA77sMz.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "流畅弧形实木扶手，搭配柔和布艺软包，主副双茶几错落组合，造型轻盈柔和，简约耐看，适配现代、原木风家装。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDSYBIO",
       "name": "格筑客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "奥古曼",
