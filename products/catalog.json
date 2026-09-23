@@ -1,6 +1,20 @@
 {
   "products": [
     {
+      "id": "LW-MUDWWA53",
+      "name": "简叙长凳",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "厨房",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790156392685-b_Cq0dCiaN.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "简约原木长条长椅，平整大板坐面，加粗方腿稳固扎实，原木温润质感，适配餐桌配套使用。"
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUDWGBS8",
       "name": "知序整墙展示柜",
