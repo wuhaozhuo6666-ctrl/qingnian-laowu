@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDVIGGL",
+      "name": "景和原木床",
+      "brand": "原木家具",
+      "category": "床",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790154067620-a9WgK8L3E0.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "景和原木床，弧形软包床头，细腻竖向压线，倚靠舒适，温润木色，适配新中式、现代主卧。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDVGBIR",
       "name": "舒简原木床",
-      "brand": "原木家具",
       "category": "床",
       "room": "卧室",
       "wood": "奥古曼",
