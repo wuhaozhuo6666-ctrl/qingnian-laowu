@@ -1,15 +1,17 @@
 {
   "products": [
     {
+      "brand": "原木家具",
       "id": "LW-MUDQYT39",
       "name": "乌瑶圆餐桌",
-      "brand": "原木家具",
       "category": "餐桌",
       "room": "餐厅",
       "wood": "乌金木",
       "size": "",
       "image": "products/uploads/1790146432450-Q1nRTrljmL.webp",
-      "images": [],
+      "images": [
+        "products/uploads/1790146607461-LaJ0OzpnW6.webp"
+      ],
       "real": true,
       "options": "",
       "desc": ""
@@ -25,7 +27,8 @@
       "image": "products/uploads/1790094788161-zgtY54GdwL.webp",
       "real": true,
       "options": "",
-      "desc": "乌澜餐桌，甄选乌金木打造，桌腿弧度流畅。木纹自然细腻，成套桌椅，让餐厅兼具质感与温润氛围。"
+      "desc": "乌澜餐桌，甄选乌金木打造，桌腿弧度流畅。木纹自然细腻，成套桌椅，让餐厅兼具质感与温润氛围。",
+      "images": []
     },
     {
       "brand": "原木家具",
@@ -38,7 +41,8 @@
       "image": "products/uploads/1790094614426-KsxuFcwunk.webp",
       "real": true,
       "options": "",
-      "desc": "简禾餐桌，原木简约造型，线条利落柔和。平整大方桌面，稳固扎实，适配餐厅日常用餐，质朴温润。"
+      "desc": "简禾餐桌，原木简约造型，线条利落柔和。平整大方桌面，稳固扎实，适配餐厅日常用餐，质朴温润。",
+      "images": []
     },
     {
       "brand": "原木家具",
@@ -51,7 +55,8 @@
       "image": "products/uploads/1790094524996-0fb6szj0rG.webp",
       "real": true,
       "options": "",
-      "desc": "境禾高餐柜，乌金木质感温润。玻璃展格搭配多区储物，展藏兼具，错落层次打造餐厅雅致空间。"
+      "desc": "境禾高餐柜，乌金木质感温润。玻璃展格搭配多区储物，展藏兼具，错落层次打造餐厅雅致空间。",
+      "images": []
     },
     {
       "brand": "原木家具",
@@ -64,7 +69,8 @@
       "image": "products/uploads/1790094303116-323Jd2j3nG.webp",
       "real": true,
       "options": "",
-      "desc": "木隅餐边柜，外露明榫尽显原木质感。三抽实木柜门，大容量收纳，质朴温润，餐厅茶室皆可安放。"
+      "desc": "木隅餐边柜，外露明榫尽显原木质感。三抽实木柜门，大容量收纳，质朴温润，餐厅茶室皆可安放。",
+      "images": []
     },
     {
       "brand": "原木家具",
@@ -77,7 +83,8 @@
       "image": "products/uploads/1790094163359-oixVHpn4JH.webp",
       "real": true,
       "options": "",
-      "desc": "云朴餐边柜，明榫工艺尽显原木质感。三抽搭配玻璃柜门，收纳展示兼顾，温润木色适配餐厅茶室。"
+      "desc": "云朴餐边柜，明榫工艺尽显原木质感。三抽搭配玻璃柜门，收纳展示兼顾，温润木色适配餐厅茶室。",
+      "images": []
     },
     {
       "brand": "原木家具",
@@ -90,7 +97,8 @@
       "image": "products/uploads/1790093667212-CPH-dzet4Y.webp",
       "real": true,
       "options": "",
-      "desc": "云屏博古架，框饰祥云浮雕，竖棂雅致。多格分区，可陈列茶器藏品，一室古韵，尽显东方雅致。"
+      "desc": "云屏博古架，框饰祥云浮雕，竖棂雅致。多格分区，可陈列茶器藏品，一室古韵，尽显东方雅致。",
+      "images": []
     },
     {
       "brand": "原木家具",
@@ -103,7 +111,8 @@
       "image": "products/uploads/1790093356536-OIqlxqHoHk.webp",
       "real": true,
       "options": "",
-      "desc": "明榫工艺尽显原木质感，菱形酒格藏酒，抽屉收纳器物，延展台面自成一方小酌天地。"
+      "desc": "明榫工艺尽显原木质感，菱形酒格藏酒，抽屉收纳器物，延展台面自成一方小酌天地。",
+      "images": []
     }
   ],
   "cases": [],
