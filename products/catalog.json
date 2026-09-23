@@ -720,6 +720,16 @@
   "cases": [],
   "contacts": [
     {
+      "id": "CONTACT-MUDZCTE0",
+      "type": "designer",
+      "name": "倪畅",
+      "title": "文创产品设计师",
+      "phone": "15932393626",
+      "wechat": "15932393626",
+      "bio": "",
+      "image": "products/uploads/1790160523437-0IpsSOTMGc.webp"
+    },
+    {
       "id": "CONTACT-MUDWNNC8",
       "type": "designer",
       "name": "武昊卓",
@@ -741,6 +751,7 @@
     }
   ],
   "settings": {
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "woods": [
       "奥古曼",
       "北美黑胡桃",
@@ -778,7 +789,6 @@
       "厨房",
       "茶室",
       "书房"
-    ],
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp"
+    ]
   }
 }
