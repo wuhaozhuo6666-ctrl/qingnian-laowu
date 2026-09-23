@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDSE28R",
+      "name": "朗然客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "木材待确认",
+      "size": "",
+      "image": "products/uploads/1790148824259-Qw4C56QVbv.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "线条轻盈利落，实木框架搭配柔软布艺，沙发、边几、茶几一体组合，兼顾美观与舒适坐感。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDSAT69",
       "name": "承古客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "木材待确认",
