@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE57NLM",
+      "name": "木榫和居榻",
+      "brand": "原木家具",
+      "category": "罗汉床",
+      "room": "茶室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790170360256-VcsXkmpoxt.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "整木打造，框架结构简洁稳固，围合式靠背兼顾倚靠与空间感，中置茶台方便品茗交流，整体沉稳雅致，尽显东方木作韵味。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE53DVS",
       "name": "花窗雅藏柜",
-      "brand": "原木家具",
       "category": "圆角柜",
       "room": "书房",
       "wood": "榆木",
