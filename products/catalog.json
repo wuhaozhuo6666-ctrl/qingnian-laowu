@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDSH5XB",
+      "name": "观华客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "木材待确认",
+      "size": "",
+      "image": "products/uploads/1790148968775-7DJ-MLrpWJ.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "观华客厅套装，经典中式实木成套家具。器型端庄大气，雕花细节考究，沙发、茶几、电视柜组合成套，兼具质感与收纳，尽显中式居家气度。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDSE28R",
       "name": "朗然客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "木材待确认",
