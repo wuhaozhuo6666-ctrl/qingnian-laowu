@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDVZVYX",
+      "name": "淳木四门柜",
+      "brand": "原木家具",
+      "category": "书柜",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790154880731-oTVwVxgNQg.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "淳木四门实木衣柜，对称平开门设计，门板压线简约耐看。全实木结构，内部划分储物区，稳重有质感，主卧收纳优选。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDVX6BX",
       "name": "素禾移门衣柜",
-      "brand": "原木家具",
       "category": "衣柜",
       "room": "卧室",
       "wood": "北美樱桃木",
