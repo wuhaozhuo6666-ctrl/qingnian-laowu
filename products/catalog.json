@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE4YO5S",
+      "name": "木韵梳妆台",
+      "brand": "原木家具",
+      "category": "梳妆台",
+      "room": "卧室",
+      "wood": "北美黑胡桃",
+      "size": "",
+      "image": "products/uploads/1790169940780-5ApnZlC7gW.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "整体以温润实木打造，木纹自然流畅，简洁台面搭配多层抽屉，兼顾收纳与梳妆功能，配套小凳造型灵巧，沉稳中带着东方雅致。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE4UDX4",
       "name": "木隐云栖沙发",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "奥古曼",
