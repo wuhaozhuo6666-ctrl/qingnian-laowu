@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDSW1D9",
+      "name": "玄禾客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "北美黑胡桃",
+      "size": "",
+      "image": "products/uploads/1790149662925-pxCByLbBf6.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "黑胡桃实木成套客厅家具。黑胡桃木纹理细腻深邃，皮质沙发大气舒适，电视柜搭配玻璃展示格，整套搭配，简约高级，适配现代大宅。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDST25G",
       "name": "栖隅客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "奥古曼",
