@@ -1,6 +1,20 @@
 {
   "products": [
     {
+      "id": "LW-MUDR8IF9",
+      "name": "隅禾橱柜",
+      "brand": "原木家具",
+      "category": "橱柜",
+      "room": "厨房",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790146885707-GHGDeVXHtE.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "隅禾橱柜，奥古曼原木质感温润。L型转角布局，分区收纳，兼顾实用与木作美感，打造自然舒适厨房空间。"
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUDQYT39",
       "name": "乌瑶圆餐桌",
