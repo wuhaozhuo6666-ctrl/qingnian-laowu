@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDVPPOL",
+      "name": "云檐架子床",
+      "brand": "原木家具",
+      "category": "床",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790154406454-G4uTvlvOQz.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "云檐原木架子床，经典四柱框架，檐边简雅雕饰。可搭配床幔，榫卯结构稳固，自带中式古典韵味，适合喜欢国风大宅的家庭。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDVM6ZM",
       "name": "观岳原木床",
-      "brand": "原木家具",
       "category": "床",
       "room": "卧室",
       "wood": "榄仁木",
