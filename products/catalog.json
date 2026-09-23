@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDRW2XH",
+      "name": "榫境电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790147985347-MS09J1r3GI.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "榫境电视柜，实木榫卯结构扎实。抽屉与开放格组合，收纳展示两用，质朴木纹，打造沉稳自然的客厅视觉。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDRT46F",
       "name": "静纳单元柜",
-      "brand": "原木家具",
       "category": "衣柜",
       "room": "卧室",
       "wood": "新西兰松木",
