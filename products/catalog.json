@@ -74,7 +74,7 @@
       "brand": "原木家具",
       "id": "LW-MUDVZVYX",
       "name": "淳木四门柜",
-      "category": "书柜",
+      "category": "衣柜",
       "room": "卧室",
       "wood": "奥古曼",
       "size": "",
@@ -741,6 +741,7 @@
     }
   ],
   "settings": {
+    "heroImage": "products/showroom/home-hero.webp",
     "woods": [
       "奥古曼",
       "北美黑胡桃",
