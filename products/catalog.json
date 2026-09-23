@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDVX6BX",
+      "name": "素禾移门衣柜",
+      "brand": "原木家具",
+      "category": "衣柜",
+      "room": "卧室",
+      "wood": "北美樱桃木",
+      "size": "",
+      "image": "products/uploads/1790154754695-XCFxsUa_go.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "素禾实木移门衣柜，竖纹门板简洁大气，推拉设计节省卧室空间。全原木打造，储物容量充足，原木质感温润耐看。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDVUPZN",
       "name": "观闲摇椅",
-      "brand": "原木家具",
       "category": "原木椅",
       "room": "客厅",
       "wood": "乌金木",
