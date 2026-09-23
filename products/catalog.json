@@ -720,6 +720,16 @@
   "cases": [],
   "contacts": [
     {
+      "id": "CONTACT-MUDZEYWU",
+      "type": "designer",
+      "name": "杨波",
+      "title": "资深设计师",
+      "phone": "18501356674",
+      "wechat": "18501356674",
+      "bio": "",
+      "image": "products/uploads/1790160623876-0eeytskbwe.webp"
+    },
+    {
       "id": "CONTACT-MUDZCTE0",
       "type": "designer",
       "name": "倪畅",
