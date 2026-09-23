@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDUXPKS",
+      "name": "川纹原木门",
+      "brand": "原木家具",
+      "category": "原木门",
+      "room": "卧室",
+      "wood": "铅笔柏",
+      "size": "",
+      "image": "products/uploads/1790153099664-zZzbU1ORnJ.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "川纹原木门，复古原木房门。中部横框分割门板，竖向天然木纹舒展，质感厚重扎实，适配原木、美式家装。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDUU6EC",
       "name": "华序对开门",
-      "brand": "原木家具",
       "category": "原木门",
       "room": "卧室",
       "wood": "奥古曼",
