@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDSJX2T",
+      "name": "淡雅客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790149097542-IlPGZcdb7f.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "方序客厅套装，现代实木客厅成套家具。方正箱体自带储物抽屉，宽大软包舒适亲肤，沙发、茶几、电视柜一体化搭配，简约大气，兼顾收纳与居家美感。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDSH5XB",
       "name": "观华客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "木材待确认",
