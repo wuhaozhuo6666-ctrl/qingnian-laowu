@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE8JBOQ",
+      "name": "木韵床头柜",
+      "brand": "原木家具",
+      "category": "床头柜",
+      "room": "卧室",
+      "wood": "红橡",
+      "size": "",
+      "image": "products/uploads/1790175943264-tZQdOD95NA.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "简约柜体搭配三层抽屉，细腻木纹自然铺陈，侧板外展设计增添层次感，上方开放式置物空间方便随手收纳，兼具实用性与独特造型。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE615OJ",
       "name": "云起雅座",
-      "brand": "原木家具",
       "category": "罗汉床",
       "room": "书房",
       "wood": "奥古曼",
