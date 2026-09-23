@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDU3Z08",
+      "name": "清禾实木门",
+      "brand": "原木家具",
+      "category": "原木门",
+      "room": "卧室",
+      "wood": "北美鹅掌楸",
+      "size": "",
+      "image": "products/uploads/1790151712603-S5Jyk-q8_w.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "简约原木房门。保留原木天然纹理，简洁框线设计，造型干净利落，还原木材本真质感，适配现代、原木风空间。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDTY104",
       "name": "春枝实木门",
-      "brand": "原木家具",
       "category": "原木门",
       "room": "卧室",
       "wood": "奥古曼",
