@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE5MU8Y",
+      "name": "木韵福藏罗汉床",
+      "brand": "原木家具",
+      "category": "罗汉床",
+      "room": "书房",
+      "wood": "金花梨木",
+      "size": "",
+      "image": "products/uploads/1790171068520-bDOk73NdWH.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "厚实实木打造，围合式罗汉床搭配精致栏杆与三屉储物，中央配小茶几，兼具休憩、品茗与收纳功能，古朴端庄又舒适实用。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE5J3GH",
       "name": "木简云榻",
-      "brand": "原木家具",
       "category": "罗汉床",
       "room": "书房",
       "wood": "奥古曼",
