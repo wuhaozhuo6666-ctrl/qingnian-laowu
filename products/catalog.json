@@ -1,9 +1,9 @@
 {
   "products": [
     {
+      "brand": "原木家具",
       "id": "LW-MUDRLSB4",
       "name": "观纹单元柜",
-      "brand": "原木家具",
       "category": "衣柜",
       "room": "卧室",
       "wood": "新西兰松木",
@@ -26,7 +26,7 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": ""
+      "desc": "隅禾橱柜，奥古曼原木质感温润。L型转角布局，分区收纳，兼顾实用与木作美感，打造自然舒适厨房空间。"
     },
     {
       "brand": "原木家具",
