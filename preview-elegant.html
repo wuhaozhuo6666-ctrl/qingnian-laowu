@@ -378,7 +378,7 @@ footer{
     {id:'C-012',name:'栖木双人床',category:'床',wood:'实材待确认',image:'products/bed.webp'},
     {id:'DSG-021',name:'长川电视柜',category:'电视柜',wood:'实材待确认',image:'products/console.webp'}
   ];
-  let products=fallback,woods=['奥古曼','北美黑胡桃','北美樱桃木','白蜡木','红橡木','南美胡桃'];
+  let products=fallback,woods=['非洲红胡桃','北美黑胡桃','北美樱桃木','白蜡木','红橡木','南美胡桃'];
   try{
     const r=await fetch('products/catalog.json',{cache:'no-store'});
     if(r.ok){

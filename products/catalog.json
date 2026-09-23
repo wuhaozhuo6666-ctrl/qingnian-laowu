@@ -12,7 +12,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "保留原木树皮与自然肌理，以错落层板构成立体秩序，兼具收纳、陈列与轻隔断功能，如一处生长在室内的林间光隙。"
+      "desc": "保留原木树皮与自然肌理，以错落层板构成立体秩序，兼具收纳、陈列与轻隔断功能，如一处生长在室内的林间光隙。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 1
     },
     {
       "brand": "原木家具",
@@ -26,7 +32,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "仿生发夹造型搭配天然木纹，层叠结构简洁灵巧，开合之间富有趣味性，将木材的自然质感与创意设计结合，兼具装饰性与趣味感。"
+      "desc": "仿生发夹造型搭配天然木纹，层叠结构简洁灵巧，开合之间富有趣味性，将木材的自然质感与创意设计结合，兼具装饰性与趣味感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 2
     },
     {
       "brand": "原木家具",
@@ -40,7 +52,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "简约柜体搭配三层抽屉，细腻木纹自然铺陈，侧板外展设计增添层次感，上方开放式置物空间方便随手收纳，兼具实用性与独特造型。"
+      "desc": "简约柜体搭配三层抽屉，细腻木纹自然铺陈，侧板外展设计增添层次感，上方开放式置物空间方便随手收纳，兼具实用性与独特造型。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 3
     },
     {
       "brand": "原木家具",
@@ -48,13 +66,19 @@
       "name": "云起雅座",
       "category": "罗汉床",
       "room": "书房",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790171736455-zIlyy0n_xy.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "实木框架搭配柔软布艺软包，宽厚坐垫提升舒适度，木质扶手与弧形腿足增添中式韵味，简约大气，兼具质感与实用性。"
+      "desc": "实木框架搭配柔软布艺软包，宽厚坐垫提升舒适度，木质扶手与弧形腿足增添中式韵味，简约大气，兼具质感与实用性。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 4
     },
     {
       "brand": "原木家具",
@@ -68,7 +92,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "温润实木搭配围合式扶手与通透格栅，背板以圆形金属饰件点睛，中置茶几方便品茗，整体沉稳端庄，兼具东方韵味与现代简洁感。"
+      "desc": "温润实木搭配围合式扶手与通透格栅，背板以圆形金属饰件点睛，中置茶几方便品茗，整体沉稳端庄，兼具东方韵味与现代简洁感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 5
     },
     {
       "brand": "原木家具",
@@ -82,7 +112,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "整木框架搭配环抱式格栅围栏，线条舒展利落，点缀金属收口细节，中置茶台兼顾品茗与交流，沉稳中透着东方雅致。"
+      "desc": "整木框架搭配环抱式格栅围栏，线条舒展利落，点缀金属收口细节，中置茶台兼顾品茗与交流，沉稳中透着东方雅致。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 6
     },
     {
       "brand": "原木家具",
@@ -90,13 +126,19 @@
       "name": "木简 清榻",
       "category": "罗汉床",
       "room": "书房",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790171201007-brAPYc-J_l.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "简约实木框架搭配通透格栅靠背，低矮舒展的榻体配以柔软靠枕与中置茶几，整体轻盈通透，兼顾坐卧、品茗与休闲。"
+      "desc": "简约实木框架搭配通透格栅靠背，低矮舒展的榻体配以柔软靠枕与中置茶几，整体轻盈通透，兼顾坐卧、品茗与休闲。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 7
     },
     {
       "brand": "原木家具",
@@ -110,7 +152,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "厚实实木打造，围合式罗汉床搭配精致栏杆与三屉储物，中央配小茶几，兼具休憩、品茗与收纳功能，古朴端庄又舒适实用。"
+      "desc": "厚实实木打造，围合式罗汉床搭配精致栏杆与三屉储物，中央配小茶几，兼具休憩、品茗与收纳功能，古朴端庄又舒适实用。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 8
     },
     {
       "brand": "原木家具",
@@ -118,13 +166,19 @@
       "name": "木简云榻",
       "category": "罗汉床",
       "room": "书房",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790170893871-RBBWG-hRuV.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "整体以简洁实木框架打造，低矮舒展的榻体搭配围合式扶靠，中置小几兼顾置物与品茗，线条简约利落，兼具东方雅韵与现代感。"
+      "desc": "整体以简洁实木框架打造，低矮舒展的榻体搭配围合式扶靠，中置小几兼顾置物与品茗，线条简约利落，兼具东方雅韵与现代感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 9
     },
     {
       "brand": "原木家具",
@@ -138,7 +192,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "沉稳厚实的实木框架，融入中式围合靠背与雕花细节，床体下方巧设多格抽屉，兼顾休憩、收纳与品茗功能，古朴大气。"
+      "desc": "沉稳厚实的实木框架，融入中式围合靠背与雕花细节，床体下方巧设多格抽屉，兼顾休憩、收纳与品茗功能，古朴大气。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 10
     },
     {
       "brand": "原木家具",
@@ -146,13 +206,19 @@
       "name": "木榫和居榻",
       "category": "罗汉床",
       "room": "茶室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790170360256-VcsXkmpoxt.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "整木打造，框架结构简洁稳固，围合式靠背兼顾倚靠与空间感，中置茶台方便品茗交流，整体沉稳雅致，尽显东方木作韵味。"
+      "desc": "整木打造，框架结构简洁稳固，围合式靠背兼顾倚靠与空间感，中置茶台方便品茗交流，整体沉稳雅致，尽显东方木作韵味。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 11
     },
     {
       "brand": "原木家具",
@@ -166,7 +232,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "温润木色搭配对称柜体，精致花纹镂空与框线层层相衬，兼具收纳与装饰功能，古雅端庄又不失细腻，适合中式家居空间。"
+      "desc": "温润木色搭配对称柜体，精致花纹镂空与框线层层相衬，兼具收纳与装饰功能，古雅端庄又不失细腻，适合中式家居空间。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 12
     },
     {
       "brand": "原木家具",
@@ -180,7 +252,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "整体以温润实木打造，木纹自然流畅，简洁台面搭配多层抽屉，兼顾收纳与梳妆功能，配套小凳造型灵巧，沉稳中带着东方雅致。"
+      "desc": "整体以温润实木打造，木纹自然流畅，简洁台面搭配多层抽屉，兼顾收纳与梳妆功能，配套小凳造型灵巧，沉稳中带着东方雅致。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 13
     },
     {
       "brand": "原木家具",
@@ -188,13 +266,19 @@
       "name": "木隐云栖沙发",
       "category": "沙发",
       "room": "客厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790169740892-92G-wjbasp.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "整体采用厚实实木框架，温润木色搭配柔和布艺坐垫，扶手融入储物设计，兼顾舒适、收纳与质感，沉稳耐看，适合客厅长期使用。"
+      "desc": "整体采用厚实实木框架，温润木色搭配柔和布艺坐垫，扶手融入储物设计，兼顾舒适、收纳与质感，沉稳耐看，适合客厅长期使用。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 14
     },
     {
       "brand": "原木家具",
@@ -208,7 +292,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "温润实木搭配精致花鸟纹饰，配合优雅弧形腿脚，古朴中透着灵动，既可独立使用，也能组合陈设，为空间增添东方韵味。"
+      "desc": "温润实木搭配精致花鸟纹饰，配合优雅弧形腿脚，古朴中透着灵动，既可独立使用，也能组合陈设，为空间增添东方韵味。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 15
     },
     {
       "brand": "原木家具",
@@ -216,13 +306,19 @@
       "name": "木藏斗柜",
       "category": "斗柜",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790169276091-XPEtd1cgy7.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "五屉分层，收纳有序，实木纹理温润自然，搭配细致榫卯结构，让实用与传统木作之美融为一体，安静而耐看。"
+      "desc": "五屉分层，收纳有序，实木纹理温润自然，搭配细致榫卯结构，让实用与传统木作之美融为一体，安静而耐看。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 16
     },
     {
       "brand": "原木家具",
@@ -236,7 +332,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "原木旋转立体格架，错落分层设计，榫卯精工，打破常规书架形态，既是藏书收纳，也是室内艺术装置。"
+      "desc": "原木旋转立体格架，错落分层设计，榫卯精工，打破常规书架形态，既是藏书收纳，也是室内艺术装置。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 17
     },
     {
       "brand": "原木家具",
@@ -244,13 +346,19 @@
       "name": "简叙长凳",
       "category": "原木椅",
       "room": "餐厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790156392685-b_Cq0dCiaN.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "简约原木长条长椅，平整大板坐面，加粗方腿稳固扎实，原木温润质感，适配餐桌配套使用。"
+      "desc": "简约原木长条长椅，平整大板坐面，加粗方腿稳固扎实，原木温润质感，适配餐桌配套使用。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 18
     },
     {
       "brand": "原木家具",
@@ -258,13 +366,19 @@
       "name": "知序整墙展示柜",
       "category": "展示柜",
       "room": "客厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790155648088-3RsSmW5HC0.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "整墙实木藏书柜，搭配氛围灯带与移动书梯，多格分区、抽屉储物，海量收纳书籍，打造雅致书房。"
+      "desc": "整墙实木藏书柜，搭配氛围灯带与移动书梯，多格分区、抽屉储物，海量收纳书籍，打造雅致书房。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 19
     },
     {
       "brand": "原木家具",
@@ -278,7 +392,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "模块化原木展示柜，玻璃柜门防尘护藏，分层多格设计，可自由拼接组合，茶器藏品皆可陈列，兼具收纳与观赏质感。"
+      "desc": "模块化原木展示柜，玻璃柜门防尘护藏，分层多格设计，可自由拼接组合，茶器藏品皆可陈列，兼具收纳与观赏质感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 20
     },
     {
       "brand": "原木家具",
@@ -292,7 +412,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "锦纹原木衣柜，双柜组合形制，精美雕花搭配复古铜饰。柜下抽屉可收纳小件，古韵庄重，适合中式大宅。"
+      "desc": "锦纹原木衣柜，双柜组合形制，精美雕花搭配复古铜饰。柜下抽屉可收纳小件，古韵庄重，适合中式大宅。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 21
     },
     {
       "brand": "原木家具",
@@ -300,13 +426,19 @@
       "name": "观序格栅柜",
       "category": "衣柜",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790154978348-BH-kq6VIe-.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "观序原木格栅衣柜，中间镂空格栅移门，虚实相生。天然原木纹理，兼具收纳与美学，新中式卧室氛围感单品。"
+      "desc": "观序原木格栅衣柜，中间镂空格栅移门，虚实相生。天然原木纹理，兼具收纳与美学，新中式卧室氛围感单品。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 22
     },
     {
       "brand": "原木家具",
@@ -314,13 +446,19 @@
       "name": "淳木四门柜",
       "category": "衣柜",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790154880731-oTVwVxgNQg.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "淳木四门实木衣柜，对称平开门设计，门板压线简约耐看。全实木结构，内部划分储物区，稳重有质感，主卧收纳优选。"
+      "desc": "淳木四门实木衣柜，对称平开门设计，门板压线简约耐看。全实木结构，内部划分储物区，稳重有质感，主卧收纳优选。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 23
     },
     {
       "brand": "原木家具",
@@ -334,7 +472,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "素禾实木移门衣柜，竖纹门板简洁大气，推拉设计节省卧室空间。全原木打造，储物容量充足，原木质感温润耐看。"
+      "desc": "素禾实木移门衣柜，竖纹门板简洁大气，推拉设计节省卧室空间。全原木打造，储物容量充足，原木质感温润耐看。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 24
     },
     {
       "brand": "原木家具",
@@ -348,7 +492,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "观闲原木摇椅，实木稳固摇架，搭配柔软布艺软垫，一体式延伸脚踏，躺坐随心，居家静享悠然时光。"
+      "desc": "观闲原木摇椅，实木稳固摇架，搭配柔软布艺软垫，一体式延伸脚踏，躺坐随心，居家静享悠然时光。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 25
     },
     {
       "brand": "原木家具",
@@ -356,13 +506,19 @@
       "name": "云檐架子床",
       "category": "床",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790154406454-G4uTvlvOQz.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "云檐原木架子床，经典四柱框架，檐边简雅雕饰。可搭配床幔，榫卯结构稳固，自带中式古典韵味，适合喜欢国风大宅的家庭。"
+      "desc": "云檐原木架子床，经典四柱框架，檐边简雅雕饰。可搭配床幔，榫卯结构稳固，自带中式古典韵味，适合喜欢国风大宅的家庭。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 26
     },
     {
       "brand": "原木家具",
@@ -376,7 +532,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "观岳原木床，床头远山浮雕，床体螺钿贝雕工艺，自带东方山水意境。镂空格栅床架透气防潮，全实木打造，简约大气，偏爱原木风的优选。"
+      "desc": "观岳原木床，床头远山浮雕，床体螺钿贝雕工艺，自带东方山水意境。镂空格栅床架透气防潮，全实木打造，简约大气，偏爱原木风的优选。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 27
     },
     {
       "brand": "原木家具",
@@ -384,13 +546,19 @@
       "name": "景和原木床",
       "category": "床",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790154067620-a9WgK8L3E0.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "景和原木床，弧形软包床头，细腻竖向压线，倚靠舒适，温润木色，适配新中式、现代主卧。"
+      "desc": "景和原木床，弧形软包床头，细腻竖向压线，倚靠舒适，温润木色，适配新中式、现代主卧。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 28
     },
     {
       "brand": "原木家具",
@@ -398,13 +566,19 @@
       "name": "舒简原木床",
       "category": "床",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790153968403-ndxxppkUAj.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "舒简原木床，双层分段软包床头，层次柔和。实木框架稳固扎实，造型简约不厚重，给卧室带来松弛静谧的休憩氛围。"
+      "desc": "舒简原木床，双层分段软包床头，层次柔和。实木框架稳固扎实，造型简约不厚重，给卧室带来松弛静谧的休憩氛围。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 29
     },
     {
       "brand": "原木家具",
@@ -412,13 +586,19 @@
       "name": "云枕原木床",
       "category": "床",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790153821809-RMVm22kqsq.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "云枕原木床，原木边框搭配压线软包床头，靠感舒适，原木色泽温润，适配现代、新中式卧室。"
+      "desc": "云枕原木床，原木边框搭配压线软包床头，靠感舒适，原木色泽温润，适配现代、新中式卧室。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 30
     },
     {
       "brand": "原木家具",
@@ -426,13 +606,19 @@
       "name": "隐镜梳妆台",
       "category": "梳妆台",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790153528377-sz5HjrqRpS.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "隐镜原木梳妆台，翻盖隐藏镜面设计。合上是整洁书桌，翻开即是妆台，内置多格收纳，实木榫卯工艺，一室多用。"
+      "desc": "隐镜原木梳妆台，翻盖隐藏镜面设计。合上是整洁书桌，翻开即是妆台，内置多格收纳，实木榫卯工艺，一室多用。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 31
     },
     {
       "brand": "原木家具",
@@ -446,7 +632,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "知予原木梳妆台，北欧简约造型。镜面搭配开放式置物格，多抽屉分区收纳，原木质感温润，线条轻盈柔和，卧室梳妆好物。"
+      "desc": "知予原木梳妆台，北欧简约造型。镜面搭配开放式置物格，多抽屉分区收纳，原木质感温润，线条轻盈柔和，卧室梳妆好物。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 32
     },
     {
       "brand": "原木家具",
@@ -460,7 +652,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "川纹原木门，复古原木房门。中部横框分割门板，竖向天然木纹舒展，质感厚重扎实，适配原木、美式家装。"
+      "desc": "川纹原木门，复古原木房门。中部横框分割门板，竖向天然木纹舒展，质感厚重扎实，适配原木、美式家装。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 33
     },
     {
       "brand": "原木家具",
@@ -468,13 +666,19 @@
       "name": "华序对开门",
       "category": "原木门",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790152935379-HZw9bKxfZo.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "华序对开门，新中式原木双开门。一板祥云浮雕，一板简约框线，繁简呼应，原木纹理醇厚大气，尽显东方雅致底蕴。"
+      "desc": "华序对开门，新中式原木双开门。一板祥云浮雕，一板简约框线，繁简呼应，原木纹理醇厚大气，尽显东方雅致底蕴。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 34
     },
     {
       "brand": "原木家具",
@@ -488,7 +692,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "遥川原木门，新中式格栅木门。规整竖向，通透引光，虚实相间，原木肌理质朴柔和，作为隔断，让空间自带静谧东方美感。"
+      "desc": "遥川原木门，新中式格栅木门。规整竖向，通透引光，虚实相间，原木肌理质朴柔和，作为隔断，让空间自带静谧东方美感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 35
     },
     {
       "brand": "原木家具",
@@ -496,13 +706,19 @@
       "name": "简筑原木门",
       "category": "原木门",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790152607165-FSSh1rHriN.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "简筑原木门，经典美式原木房门。门板竖向分格设计，立体线条层次分明，原生实木纹理温润自然，复古沉稳，适配美式、原木家装。"
+      "desc": "简筑原木门，经典美式原木房门。门板竖向分格设计，立体线条层次分明，原生实木纹理温润自然，复古沉稳，适配美式、原木家装。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 36
     },
     {
       "brand": "原木家具",
@@ -510,13 +726,19 @@
       "name": "直序原木门",
       "category": "原木门",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790152490903-QSWqmkxTgx.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "清矩原木门，简约原木房门。门板横竖线条规整分割，造型干净利落，天然木纹温润质朴，低调耐看，适配新中式与原木家装。"
+      "desc": "清矩原木门，简约原木房门。门板横竖线条规整分割，造型干净利落，天然木纹温润质朴，低调耐看，适配新中式与原木家装。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 37
     },
     {
       "brand": "原木家具",
@@ -524,13 +746,19 @@
       "name": "拱月原木门",
       "category": "原木门",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790152317325-oKvAm0DRW-.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "拱月原木门，美式房门。顶部拱形造型搭配分层框线，立体感十足，天然原木纹理细腻，复古优雅，适配美式、轻法式家装。"
+      "desc": "拱月原木门，美式房门。顶部拱形造型搭配分层框线，立体感十足，天然原木纹理细腻，复古优雅，适配美式、轻法式家装。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 38
     },
     {
       "brand": "原木家具",
@@ -544,7 +772,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "门板上下双层轮廓，线条温润干净，原生木纹清晰自然，百搭新中式、原木风家装。"
+      "desc": "门板上下双层轮廓，线条温润干净，原生木纹清晰自然，百搭新中式、原木风家装。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 39
     },
     {
       "brand": "原木家具",
@@ -558,7 +792,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "简约原木房门。保留原木天然纹理，简洁框线设计，造型干净利落，还原木材本真质感，适配现代、原木风空间。"
+      "desc": "简约原木房门。保留原木天然纹理，简洁框线设计，造型干净利落，还原木材本真质感，适配现代、原木风空间。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 40
     },
     {
       "brand": "原木家具",
@@ -566,13 +806,19 @@
       "name": "春枝原木门",
       "category": "原木门",
       "room": "卧室",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790151435141-5eLJzaJJut.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "春枝原木门，新中式原木装饰门。花鸟镶嵌点缀，搭配下方浮雕工艺，线条端庄柔和，入户尽显雅致东方格调。"
+      "desc": "春枝原木门，新中式原木装饰门。花鸟镶嵌点缀，搭配下方浮雕工艺，线条端庄柔和，入户尽显雅致东方格调。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 41
     },
     {
       "brand": "原木家具",
@@ -586,7 +832,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "雀翎玄关柜，艺术实木玄关台。精雕孔雀开屏纹样，流畅弧形木架，可摆放摆件，入户做端景，兼具置物功能与中式吉祥美学。"
+      "desc": "雀翎玄关柜，艺术实木玄关台。精雕孔雀开屏纹样，流畅弧形木架，可摆放摆件，入户做端景，兼具置物功能与中式吉祥美学。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 42
     },
     {
       "brand": "原木家具",
@@ -594,13 +846,19 @@
       "name": "雀翎玄关柜",
       "category": "玄关",
       "room": "客厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790150607384-yeMbuPCKoh.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "雀翎玄关柜，艺术实木玄关台。精雕孔雀开屏纹样，流畅弧形木架，可摆放摆件，入户做端景，兼具置物功能与中式吉祥美学。"
+      "desc": "雀翎玄关柜，艺术实木玄关台。精雕孔雀开屏纹样，流畅弧形木架，可摆放摆件，入户做端景，兼具置物功能与中式吉祥美学。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 43
     },
     {
       "brand": "原木家具",
@@ -614,7 +872,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "雀翎玄关柜，艺术实木玄关台。精雕孔雀开屏纹样，流畅弧形木架，可摆放摆件，入户做端景，兼具置物功能与中式吉祥美学。"
+      "desc": "雀翎玄关柜，艺术实木玄关台。精雕孔雀开屏纹样，流畅弧形木架，可摆放摆件，入户做端景，兼具置物功能与中式吉祥美学。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 44
     },
     {
       "brand": "原木家具",
@@ -622,13 +886,19 @@
       "name": "景硕客厅套装",
       "category": "沙发",
       "room": "客厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790150058507-L55bHBQHJt.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "景硕客厅套装，实木客厅成套家具。宽厚实木扶手用料扎实，搭配质感皮沙发，方正大茶几一体配套，器型沉稳大气，会客居家显档次。"
+      "desc": "景硕客厅套装，实木客厅成套家具。宽厚实木扶手用料扎实，搭配质感皮沙发，方正大茶几一体配套，器型沉稳大气，会客居家显档次。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 45
     },
     {
       "brand": "原木家具",
@@ -642,7 +912,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "流畅弧形实木扶手，搭配柔和布艺软包，主副双茶几错落组合，造型轻盈柔和，简约耐看，适配现代、原木风家装。"
+      "desc": "流畅弧形实木扶手，搭配柔和布艺软包，主副双茶几错落组合，造型轻盈柔和，简约耐看，适配现代、原木风家装。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 46
     },
     {
       "brand": "原木家具",
@@ -650,13 +926,19 @@
       "name": "格筑客厅套装",
       "category": "沙发",
       "room": "客厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790149769208-bs2SlKKgci.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "格筑客厅套装，实木客厅成套家具。外立面方块拼木设计立体感强，箱体框架稳固扎实，搭配磨砂布艺软包，沙发组合自由搭配，质朴大气，自带复古原木质感。"
+      "desc": "格筑客厅套装，实木客厅成套家具。外立面方块拼木设计立体感强，箱体框架稳固扎实，搭配磨砂布艺软包，沙发组合自由搭配，质朴大气，自带复古原木质感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 47
     },
     {
       "brand": "原木家具",
@@ -670,7 +952,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "黑胡桃实木成套客厅家具。黑胡桃木纹理细腻深邃，皮质沙发大气舒适，电视柜搭配玻璃展示格，整套搭配，简约高级，适配现代大宅。"
+      "desc": "黑胡桃实木成套客厅家具。黑胡桃木纹理细腻深邃，皮质沙发大气舒适，电视柜搭配玻璃展示格，整套搭配，简约高级，适配现代大宅。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 48
     },
     {
       "brand": "原木家具",
@@ -678,13 +966,19 @@
       "name": "栖隅客厅套装",
       "category": "沙发",
       "room": "客厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790149523700-LFL0gLI6uU.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "栖隅客厅套装，现代实木客厅组合。温润原木搭配柔和布艺，模块化设计，大沙发+休闲单人椅+茶几，自带储物空间，简约耐看，营造放松舒适的居家氛围。"
+      "desc": "栖隅客厅套装，现代实木客厅组合。温润原木搭配柔和布艺，模块化设计，大沙发+休闲单人椅+茶几，自带储物空间，简约耐看，营造放松舒适的居家氛围。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 49
     },
     {
       "brand": "原木家具",
@@ -698,7 +992,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "金花梨木新中式成套家具。天然木纹细腻温润，棂条设计通透灵动，布艺软包舒适，沙发、茶几、电视柜全套配齐，东方韵味十足。"
+      "desc": "金花梨木新中式成套家具。天然木纹细腻温润，棂条设计通透灵动，布艺软包舒适，沙发、茶几、电视柜全套配齐，东方韵味十足。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 50
     },
     {
       "brand": "原木家具",
@@ -706,13 +1006,19 @@
       "name": "淡雅客厅套装",
       "category": "沙发",
       "room": "客厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790149097542-IlPGZcdb7f.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "方序客厅套装，现代实木客厅成套家具。方正箱体自带储物抽屉，宽大软包舒适亲肤，沙发、茶几、电视柜一体化搭配，简约大气，兼顾收纳与居家美感。"
+      "desc": "方序客厅套装，现代实木客厅成套家具。方正箱体自带储物抽屉，宽大软包舒适亲肤，沙发、茶几、电视柜一体化搭配，简约大气，兼顾收纳与居家美感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 51
     },
     {
       "brand": "原木家具",
@@ -726,7 +1032,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "观华客厅套装，经典中式实木成套家具。器型端庄大气，雕花细节考究，沙发、茶几、电视柜组合成套，兼具质感与收纳，尽显中式居家气度。"
+      "desc": "观华客厅套装，经典中式实木成套家具。器型端庄大气，雕花细节考究，沙发、茶几、电视柜组合成套，兼具质感与收纳，尽显中式居家气度。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 52
     },
     {
       "brand": "原木家具",
@@ -740,7 +1052,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "线条轻盈利落，实木框架搭配柔软布艺，沙发、边几、茶几一体组合，兼顾美观与舒适坐感。"
+      "desc": "线条轻盈利落，实木框架搭配柔软布艺，沙发、边几、茶几一体组合，兼顾美观与舒适坐感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 53
     },
     {
       "brand": "原木家具",
@@ -754,7 +1072,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "中式实木整套搭配。雕花细腻，形制端庄，沙发、圈椅、茶几、电视柜一应俱全，打造沉稳雅致的中式客厅。"
+      "desc": "中式实木整套搭配。雕花细腻，形制端庄，沙发、圈椅、茶几、电视柜一应俱全，打造沉稳雅致的中式客厅。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 54
     },
     {
       "brand": "原木家具",
@@ -768,7 +1092,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "映璃组合电视柜，樱桃木材质温润细腻。对称双柜搭配长虹玻璃，抽屉与展示区一体，兼具收纳与美学，点亮客厅。"
+      "desc": "映璃组合电视柜，樱桃木材质温润细腻。对称双柜搭配长虹玻璃，抽屉与展示区一体，兼具收纳与美学，点亮客厅。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 55
     },
     {
       "brand": "原木家具",
@@ -776,13 +1106,19 @@
       "name": "榫境电视柜",
       "category": "电视柜",
       "room": "客厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790147985347-MS09J1r3GI.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "榫境电视柜，实木榫卯结构扎实。抽屉与开放格组合，收纳展示两用，质朴木纹，打造沉稳自然的客厅视觉。"
+      "desc": "榫境电视柜，实木榫卯结构扎实。抽屉与开放格组合，收纳展示两用，质朴木纹，打造沉稳自然的客厅视觉。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 56
     },
     {
       "brand": "原木家具",
@@ -796,7 +1132,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "静纳衣柜，原木质感温润通透。多柜格搭配抽屉设计，衣物分类收纳，结构规整，营造简约舒适的卧室储物空间。"
+      "desc": "静纳衣柜，原木质感温润通透。多柜格搭配抽屉设计，衣物分类收纳，结构规整，营造简约舒适的卧室储物空间。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 57
     },
     {
       "brand": "原木家具",
@@ -810,7 +1152,13 @@
       "images": [],
       "real": true,
       "options": "",
-      "desc": "新西兰松木，做旧拉丝工艺，纹理自然大气。多门组合搭配抽屉，分区收纳衣物，质朴木作装点卧室空间。"
+      "desc": "新西兰松木，做旧拉丝工艺，纹理自然大气。多门组合搭配抽屉，分区收纳衣物，质朴木作装点卧室空间。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 58
     },
     {
       "brand": "原木家具",
@@ -818,13 +1166,19 @@
       "name": "木叙橱柜",
       "category": "橱柜",
       "room": "厨房",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790147034081-ux0TMUpmDf.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "隅禾橱柜，奥古曼原木质感温润。L型转角布局，分区收纳，兼顾实用与木作美感，打造自然舒适厨房空间。"
+      "desc": "隅禾橱柜，非洲红胡桃原木质感温润。L型转角布局，分区收纳，兼顾实用与木作美感，打造自然舒适厨房空间。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 59
     },
     {
       "brand": "原木家具",
@@ -832,13 +1186,19 @@
       "name": "隅禾橱柜",
       "category": "橱柜",
       "room": "厨房",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790146885707-GHGDeVXHtE.webp",
       "images": [],
       "real": true,
       "options": "",
-      "desc": "隅禾橱柜，奥古曼原木质感温润。L型转角布局，分区收纳，兼顾实用与木作美感，打造自然舒适厨房空间。"
+      "desc": "隅禾橱柜，非洲红胡桃原木质感温润。L型转角布局，分区收纳，兼顾实用与木作美感，打造自然舒适厨房空间。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 60
     },
     {
       "brand": "原木家具",
@@ -854,7 +1214,13 @@
       ],
       "real": true,
       "options": "",
-      "desc": ""
+      "desc": "",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 61
     },
     {
       "brand": "原木家具",
@@ -868,7 +1234,13 @@
       "real": true,
       "options": "",
       "desc": "乌澜餐桌，甄选乌金木打造，桌腿弧度流畅。木纹自然细腻，成套桌椅，让餐厅兼具质感与温润氛围。",
-      "images": []
+      "images": [],
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 62
     },
     {
       "brand": "原木家具",
@@ -876,13 +1248,19 @@
       "name": "简禾餐桌",
       "category": "餐桌",
       "room": "餐厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790094614426-KsxuFcwunk.webp",
       "real": true,
       "options": "",
       "desc": "简禾餐桌，原木简约造型，线条利落柔和。平整大方桌面，稳固扎实，适配餐厅日常用餐，质朴温润。",
-      "images": []
+      "images": [],
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 63
     },
     {
       "brand": "原木家具",
@@ -896,7 +1274,13 @@
       "real": true,
       "options": "",
       "desc": "境禾高餐柜，乌金木质感温润。玻璃展格搭配多区储物，展藏兼具，错落层次打造餐厅雅致空间。",
-      "images": []
+      "images": [],
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 64
     },
     {
       "brand": "原木家具",
@@ -904,13 +1288,19 @@
       "name": "木隅餐边柜",
       "category": "餐边柜",
       "room": "餐厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790094303116-323Jd2j3nG.webp",
       "real": true,
       "options": "",
       "desc": "木隅餐边柜，外露明榫尽显原木质感。三抽实木柜门，大容量收纳，质朴温润，餐厅茶室皆可安放。",
-      "images": []
+      "images": [],
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 65
     },
     {
       "brand": "原木家具",
@@ -918,13 +1308,19 @@
       "name": "云朴餐边柜",
       "category": "餐边柜",
       "room": "餐厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790094163359-oixVHpn4JH.webp",
       "real": true,
       "options": "",
       "desc": "云朴餐边柜，明榫工艺尽显原木质感。三抽搭配玻璃柜门，收纳展示兼顾，温润木色适配餐厅茶室。",
-      "images": []
+      "images": [],
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 66
     },
     {
       "brand": "原木家具",
@@ -938,7 +1334,13 @@
       "real": true,
       "options": "",
       "desc": "云屏博古架，框饰祥云浮雕，竖棂雅致。多格分区，可陈列茶器藏品，一室古韵，尽显东方雅致。",
-      "images": []
+      "images": [],
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 67
     },
     {
       "brand": "原木家具",
@@ -946,13 +1348,19 @@
       "name": "知酌吧台柜",
       "category": "吧台柜",
       "room": "餐厅",
-      "wood": "奥古曼",
+      "wood": "非洲红胡桃",
       "size": "",
       "image": "products/uploads/1790093356536-OIqlxqHoHk.webp",
       "real": true,
       "options": "",
       "desc": "明榫工艺尽显原木质感，菱形酒格藏酒，抽屉收纳器物，延展台面自成一方小酌天地。",
-      "images": []
+      "images": [],
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 68
     }
   ],
   "cases": [],
@@ -1010,7 +1418,7 @@
   ],
   "settings": {
     "woods": [
-      "奥古曼",
+      "非洲红胡桃",
       "北美黑胡桃",
       "北美樱桃木",
       "白蜡木",
@@ -1046,6 +1454,14 @@
       "茶室",
       "书房"
     ],
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp"
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
+    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
+    "storeAddress": "河北张家口怀来 · 华美家具城",
+    "businessHours": "",
+    "parkingInfo": "",
+    "amapUrl": "",
+    "baiduUrl": "",
+    "shareTitle": "青年老吴实木工厂店｜原木家具与全屋定制",
+    "shareDescription": "25年实体家具经验，自有工厂与实体展厅，服务京津冀及周边。"
   }
 }
