@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE53DVS",
+      "name": "花窗雅藏柜",
+      "brand": "原木家具",
+      "category": "圆角柜",
+      "room": "书房",
+      "wood": "榆木",
+      "size": "",
+      "image": "products/uploads/1790170161052-wV6Wg-ilPw.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "温润木色搭配对称柜体，精致花纹镂空与框线层层相衬，兼具收纳与装饰功能，古雅端庄又不失细腻，适合中式家居空间。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE4YO5S",
       "name": "木韵梳妆台",
-      "brand": "原木家具",
       "category": "梳妆台",
       "room": "卧室",
       "wood": "北美黑胡桃",
