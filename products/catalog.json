@@ -1,6 +1,20 @@
 {
   "products": [
     {
+      "id": "LW-MUE4FSL1",
+      "name": "旋筑艺术书架",
+      "brand": "原木家具",
+      "category": "书柜",
+      "room": "书房",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790169060070-pqfnVDqDUf.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木旋转立体格架，错落分层设计，榫卯精工，打破常规书架形态，既是藏书收纳，也是室内艺术装置。"
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUDWWA53",
       "name": "简叙长凳",
