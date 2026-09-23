@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE8MNBF",
+      "name": "木韵发夹",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "客厅",
+      "wood": "北美白橡",
+      "size": "",
+      "image": "products/uploads/1790176097904-UCVM_GYakr.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "仿生发夹造型搭配天然木纹，层叠结构简洁灵巧，开合之间富有趣味性，将木材的自然质感与创意设计结合，兼具装饰性与趣味感。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE8JBOQ",
       "name": "木韵床头柜",
-      "brand": "原木家具",
       "category": "床头柜",
       "room": "卧室",
       "wood": "红橡",
