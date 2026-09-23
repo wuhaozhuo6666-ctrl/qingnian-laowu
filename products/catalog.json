@@ -1,6 +1,20 @@
 {
   "products": [
     {
+      "id": "LW-MUDV6W1T",
+      "name": "隐镜梳妆台",
+      "brand": "原木家具",
+      "category": "梳妆台",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790153528377-sz5HjrqRpS.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "隐镜原木梳妆台，翻盖隐藏镜面设计。合上是整洁书桌，翻开即是妆台，内置多格收纳，实木榫卯工艺，一室多用。"
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUDV1LKF",
       "name": "知予梳妆台",
