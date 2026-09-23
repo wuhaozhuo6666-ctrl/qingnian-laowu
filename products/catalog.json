@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDW1YST",
+      "name": "观序格栅柜",
+      "brand": "原木家具",
+      "category": "衣柜",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790154978348-BH-kq6VIe-.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "观序原木格栅衣柜，中间镂空格栅移门，虚实相生。天然原木纹理，兼具收纳与美学，新中式卧室氛围感单品。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDVZVYX",
       "name": "淳木四门柜",
-      "brand": "原木家具",
       "category": "书柜",
       "room": "卧室",
       "wood": "奥古曼",
