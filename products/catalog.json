@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDRLSB4",
+      "name": "观纹单元柜",
+      "brand": "原木家具",
+      "category": "衣柜",
+      "room": "卧室",
+      "wood": "新西兰松木",
+      "size": "",
+      "image": "products/uploads/1790147504761-i8NTDPff2O.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "新西兰松木，做旧拉丝工艺，纹理自然大气。多门组合搭配抽屉，分区收纳衣物，质朴木作装点卧室空间。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDRBP0O",
       "name": "木叙橱柜",
-      "brand": "原木家具",
       "category": "橱柜",
       "room": "厨房",
       "wood": "奥古曼",
