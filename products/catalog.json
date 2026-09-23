@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDVUPZN",
+      "name": "观闲摇椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "客厅",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790154640364-v-MVX4QFdT.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "观闲原木摇椅，实木稳固摇架，搭配柔软布艺软垫，一体式延伸脚踏，躺坐随心，居家静享悠然时光。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDVPPOL",
       "name": "云檐架子床",
-      "brand": "原木家具",
       "category": "床",
       "room": "卧室",
       "wood": "奥古曼",
