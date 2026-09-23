@@ -1,9 +1,23 @@
 {
   "products": [
     {
-      "id": "LW-MUDTGA92",
+      "id": "LW-MUDTI2X6",
       "name": "雀翎玄关柜",
       "brand": "原木家具",
+      "category": "玄关",
+      "room": "客厅",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790150691385-2Ep1RX3q-2.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "雀翎玄关柜，艺术实木玄关台。精雕孔雀开屏纹样，流畅弧形木架，可摆放摆件，入户做端景，兼具置物功能与中式吉祥美学。"
+    },
+    {
+      "brand": "原木家具",
+      "id": "LW-MUDTGA92",
+      "name": "雀翎玄关柜",
       "category": "玄关",
       "room": "客厅",
       "wood": "奥古曼",
