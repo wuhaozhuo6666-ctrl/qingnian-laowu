@@ -1,9 +1,9 @@
 {
   "products": [
     {
+      "brand": "原木家具",
       "id": "LW-MUDWGBS8",
       "name": "知序整墙展示柜",
-      "brand": "原木家具",
       "category": "展示柜",
       "room": "客厅",
       "wood": "奥古曼",
@@ -704,7 +704,18 @@
     }
   ],
   "cases": [],
-  "contacts": [],
+  "contacts": [
+    {
+      "id": "CONTACT-MUDWL0NZ",
+      "type": "designer",
+      "name": "寇喆",
+      "title": "Senior Designer",
+      "phone": "16619847800",
+      "wechat": "16619847800",
+      "bio": "",
+      "image": "products/uploads/1790155866859-beAn6Xii27.webp"
+    }
+  ],
   "settings": {
     "woods": [
       "奥古曼",
