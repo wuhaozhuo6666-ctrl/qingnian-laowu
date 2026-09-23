@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDST25G",
+      "name": "栖隅客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790149523700-LFL0gLI6uU.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "栖隅客厅套装，现代实木客厅组合。温润原木搭配柔和布艺，模块化设计，大沙发+休闲单人椅+茶几，自带储物空间，简约耐看，营造放松舒适的居家氛围。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDSNX73",
       "name": "梨韵客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "金花梨木",
