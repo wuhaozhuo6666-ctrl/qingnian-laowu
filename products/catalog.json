@@ -1,6 +1,20 @@
 {
   "products": [
     {
+      "id": "LW-MUDV1LKF",
+      "name": "知予梳妆台",
+      "brand": "原木家具",
+      "category": "梳妆台",
+      "room": "卧室",
+      "wood": "北美樱桃木",
+      "size": "",
+      "image": "products/uploads/1790153281403-a6yYRl9s05.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "知予原木梳妆台，北欧简约造型。镜面搭配开放式置物格，多抽屉分区收纳，原木质感温润，线条轻盈柔和，卧室梳妆好物。"
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUDUXPKS",
       "name": "川纹原木门",
