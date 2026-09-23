@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE8SAMD",
+      "name": "林隙书架",
+      "brand": "原木家具",
+      "category": "书架",
+      "room": "书房",
+      "wood": "北美白橡",
+      "size": "",
+      "image": "products/uploads/1790176361792-rTcVwxrkbi.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "保留原木树皮与自然肌理，以错落层板构成立体秩序，兼具收纳、陈列与轻隔断功能，如一处生长在室内的林间光隙。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE8MNBF",
       "name": "木韵发夹",
-      "brand": "原木家具",
       "category": "原木椅",
       "room": "客厅",
       "wood": "北美白橡",
