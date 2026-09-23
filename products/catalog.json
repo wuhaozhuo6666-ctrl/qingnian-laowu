@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDT4IM8",
+      "name": "景硕客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790150058507-L55bHBQHJt.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "景硕客厅套装，实木客厅成套家具。宽厚实木扶手用料扎实，搭配质感皮沙发，方正大茶几一体配套，器型沉稳大气，会客居家显档次。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDT0NVY",
       "name": "青岚客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "木材待确认",
