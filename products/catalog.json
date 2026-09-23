@@ -1,6 +1,20 @@
 {
   "products": [
     {
+      "id": "LW-MUDVGBIR",
+      "name": "舒简原木床",
+      "brand": "原木家具",
+      "category": "床",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790153968403-ndxxppkUAj.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "舒简原木床，双层分段软包床头，层次柔和。实木框架稳固扎实，造型简约不厚重，给卧室带来松弛静谧的休憩氛围。"
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUDVD6F2",
       "name": "云枕原木床",
