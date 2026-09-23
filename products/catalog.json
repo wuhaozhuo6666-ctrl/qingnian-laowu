@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE4KEYG",
+      "name": "木藏斗柜",
+      "brand": "原木家具",
+      "category": "斗柜",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790169276091-XPEtd1cgy7.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "五屉分层，收纳有序，实木纹理温润自然，搭配细致榫卯结构，让实用与传统木作之美融为一体，安静而耐看。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE4FSL1",
       "name": "旋筑艺术书架",
-      "brand": "原木家具",
       "category": "书柜",
       "room": "书房",
       "wood": "乌金木",
