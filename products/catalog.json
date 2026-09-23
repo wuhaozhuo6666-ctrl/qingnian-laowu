@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE5J3GH",
+      "name": "木简云榻",
+      "brand": "原木家具",
+      "category": "罗汉床",
+      "room": "书房",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790170893871-RBBWG-hRuV.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "整体以简洁实木框架打造，低矮舒展的榻体搭配围合式扶靠，中置小几兼顾置物与品茗，线条简约利落，兼具东方雅韵与现代感。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE5FO9X",
       "name": "榫韵雅榻床",
-      "brand": "原木家具",
       "category": "罗汉床",
       "room": "书房",
       "wood": "北美黑胡桃",
