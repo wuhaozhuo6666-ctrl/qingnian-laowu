@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDVM6ZM",
+      "name": "观岳原木床",
+      "brand": "原木家具",
+      "category": "床",
+      "room": "卧室",
+      "wood": "榄仁木",
+      "size": "",
+      "image": "products/uploads/1790154242431-2aJvxv2Awk.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "观岳原木床，床头远山浮雕，床体螺钿贝雕工艺，自带东方山水意境。镂空格栅床架透气防潮，全实木打造，简约大气，偏爱原木风的优选。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDVIGGL",
       "name": "景和原木床",
-      "brand": "原木家具",
       "category": "床",
       "room": "卧室",
       "wood": "奥古曼",
