@@ -1,6 +1,20 @@
 {
   "products": [
     {
+      "id": "LW-MUDUGXJZ",
+      "name": "拱月原木门",
+      "brand": "原木家具",
+      "category": "原木门",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790152317325-oKvAm0DRW-.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "拱月原木门，美式房门。顶部拱形造型搭配分层框线，立体感十足，天然原木纹理细腻，复古优雅，适配美式、轻法式家装。"
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUDUDIDU",
       "name": "山隐原木门",
