@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDVD6F2",
+      "name": "云枕原木床",
+      "brand": "原木家具",
+      "category": "床",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790153821809-RMVm22kqsq.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "云枕原木床，原木边框搭配压线软包床头，靠感舒适，床箱可收纳被褥，原木色泽温润，适配现代、新中式卧室。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDV6W1T",
       "name": "隐镜梳妆台",
-      "brand": "原木家具",
       "category": "梳妆台",
       "room": "卧室",
       "wood": "奥古曼",
