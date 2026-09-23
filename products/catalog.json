@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDWADA7",
+      "name": "观筑藏品展柜",
+      "brand": "原木家具",
+      "category": "展示柜",
+      "room": "客厅",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790155370379-JOcchZr9Bv.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "模块化原木展示柜，玻璃柜门防尘护藏，分层多格设计，可自由拼接组合，茶器藏品皆可陈列，兼具收纳与观赏质感。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDW5IOS",
       "name": "锦纹原木衣柜",
-      "brand": "原木家具",
       "category": "衣柜",
       "room": "卧室",
       "wood": "金花梨木",
