@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE615OJ",
+      "name": "云起雅座",
+      "brand": "原木家具",
+      "category": "罗汉床",
+      "room": "书房",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790171736455-zIlyy0n_xy.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "实木框架搭配柔软布艺软包，宽厚坐垫提升舒适度，木质扶手与弧形腿足增添中式韵味，简约大气，兼具质感与实用性。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE5V02P",
       "name": "木华雅榻",
-      "brand": "原木家具",
       "category": "罗汉床",
       "room": "书房",
       "wood": "北美樱桃木",
