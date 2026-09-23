@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDS0CTO",
+      "name": "双阙电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "北美樱桃木",
+      "size": "",
+      "image": "products/uploads/1790148184844-AgtqKi4mZ8.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "映璃组合电视柜，樱桃木材质温润细腻。对称双柜搭配长虹玻璃，抽屉与展示区一体，兼具收纳与美学，点亮客厅。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDRW2XH",
       "name": "榫境电视柜",
-      "brand": "原木家具",
       "category": "电视柜",
       "room": "客厅",
       "wood": "奥古曼",
