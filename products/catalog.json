@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE5POJT",
+      "name": "木简 清榻",
+      "brand": "原木家具",
+      "category": "罗汉床",
+      "room": "书房",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790171201007-brAPYc-J_l.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "简约实木框架搭配通透格栅靠背，低矮舒展的榻体配以柔软靠枕与中置茶几，整体轻盈通透，兼顾坐卧、品茗与休闲。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE5MU8Y",
       "name": "木韵福藏罗汉床",
-      "brand": "原木家具",
       "category": "罗汉床",
       "room": "书房",
       "wood": "金花梨木",
