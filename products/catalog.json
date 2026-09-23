@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDUU6EC",
+      "name": "华序对开门",
+      "brand": "原木家具",
+      "category": "原木门",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790152935379-HZw9bKxfZo.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "华序对开门，新中式实木双开门。一板祥云浮雕，一板简约框线，繁简呼应，原木纹理醇厚大气，尽显东方雅致底蕴。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDUQQK9",
       "name": "遥川原木门",
-      "brand": "原木家具",
       "category": "原木门",
       "room": "卧室",
       "wood": "非洲花梨",
