@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDWGBS8",
+      "name": "知序整墙展示柜",
+      "brand": "原木家具",
+      "category": "展示柜",
+      "room": "客厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790155648088-3RsSmW5HC0.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "整墙实木藏书柜，搭配氛围灯带与移动书梯，多格分区、抽屉储物，海量收纳书籍，打造雅致书房。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDWADA7",
       "name": "观筑藏品展柜",
-      "brand": "原木家具",
       "category": "展示柜",
       "room": "客厅",
       "wood": "乌金木",
