@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUE5SRVW",
+      "name": "木序雅榻",
+      "brand": "原木家具",
+      "category": "罗汉床",
+      "room": "书房",
+      "wood": "北美樱桃木",
+      "size": "",
+      "image": "products/uploads/1790171345763-Cd4Al-7HBW.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "整木框架搭配环抱式格栅围栏，线条舒展利落，点缀金属收口细节，中置茶台兼顾品茗与交流，沉稳中透着东方雅致。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUE5POJT",
       "name": "木简 清榻",
-      "brand": "原木家具",
       "category": "罗汉床",
       "room": "书房",
       "wood": "奥古曼",
