@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDSYBIO",
+      "name": "格筑客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790149769208-bs2SlKKgci.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "格筑客厅套装，实木客厅成套家具。外立面方块拼木设计立体感强，箱体框架稳固扎实，搭配磨砂布艺软包，沙发组合自由搭配，质朴大气，自带复古原木质感。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDSW1D9",
       "name": "玄禾客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "北美黑胡桃",
