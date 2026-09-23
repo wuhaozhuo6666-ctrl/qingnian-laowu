@@ -78,7 +78,7 @@
       "featured": false,
       "pinned": false,
       "visible": true,
-      "sortOrder": 4
+      "sortOrder": 5
     },
     {
       "brand": "原木家具",
@@ -98,7 +98,7 @@
       "featured": false,
       "pinned": false,
       "visible": true,
-      "sortOrder": 5
+      "sortOrder": 4
     },
     {
       "brand": "原木家具",
@@ -1417,6 +1417,8 @@
     }
   ],
   "settings": {
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
+    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "woods": [
       "非洲红胡桃",
       "北美黑胡桃",
@@ -1454,8 +1456,6 @@
       "茶室",
       "书房"
     ],
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
-    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "storeAddress": "河北张家口怀来 · 华美家具城",
     "businessHours": "",
     "parkingInfo": "",
