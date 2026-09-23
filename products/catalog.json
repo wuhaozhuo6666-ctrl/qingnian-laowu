@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDW5IOS",
+      "name": "锦纹原木衣柜",
+      "brand": "原木家具",
+      "category": "衣柜",
+      "room": "卧室",
+      "wood": "金花梨木",
+      "size": "",
+      "image": "products/uploads/1790155143958-8S5m36IOVy.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "锦纹原木衣柜，双柜组合形制，精美雕花搭配复古铜饰。柜下抽屉可收纳小件，古韵庄重，适合中式大宅。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDW1YST",
       "name": "观序格栅柜",
-      "brand": "原木家具",
       "category": "衣柜",
       "room": "卧室",
       "wood": "奥古曼",
