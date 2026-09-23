@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDSNX73",
+      "name": "梨韵客厅套装",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "金花梨木",
+      "size": "",
+      "image": "products/uploads/1790149284347-0-ajlNtQ9F.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "金花梨木新中式成套家具。天然木纹细腻温润，棂条设计通透灵动，布艺软包舒适，沙发、茶几、电视柜全套配齐，东方韵味十足。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDSJX2T",
       "name": "淡雅客厅套装",
-      "brand": "原木家具",
       "category": "沙发",
       "room": "客厅",
       "wood": "奥古曼",
