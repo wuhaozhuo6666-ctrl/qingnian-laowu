@@ -1,9 +1,23 @@
 {
   "products": [
     {
+      "id": "LW-MUDUKNIC",
+      "name": "直序原木门",
+      "brand": "原木家具",
+      "category": "原木门",
+      "room": "卧室",
+      "wood": "奥古曼",
+      "size": "",
+      "image": "products/uploads/1790152490903-QSWqmkxTgx.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "清矩原木门，简约原木房门。门板横竖线条规整分割，造型干净利落，天然木纹温润质朴，低调耐看，适配新中式与原木家装。"
+    },
+    {
+      "brand": "原木家具",
       "id": "LW-MUDUGXJZ",
       "name": "拱月原木门",
-      "brand": "原木家具",
       "category": "原木门",
       "room": "卧室",
       "wood": "奥古曼",
