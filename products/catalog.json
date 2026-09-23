@@ -741,7 +741,6 @@
     }
   ],
   "settings": {
-    "heroImage": "products/showroom/home-hero.webp",
     "woods": [
       "奥古曼",
       "北美黑胡桃",
@@ -779,6 +778,7 @@
       "厨房",
       "茶室",
       "书房"
-    ]
+    ],
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp"
   }
 }
