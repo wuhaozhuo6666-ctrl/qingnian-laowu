@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFERTUN",
+      "name": "承瑞·床头柜",
+      "brand": "原木家具",
+      "category": "床头柜",
+      "room": "卧室",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790246883685-A8lTX7O8Sc.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "承祥云祥瑞之韵，雕花婉转灵动。柜体稳重扎实，三层抽屉收纳充足。古雅木色，将东方雅致与安然藏于枕畔一隅。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFEO9T8",
       "name": "鼎和·床头柜",
       "brand": "原木家具",
