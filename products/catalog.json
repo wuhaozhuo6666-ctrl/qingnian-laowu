@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFMKONL",
+      "name": "珠韵方边几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "卧室",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790259987339-Hepekdn5BM.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "中式实木角几，顶部圆珠装饰，双层台面，通透格栅，兼具实用与古典美感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFMIMR4",
       "name": "荷韵卷足茶几",
       "brand": "原木家具",
