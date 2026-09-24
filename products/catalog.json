@@ -1813,8 +1813,6 @@
     }
   ],
   "settings": {
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
-    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "woods": [
       "非洲红胡桃",
       "北美黑胡桃",
@@ -1829,7 +1827,8 @@
       "金花梨木",
       "新西兰松木",
       "唐木",
-      "榄仁木"
+      "榄仁木",
+      "柞木"
     ],
     "categories": [
       "大板桌",
@@ -1852,6 +1851,8 @@
       "茶室",
       "书房"
     ],
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
+    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "storeAddress": "河北张家口怀来 · 华美家具城",
     "businessHours": "8：30-22：00",
     "parkingInfo": "家具城院内可停车",
