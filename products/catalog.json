@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFEV0R7",
+      "name": "知朴·床头柜",
+      "brand": "原木家具",
+      "category": "床头柜",
+      "room": "卧室",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790247033043-2EYm-BBgmH.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "坚守木作本真，圆弧边框柔化棱角。方块拉手简约大气，双抽满足收纳需求，天然木纹，尽显质朴高级质感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFERTUN",
       "name": "承瑞·床头柜",
       "brand": "原木家具",
