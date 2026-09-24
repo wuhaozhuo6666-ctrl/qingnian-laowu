@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFFMOY3",
+      "name": "木棂·移动储物柜",
+      "brand": "原木家具",
+      "category": "餐边柜",
+      "room": "餐厅",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790248324139-8vgr80evIM.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "实木打造，椭圆镂空为窗，藤与玻璃两种质感碰撞。翻折顶板搭配万向轮，自由变换空间，温润富有手工气息。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFFJIAU",
       "name": "简杺·电视柜",
       "brand": "原木家具",
