@@ -9,3 +9,15 @@
 
 [functions]
   node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/admin"
+  to = "/.netlify/functions/admin-page"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/admin/"
+  to = "/.netlify/functions/admin-page"
+  status = 200
+  force = true
