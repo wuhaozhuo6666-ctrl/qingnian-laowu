@@ -1412,6 +1412,16 @@
   "cases": [],
   "contacts": [
     {
+      "id": "CONTACT-MUF51AE6",
+      "type": "sales",
+      "name": "牛清霞",
+      "title": "资深销售顾问",
+      "phone": "13931338693",
+      "wechat": "13931338693",
+      "bio": "",
+      "image": "products/uploads/1790230529320-u91QqASb5B.webp"
+    },
+    {
       "id": "CONTACT-MUF4YCUQ",
       "type": "sales",
       "name": "车新爱",
