@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFLZUY7",
+      "name": "圆镜组合茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790259015980-C7RGsj0yxS.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "大小圆几组合，实木一体粗腿设计，圆润台面，可分可合，简约质朴，轻松营造松弛的客厅氛围。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFLY9A7",
       "name": "璞石方茶几",
       "brand": "原木家具",
