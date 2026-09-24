@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFM6W55",
+      "name": "双影圆套几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790259344116-_4bMvgcXcE.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "一大一小实木圆几组合，几何切割支撑脚，简约复古，可分可合摆放，轻松打造错落的客厅层次。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFM5G3X",
       "name": "双叙茶几",
       "brand": "原木家具",
