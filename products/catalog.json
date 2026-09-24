@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFMGI0R",
+      "name": "云雕雅藏茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "金花梨木",
+      "size": "",
+      "image": "products/uploads/1790259791794-kCqZrv5PWR.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "中式实木茶几，精美浮雕雕花，多抽屉大容量储物，造型大气稳重，尽显古典东方韵味。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFMFD0V",
       "name": "菱纹雅筑茶几",
       "brand": "原木家具",
