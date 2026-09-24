@@ -12,7 +12,9 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790262504106-nvszs4.webp"
+      ],
       "visible": true,
       "sortOrder": 1
     }
