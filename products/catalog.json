@@ -1412,6 +1412,16 @@
   "cases": [],
   "contacts": [
     {
+      "id": "CONTACT-MUF4YCUQ",
+      "type": "sales",
+      "name": "车新爱",
+      "title": "资深销售顾问",
+      "phone": "13833358937",
+      "wechat": "13833358937",
+      "bio": "",
+      "image": "products/uploads/1790230392576-I-Arg9UmnJ.webp"
+    },
+    {
       "id": "CONTACT-MUEZM0E4",
       "type": "designer",
       "name": "任晓伟",
