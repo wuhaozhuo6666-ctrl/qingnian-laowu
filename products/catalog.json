@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "LW-MUFFJIAU",
+      "name": "简杺·电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790248174169-_XZUPuFNhO.webp",
+      "images": [
+        "products/uploads/1790248175874-yJ_tgWESZE.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "简约直腿撑起长台面，三抽屉搭配古朴白铜拉手。圆润木珠点缀边角，流畅木纹温润，兼具中式雅致与简约气质。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFFH15A",
       "name": "圆序·电视柜",
       "brand": "原木家具",
