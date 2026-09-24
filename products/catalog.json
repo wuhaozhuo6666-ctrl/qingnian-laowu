@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFFF008",
+      "name": "澄观·电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790247964817-Udq4TShtNZ.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "通透玻璃柜门，可陈列摆件，抽屉与实木柜收纳私物。深棕木纹沉稳大气，虚实相映，营造客厅沉静雅致格调。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFFCS1M",
       "name": "澜章·电视柜",
       "brand": "原木家具",
