@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "LW-MUFFH15A",
+      "name": "圆序·电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790248057074-kIGwwijmaR.webp",
+      "images": [
+        "products/uploads/1790248059841-YAZFxkYsLn.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "方正柜体搭配标志性大圆木拉手，质朴原木拼接纹理自然。四格分区收纳，造型简约富有设计感，装点空间趣味十足。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFFF008",
       "name": "澄观·电视柜",
       "brand": "原木家具",
