@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFMNEYH",
+      "name": "瑞韵长地柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790260115099-TknUXiN4Zf.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "长款实木地柜，手工浮雕装饰，充足储物空间，线条古朴，承载中式家居韵味。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFMKONL",
       "name": "珠韵方边几",
       "brand": "原木家具",
