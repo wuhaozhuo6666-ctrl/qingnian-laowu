@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFDZFVL",
+      "name": "木檐床头柜",
+      "brand": "原木家具",
+      "category": "床头柜",
+      "room": "卧室",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790245559453--M5_pWT8_6.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "取檐角之意，斜切立柱如木檐围护。温润原木肌理，双抽从容收纳。刚柔相融，静立枕畔，承托每一段静谧夜晚。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUF0PZVR",
       "name": "围栖卡座组合柜",
       "brand": "原木家具",
@@ -1503,6 +1523,8 @@
     }
   ],
   "settings": {
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
+    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "woods": [
       "非洲红胡桃",
       "北美黑胡桃",
@@ -1540,8 +1562,6 @@
       "茶室",
       "书房"
     ],
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
-    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "storeAddress": "河北张家口怀来 · 华美家具城",
     "businessHours": "8：30-22：00",
     "parkingInfo": "家具城院内可停车",
