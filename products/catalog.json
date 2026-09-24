@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFLW24P",
+      "name": "云纹雅叙茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "金花梨木",
+      "size": "",
+      "image": "products/uploads/1790258838557-Xk8sqMWFc9.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木打造，扶手云纹雕花，双层置物台面，红棕木纹温润大气，中式古典造型，会客茶叙氛围感拉满。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFLU3JK",
       "name": "格致双层茶几",
       "brand": "原木家具",
