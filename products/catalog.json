@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFLY9A7",
+      "name": "璞石方茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790258941057-p1YEA7KDTw.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "温润实木搭配大气岩板面，抽屉+开放式储物，可拆卸茶盘，层次丰富，打造雅致居家茶空间。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFLW24P",
       "name": "云纹雅叙茶几",
       "brand": "原木家具",
