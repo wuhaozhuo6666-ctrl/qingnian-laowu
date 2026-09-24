@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFM5G3X",
+      "name": "双叙茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790259276438-ayiv4PGT0_.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "混搭材质子母茶几，大理石与实木碰撞，两种艺术底座，可分开摆放，适配现代简约家居。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFM1XVU",
       "name": "睦宠双几",
       "brand": "原木家具",
