@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUF0PZVR",
+      "name": "围栖卡座组合柜",
+      "brand": "原木家具",
+      "category": "餐边柜",
+      "room": "餐厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790223284073-GGbnule5nb.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "将卡座、餐边收纳与顶部书架融为一体，充分利用整面墙体，在有限空间里兼顾用餐、阅读与储物。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUF0BE6R",
       "name": "栖序展示柜",
       "brand": "原木家具",
