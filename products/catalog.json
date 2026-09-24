@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFFCS1M",
+      "name": "澜章·电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790247861512-kcWa7o5-L1.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "柜身雕刻连绵水波纹，虎足底座端庄厚重。多抽屉与柜门组合收纳，黄铜拉手精致点缀，古韵木作尽显东方典雅气度。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFFAPE1",
       "name": "清砚·电视柜",
       "brand": "原木家具",
