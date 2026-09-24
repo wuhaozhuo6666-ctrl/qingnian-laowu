@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "LW-MUFEJX1T",
+      "name": "云杪·床头柜",
+      "brand": "原木家具",
+      "category": "床头柜",
+      "room": "卧室",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790246512170-jR1Nd5tliZ.webp",
+      "images": [
+        "products/uploads/1790246514975-RkMjzajoRl.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "曲木如流云舒展，纹理自然生动。内凹隐形拉手简约干净，三层抽屉收纳杂物。柔和轮廓消解硬朗，营造松弛的卧室氛围。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFDZFVL",
       "name": "木檐床头柜",
       "brand": "原木家具",
