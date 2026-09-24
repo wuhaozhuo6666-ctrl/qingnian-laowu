@@ -1503,8 +1503,6 @@
     }
   ],
   "settings": {
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
-    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "woods": [
       "非洲红胡桃",
       "北美黑胡桃",
@@ -1542,12 +1540,15 @@
       "茶室",
       "书房"
     ],
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
+    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "storeAddress": "河北张家口怀来 · 华美家具城",
-    "businessHours": "",
-    "parkingInfo": "",
+    "businessHours": "8：30-22：00",
+    "parkingInfo": "家具城院内可停车",
     "amapUrl": "",
     "baiduUrl": "",
     "shareTitle": "青年老吴实木工厂店｜原木家具与全屋定制",
-    "shareDescription": "25年实体家具经验，自有工厂与实体展厅，服务京津冀及周边。"
+    "shareDescription": "25年实体家具经验，自有原木工厂和家具展厅，坚持以顾客为中心。",
+    "homeSections": []
   }
 }
