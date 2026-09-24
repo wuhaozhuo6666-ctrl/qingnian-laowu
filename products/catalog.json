@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFM8C5N",
+      "name": "雅韵卷足茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "金花梨木",
+      "size": "",
+      "image": "products/uploads/1790259411140-8x5V-Bpu6n.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木打造，卷云弯腿设计，多抽屉搭配竖格栅雕花，储物空间充足，中式古典韵味浓厚。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFM6W55",
       "name": "双影圆套几",
       "brand": "原木家具",
