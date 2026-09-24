@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFF4Z1I",
+      "name": "观岑·电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790247497525-iXtDSgN5nx.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "柜体如山安稳而立，虚实结合的储物结构，收纳与展示兼备。暖润原木质感，线条简约克制，打造雅致客厅景致。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFF1GRR",
       "name": "衡序·电视柜",
       "brand": "原木家具",
