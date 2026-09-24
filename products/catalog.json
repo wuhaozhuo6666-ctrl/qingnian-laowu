@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFMDRUC",
+      "name": "温榆收纳茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790259665139-wO1zTlEVsf.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木长方茶几，一体式大抽屉，长拉手简约流畅，木色温润，大容量收纳保持客厅整洁。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFMCHGD",
       "name": "榫隅茶几",
       "brand": "原木家具",
