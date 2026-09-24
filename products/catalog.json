@@ -1366,6 +1366,16 @@
   "cases": [],
   "contacts": [
     {
+      "id": "CONTACT-MUEZGNVJ",
+      "type": "sales",
+      "name": "赵楠",
+      "title": "销售经理",
+      "phone": "13283337528",
+      "wechat": "13283337528",
+      "bio": "",
+      "image": "products/uploads/1790221168938-oDCsmB5QCw.webp"
+    },
+    {
       "id": "CONTACT-MUDZHQQ9",
       "type": "designer",
       "name": "梁佳宇",
