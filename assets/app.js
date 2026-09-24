@@ -10,7 +10,7 @@
     storeAddress: '河北张家口怀来 · 华美家具城', businessHours: '', parkingInfo: '',
     amapUrl: '', baiduUrl: '',
     shareTitle: '青年老吴实木工厂店｜原木家具与全屋定制',
-    shareDescription: '25年实体家具经验，自有工厂与实体展厅，服务京津冀及周边。'
+    shareDescription: '25年实体家具经验，自有工厂与实体展厅，服务京津冀及周边。', homeSections: []
   };
   const DEFAULT_WOODS = ['非洲红胡桃', '北美黑胡桃', '北美樱桃木', '白蜡木', '红橡木'];
   let settings = { ...DEFAULT_SETTINGS };
@@ -42,6 +42,9 @@
       availability: String(product.availability || '待确认').trim(),
       leadTime: String(product.leadTime || '请咨询门店').trim(),
       options: String(product.options || '').trim(),
+      originalPrice: String(product.originalPrice || '').trim(),
+      benefitPrice: String(product.benefitPrice || '').trim(),
+      stockQuantity: String(product.stockQuantity || '').trim(),
       featured: product.featured === true,
       pinned: product.pinned === true,
       visible: product.visible !== false,
@@ -64,7 +67,8 @@
         shareImage: validImage(data.settings.shareImage) ? data.settings.shareImage : '',
         woods: Array.isArray(data.settings.woods) ? data.settings.woods.map(String) : [],
         categories: Array.isArray(data.settings.categories) ? data.settings.categories : [],
-        rooms: Array.isArray(data.settings.rooms) ? data.settings.rooms : []
+        rooms: Array.isArray(data.settings.rooms) ? data.settings.rooms : [],
+        homeSections: Array.isArray(data.settings.homeSections) ? data.settings.homeSections : []
       };
     }
     if (Array.isArray(data.products)) {
@@ -126,6 +130,7 @@
   let lastSwipe = 0;
   let pendingShare = null;
   let preShareUrl = '';
+  let posterDownloadUrl = '';
   let consultContext = null;
 
   function notify(message) {
@@ -192,6 +197,7 @@
       '<button class="save ' + (favorites.has(product.id) ? 'selected' : '') + '" aria-label="' + (favorites.has(product.id) ? '取消收藏' : '收藏') + escapeHTML(product.name) + '" aria-pressed="' + favorites.has(product.id) + '">' + (favorites.has(product.id) ? '♥' : '♡') + '</button></div>' +
       '<h3><button>' + escapeHTML(product.name) + '</button></h3>' +
       '<p>' + escapeHTML(product.id) + ' · ' + escapeHTML(product.room) + ' / ' + escapeHTML(product.category) + '</p>' +
+      (product.brand === '展厅惠品' && product.benefitPrice ? '<p class="showroom-price">惠选价 ' + escapeHTML(product.benefitPrice) + (product.originalPrice ? ' <del>' + escapeHTML(product.originalPrice) + '</del>' : '') + '</p>' : '') +
       '<div class="card-status-line"><span class="availability-tag ' + availabilityClass(product.availability) + '">' + escapeHTML(product.availability) + '</span><span class="availability-tag">' + escapeHTML(product.leadTime) + '</span></div>' +
       '<div class="bottom"><span class="woodtag">' + escapeHTML(product.real ? product.wood : '款式示意 · 木材可讨论') + '</span><span>查看详情 ↗</span></div>';
     article.querySelector('.open-picture').onclick = () => openDetail(product);
@@ -246,6 +252,30 @@
     const list = customerProducts().filter(product => product.brand === '文创产品');
     $('creativeGrid').replaceChildren(...list.map(makeCard));
     $('creativeEmpty').hidden = Boolean(list.length);
+  }
+
+  function renderShowroom() {
+    const list = customerProducts().filter(product => product.brand === '展厅惠品');
+    $('showroomGrid').replaceChildren(...list.map(makeCard));
+    $('showroomEmpty').hidden = Boolean(list.length);
+  }
+
+  function renderHomeSections() {
+    const list = (Array.isArray(settings.homeSections) ? settings.homeSections : [])
+      .filter(section => section && section.visible !== false)
+      .sort((a, b) => Number(a.sortOrder || 0) - Number(b.sortOrder || 0));
+    $('homeSections').replaceChildren(...list.map(section => {
+      const article = document.createElement('section');
+      article.className = 'home-module ' + (section.layout === 'right' ? 'right' : 'left') + (!validImage(section.image) ? ' no-image' : '');
+      if (validImage(section.image)) {
+        const media = document.createElement('div'); media.className = 'home-module-media';
+        const img = document.createElement('img'); img.src = liveImage(section.image); img.alt = section.title || '青年老吴'; img.loading = 'lazy'; media.append(img); article.append(media);
+      }
+      const copy = document.createElement('div'); copy.className = 'home-module-copy';
+      copy.innerHTML = (section.eyebrow ? '<span class="eyebrow">' + escapeHTML(section.eyebrow) + '</span>' : '') + '<h2>' + escapeHTML(section.title || '') + '</h2>' + (section.body ? '<p>' + escapeHTML(section.body) + '</p>' : '');
+      if (section.link && /^https:\/\//.test(section.link)) { const link = document.createElement('a'); link.className = 'plain'; link.href = section.link; link.target = '_blank'; link.rel = 'noopener'; link.textContent = section.buttonText || '了解更多'; copy.append(link); }
+      article.append(copy); return article;
+    }));
   }
 
   function renderCases() {
@@ -366,7 +396,7 @@
   function setView(view) {
     state.view = view;
     const viewMap = {
-      products: 'catalogView', huangma: 'huangmaView', spaces: 'spacesView', woods: 'woodsView',
+      products: 'catalogView', huangma: 'huangmaView', showroom: 'showroomView', spaces: 'spacesView', woods: 'woodsView',
       creative: 'creativeView', contacts: 'contactsView', collection: 'collectionView'
     };
     Object.entries(viewMap).forEach(([name, id]) => { $(id).hidden = name !== view; });
@@ -375,6 +405,7 @@
       button.setAttribute('aria-current', button.dataset.view === view ? 'page' : 'false');
     });
     if (view === 'huangma') renderHuangma();
+    if (view === 'showroom') renderShowroom();
     if (view === 'creative') renderCreative();
     if (view === 'contacts') renderContacts();
     if (view === 'collection') renderCollection();
@@ -497,13 +528,15 @@
       detailPushed = false;
     }
     const images = productImages(product);
-    const price = displayPrice(product.price);
+    const price = displayPrice(product.brand === '展厅惠品' && product.benefitPrice ? product.benefitPrice : product.price);
     $('detailPrice').textContent = price;
     $('detailTitle').textContent = product.name;
     $('detailCode').textContent = product.id + ' · ' + product.room;
     $('detailDescription').textContent = product.desc || '这款产品的更多工艺说明正在整理，可先查看全部照片并咨询门店。';
     renderFactRows('detailBasicFacts', [
-      ['分类', product.category], ['编号', product.id], ['销售价', price],
+      ['分类', product.category], ['编号', product.id], [product.brand === '展厅惠品' ? '惠选价' : '销售价', price],
+      ...(product.brand === '展厅惠品' && product.originalPrice ? [['原价', product.originalPrice]] : []),
+      ...(product.brand === '展厅惠品' && product.stockQuantity ? [['数量状态', product.stockQuantity]] : []),
       ['现货 / 定制', product.availability], ['预计周期', product.leadTime],
       ['产品照片', images.length + ' 张，可逐张放大']
     ]);
@@ -775,9 +808,12 @@
       ctx.font = '18px sans-serif';
       ctx.fillText('木材、尺寸、价格与周期以门店最终确认信息为准', 64, height - 28);
       const dataUrl = canvas.toDataURL('image/png', 0.96);
+      const posterBlob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+      if (posterDownloadUrl.startsWith('blob:')) URL.revokeObjectURL(posterDownloadUrl);
+      posterDownloadUrl = posterBlob ? URL.createObjectURL(posterBlob) : dataUrl;
       $('posterPreview').src = dataUrl;
       $('posterPreview').hidden = false;
-      $('downloadPoster').href = dataUrl;
+      $('downloadPoster').href = posterDownloadUrl;
       $('downloadPoster').download = '青年老吴-' + (list.length === 1 ? list[0].id : '选品清单') + '.png';
       $('downloadPoster').hidden = false;
       $('posterStatus').hidden = true;
@@ -838,7 +874,13 @@
 
   const hero = document.querySelector('.hero-cinematic');
   const heroCopy = document.querySelector('.hero-cinematic-copy');
-  if (hero && settings.heroImage) hero.style.setProperty('background-image', 'url(' + JSON.stringify(liveImage(settings.heroImage)) + ')', 'important');
+  if (hero && settings.heroImage) {
+    const heroUrl = liveImage(settings.heroImage);
+    const preload = new Image();
+    preload.onload = () => { hero.style.setProperty('background-image', 'url(' + JSON.stringify(heroUrl) + ')', 'important'); hero.classList.remove('hero-loading'); hero.classList.add('hero-ready'); };
+    preload.onerror = () => { hero.classList.remove('hero-loading'); hero.classList.add('hero-ready'); };
+    preload.src = heroUrl;
+  } else if (hero) { hero.classList.remove('hero-loading'); hero.classList.add('hero-ready'); }
   let scrollTick = false;
   function syncScrollMotion() {
     scrollTick = false;
@@ -911,7 +953,16 @@
     summary: currentCase ? currentCase.title : '原木全屋定制',
     message: '我想了解原木全屋定制\n所在城市：\n房屋面积 / 户型：\n需定制的空间：\n喜欢的木材 / 风格：\n计划时间：'
   });
-  $('consultOpenContacts').onclick = () => { closeDialogElement($('consultDialog')); setView('contacts'); };
+  $('consultOpenContacts').onclick = () => {
+    closeDialogElement($('consultDialog'));
+    if ($('detailDialog').open) closeDetail(false);
+    const url = new URL(location.href);
+    url.searchParams.delete('product');
+    if (/^#product=/.test(url.hash)) url.hash = '';
+    history.replaceState(null, '', url.pathname + url.search + url.hash);
+    setView('contacts');
+    $('contactsView').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
   $('closeConsult').onclick = () => closeDialogElement($('consultDialog'));
   $('consultDialog').onclick = event => { if (event.target === $('consultDialog')) closeDialogElement($('consultDialog')); };
   $('closeCase').onclick = () => closeDialogElement($('caseDialog'));
@@ -958,7 +1009,9 @@
 
   renderCases();
   renderHuangma();
+  renderShowroom();
   renderCreative();
+  renderHomeSections();
   renderContacts();
   updateSaved();
   renderProducts();

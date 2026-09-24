@@ -1,0 +1,6 @@
+<view class="page">
+  <view class="hero"><image src="{{hero}}" mode="aspectFill"/><view class="hero-copy"><text class="hero-title">木材有性格，家具要有分寸。</text><text class="hero-sub">25年实体家具经验 · 自有工厂与展厅</text></view></view>
+  <scroll-view class="nav" scroll-x><text wx:for="{{brands}}" wx:key="*this" class="nav-item {{brand===item?'active':''}}" data-brand="{{item}}" bindtap="chooseBrand">{{item}}</text></scroll-view>
+  <view class="grid"><view class="card" wx:for="{{products}}" wx:key="id" data-id="{{item.id}}" bindtap="openProduct"><image src="{{item.imageUrl}}" mode="aspectFill"/><view class="card-copy"><text class="card-title">{{item.name}}</text><text class="muted">{{item.id}} · {{item.category}}</text><text class="tag">{{item.availability}}</text></view></view></view>
+  <view wx:if="{{!loading&&!products.length}}" class="empty">这个栏目正在整理，可稍后再看。</view>
+</view>
