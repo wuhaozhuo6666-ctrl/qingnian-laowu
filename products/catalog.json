@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFF7UVA",
+      "name": "疏阑·电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790247631832-AHz894qfc1.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "疏棂为栏，卷草雕花饰于两端。中部抽屉收纳日常物件，造型别致富有古韵。醇厚木色，静展东方木作美学。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFF4Z1I",
       "name": "观岑·电视柜",
       "brand": "原木家具",
