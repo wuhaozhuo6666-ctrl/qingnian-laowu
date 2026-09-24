@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFMCHGD",
+      "name": "榫隅茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790259604936-L_wc-qpdTR.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木榫卯结构，边角特色卡扣造型，宽厚桌腿稳固牢靠，原木暖调，简约又富有手工质感。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFMB12V",
       "name": "朴镜方茶几",
       "brand": "原木家具",
