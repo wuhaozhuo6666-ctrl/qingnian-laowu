@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFEO9T8",
+      "name": "鼎和·床头柜",
+      "brand": "原木家具",
+      "category": "床头柜",
+      "room": "卧室",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790246718433-XjpdHI6kKL.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "取鼎稳重之姿，方正柜体搭配创意托底支架。一体挖槽拉手，双抽分区收纳，天然原木质感，以木叙写卧室静谧。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFEJX1T",
       "name": "云杪·床头柜",
       "brand": "原木家具",
