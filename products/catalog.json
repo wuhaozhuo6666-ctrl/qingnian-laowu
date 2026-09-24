@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFLU3JK",
+      "name": "格致双层茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "金花梨木",
+      "size": "",
+      "image": "products/uploads/1790258747096-IO_i513pF2.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木双层结构，桌面开阔，中部竖格栅设计，置物分区清晰，稳固耐用，适合茶歇、会客与日常收纳。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFFZGAL",
       "name": "格叙边几",
       "brand": "原木家具",
@@ -1813,6 +1833,8 @@
     }
   ],
   "settings": {
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
+    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "woods": [
       "非洲红胡桃",
       "北美黑胡桃",
@@ -1851,8 +1873,6 @@
       "茶室",
       "书房"
     ],
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
-    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "storeAddress": "河北张家口怀来 · 华美家具城",
     "businessHours": "8：30-22：00",
     "parkingInfo": "家具城院内可停车",
