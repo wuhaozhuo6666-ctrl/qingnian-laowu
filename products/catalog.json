@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "LW-MUFFZGAL",
+      "name": "格叙边几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790248915620-_lyXcVQwWy.webp",
+      "images": [
+        "products/uploads/1790248917878-5iqIsNFHhj.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "立体阶梯实木立柱，棋盘拼木工艺，通透玻璃圆面，虚实结合，是实用边几也是个性软装摆件。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFFMOY3",
       "name": "木棂·移动储物柜",
       "brand": "原木家具",
