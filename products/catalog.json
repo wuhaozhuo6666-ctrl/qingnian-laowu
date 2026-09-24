@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFM9S9G",
+      "name": "简隅原木茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790259479035-ihuD6Pw_-y.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "简约平直造型，双抽屉大容量储物，原木纹理温润，开放式框架稳固，适配现代简约客厅。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFM8C5N",
       "name": "雅韵卷足茶几",
       "brand": "原木家具",
