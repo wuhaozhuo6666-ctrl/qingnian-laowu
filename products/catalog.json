@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFM1XVU",
+      "name": "睦宠双几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "卧室",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790259113037--xFTT6vEuw.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "可拆分式实木组合茶几，一侧自带猫咪小屋，储物与宠物空间兼顾，简约造型，温馨实用。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFLZUY7",
       "name": "圆镜组合茶几",
       "brand": "原木家具",
