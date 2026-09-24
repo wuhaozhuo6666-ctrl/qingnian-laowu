@@ -1549,6 +1549,21 @@
     "baiduUrl": "",
     "shareTitle": "青年老吴实木工厂店｜原木家具与全屋定制",
     "shareDescription": "25年实体家具经验，自有原木工厂和家具展厅，坚持以顾客为中心。",
-    "homeSections": []
+    "homeSections": [
+      {
+        "id": "SECTION-MUFA9TYK",
+        "type": "imageText",
+        "title": "公司介绍",
+        "eyebrow": "ABOUT US",
+        "body": "",
+        "image": "",
+        "images": [],
+        "link": "",
+        "buttonText": "",
+        "visible": true,
+        "layout": "left",
+        "sortOrder": 0
+      }
+    ]
   }
 }
