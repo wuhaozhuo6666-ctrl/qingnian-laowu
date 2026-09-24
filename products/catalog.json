@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFMIMR4",
+      "name": "荷韵卷足茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790259891402-8Q5PZuJrQ2.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "红棕实木质地，正面花卉雕花，多抽屉储物设计，经典卷脚造型，大气适合中式客厅。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFMGI0R",
       "name": "云雕雅藏茶几",
       "brand": "原木家具",
