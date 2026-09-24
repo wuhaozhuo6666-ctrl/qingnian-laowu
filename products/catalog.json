@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFMFD0V",
+      "name": "菱纹雅筑茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790259739412-uGksST1yMz.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木茶几，一侧开放格搭配菱纹雕刻抽屉，虚实结合，兼具展示与收纳，木色沉稳高级。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFMDRUC",
       "name": "温榆收纳茶几",
       "brand": "原木家具",
