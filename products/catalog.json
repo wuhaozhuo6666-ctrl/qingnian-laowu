@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFMB12V",
+      "name": "朴镜方茶几",
+      "brand": "原木家具",
+      "category": "茶几",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790259537282-CqB-vOspDp.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "极简方正造型，宽厚实木桌腿，纹理自然清晰，无多余装饰，适配侘寂、原木风家装。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFM9S9G",
       "name": "简隅原木茶几",
       "brand": "原木家具",
