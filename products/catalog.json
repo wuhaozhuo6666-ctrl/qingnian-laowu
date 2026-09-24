@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUFFAPE1",
+      "name": "清砚·电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确认",
+      "size": "",
+      "image": "products/uploads/1790247765117-J57dbqtWoy.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "简约长柜线条干净利落，两侧封闭柜门搭配中间抽屉与开放格，藏展兼备。温润原木质感，质朴大方，从容收纳客厅影音器物。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFF7UVA",
       "name": "疏阑·电视柜",
       "brand": "原木家具",
