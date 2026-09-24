@@ -3,6 +3,24 @@
     {
       "id": "WOOD-1790262487899-r94v",
       "name": "非洲红胡桃",
+      "intro": "1",
+      "color": "1",
+      "grain": "1",
+      "density": "1",
+      "hardness": "1",
+      "stability": "1",
+      "uses": "",
+      "care": "",
+      "colorChange": "",
+      "images": [
+        "products/uploads/wood-1790262504106-nvszs4.webp"
+      ],
+      "visible": true,
+      "sortOrder": 1
+    },
+    {
+      "id": "WOOD-1790262529171-ylkr",
+      "name": "选择木材名称…",
       "intro": "",
       "color": "",
       "grain": "",
@@ -12,11 +30,9 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [
-        "products/uploads/wood-1790262504106-nvszs4.webp"
-      ],
+      "images": [],
       "visible": true,
-      "sortOrder": 1
+      "sortOrder": 2
     }
   ]
 }
