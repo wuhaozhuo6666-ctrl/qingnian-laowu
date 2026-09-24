@@ -1,6 +1,28 @@
 {
   "products": [
     {
+      "id": "LW-MUFF1GRR",
+      "name": "衡序·电视柜",
+      "brand": "原木家具",
+      "category": "电视柜",
+      "room": "客厅",
+      "wood": "待确定",
+      "size": "",
+      "image": "products/uploads/1790247332472-gYRcOJ8-g0.webp",
+      "images": [
+        "products/uploads/1790247333993-DGuMS8Ftu0.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "均衡对称布局，开放格与抽屉相得益彰。手工木拉手搭配榫卯工艺，温润原木承载影音日常，诉说木作的沉稳美学。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFEV0R7",
       "name": "知朴·床头柜",
       "brand": "原木家具",
