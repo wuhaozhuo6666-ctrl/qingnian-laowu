@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "LW-MUF0BE6R",
+      "name": "栖序展示柜",
+      "brand": "原木家具",
+      "category": "展示柜",
+      "room": "客厅",
+      "wood": "红橡",
+      "size": "",
+      "image": "products/uploads/1790222593438-FOSlc7IQus.webp",
+      "images": [
+        "products/uploads/1790222595293-nEZC42IInZ.webp",
+        "products/uploads/1790222597077-FUsZk5Y7jI.webp",
+        "products/uploads/1790222598886-DR_E1O1B8Y.webp",
+        "products/uploads/1790222600772-2QHBRKnNcX.webp",
+        "products/uploads/1790222602690--hCxnknMRU.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "圆润弧线串联错落展格，洞洞板与封闭地柜组合，兼顾藏品陈列和日常收纳，让客厅更有层次与秩序。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "brand": "原木家具",
       "id": "LW-MUE8SAMD",
       "name": "林隙书架",
