@@ -19,7 +19,9 @@ const files = output.split(/\r?\n/).map(s => s.trim()).filter(Boolean);
 if (!files.length) process.exit(0);
 
 const deployless = files.every(path =>
-  path === 'products/catalog.json' || path.startsWith('products/uploads/')
+  path === 'products/catalog.json' ||
+  path === 'products/woods.json' ||
+  path.startsWith('products/uploads/')
 );
 
 // Netlify ignore contract: 0 = skip build, 1 = continue build.
