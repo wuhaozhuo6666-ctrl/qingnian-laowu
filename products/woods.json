@@ -102,7 +102,16 @@
       "uses": "推荐书柜、餐边柜、餐桌、床、木门、厨柜、护墙板、木饰面\n白蜡非常适合：北欧、日式、现代原木、极简、侘寂、浅色中古",
       "care": "避免长期过度干燥",
       "colorChange": "逐渐由奶白色或者浅黄色变为浅棕色至稍微深色",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790325015066-dlcpwd.webp",
+        "products/uploads/wood-1790325017037-rdolfy.webp",
+        "products/uploads/wood-1790325018837-qb6hjf.webp",
+        "products/uploads/wood-1790325021000-ppts2i.webp",
+        "products/uploads/wood-1790325023226-w27p4s.webp",
+        "products/uploads/wood-1790325026734-vukpbo.webp",
+        "products/uploads/wood-1790325029203-z49ken.webp",
+        "products/uploads/wood-1790325031264-imubww.webp"
+      ],
       "visible": true,
       "sortOrder": 5
     }
