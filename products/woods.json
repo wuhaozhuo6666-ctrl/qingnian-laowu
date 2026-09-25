@@ -73,6 +73,22 @@
       ],
       "visible": true,
       "sortOrder": 3
+    },
+    {
+      "id": "WOOD-1790323304690-s0v7",
+      "name": "选择木材名称…",
+      "intro": "",
+      "color": "",
+      "grain": "",
+      "density": "",
+      "hardness": "",
+      "stability": "",
+      "uses": "",
+      "care": "",
+      "colorChange": "",
+      "images": [],
+      "visible": true,
+      "sortOrder": 4
     }
   ]
 }
