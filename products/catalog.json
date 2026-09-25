@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTUAUL",
+      "name": "逸朴复古单人沙发椅",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790332660118-monrAcbIrH.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "大倾角靠背设计，实木飞翼扶手，皮质软包饱满，倚靠放松感强，客厅阳台，居家休闲氛围感十足。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTR6JP",
       "name": "知礼简约圈椅",
       "brand": "原木家具",
