@@ -89,6 +89,22 @@
       "images": [],
       "visible": true,
       "sortOrder": 4
+    },
+    {
+      "id": "WOOD-1790323311024-mfew",
+      "name": "白蜡木",
+      "intro": "",
+      "color": "",
+      "grain": "",
+      "density": "",
+      "hardness": "",
+      "stability": "",
+      "uses": "",
+      "care": "",
+      "colorChange": "",
+      "images": [],
+      "visible": true,
+      "sortOrder": 5
     }
   ]
 }
