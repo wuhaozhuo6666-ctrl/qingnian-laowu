@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGU18EK",
+      "name": "揽月一体化扶手椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "茶室",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790332983345-lFyu2UB68z.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "整块实木一体弯弧工艺，靠背扶手流畅相连，搭配软垫坐面，造型简约大气，餐椅书椅两用。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTYGH7",
       "name": "淳艺藤编扶手椅",
       "brand": "原木家具",
