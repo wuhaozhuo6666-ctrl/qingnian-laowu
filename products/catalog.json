@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTR6JP",
+      "name": "知礼简约圈椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "书房",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790332514543-f7h_3kycw_.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "一体圆弧围合扶手，独板靠背点缀金属饰片，结构稳固，坐感舒适，适配茶桌书桌，古典与现代巧妙融合。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTN14A",
       "name": "简境中古原木休闲椅",
       "brand": "原木家具",
