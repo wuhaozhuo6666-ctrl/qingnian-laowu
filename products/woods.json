@@ -38,6 +38,22 @@
       "images": [],
       "visible": true,
       "sortOrder": 2
+    },
+    {
+      "id": "WOOD-1790312541986-9967",
+      "name": "北美樱桃木",
+      "intro": "",
+      "color": "",
+      "grain": "",
+      "density": "",
+      "hardness": "",
+      "stability": "",
+      "uses": "",
+      "care": "",
+      "colorChange": "",
+      "images": [],
+      "visible": true,
+      "sortOrder": 3
     }
   ]
 }
