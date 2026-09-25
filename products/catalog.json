@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTYGH7",
+      "name": "淳艺藤编扶手椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "书房",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790332854064-1WWuce2Gxy.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "实木精工框架，手工藤编座面透气耐磨，靠背弧度贴合腰背，复古中古风，餐桌书房都可搭配。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTWL9R",
       "name": "羽柔曲线餐椅",
       "brand": "原木家具",
