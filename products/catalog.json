@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTN14A",
+      "name": "简境中古原木休闲椅",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790332320710-vx2ylT3Yfk.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "实木硬朗框架搭配米色系布艺软包，座靠宽厚饱满，简约沉稳，客厅书房使用，舒适耐看百搭家装。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTL7YQ",
       "name": "如意雕花圆鼓凳",
       "brand": "原木家具",
