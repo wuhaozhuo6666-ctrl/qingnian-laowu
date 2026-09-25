@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGT7HPW",
+      "name": "山序创意半月椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "书房",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790331595923-4WdWB88iZZ.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "弧形坐面搭配山峦镂空造型，实木纹理质感出众，造型独特充满设计感，艺术感强，适合客厅茶室休憩落座。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGT3ZPT",
       "name": "素方简约木椅",
       "brand": "原木家具",
