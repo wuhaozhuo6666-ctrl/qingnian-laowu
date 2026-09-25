@@ -28,7 +28,7 @@
     {
       "id": "WOOD-1790312541986-9967",
       "name": "北美樱桃木",
-      "intro": "11",
+      "intro": "",
       "color": "11",
       "grain": "1",
       "density": "11",
@@ -38,7 +38,13 @@
       "care": "",
       "colorChange": "",
       "images": [
-        "products/uploads/wood-1790312694657-g7tatg.webp"
+        "products/uploads/wood-1790319191369-d7a63a.webp",
+        "products/uploads/wood-1790319192952-3cuqhk.webp",
+        "products/uploads/wood-1790319194439-hw9nsc.webp",
+        "products/uploads/wood-1790319195729-ybz2zc.webp",
+        "products/uploads/wood-1790319196961-k74i9h.webp",
+        "products/uploads/wood-1790319198252-scv9rs.webp",
+        "products/uploads/wood-1790319199560-q2obad.webp"
       ],
       "visible": true,
       "sortOrder": 2
