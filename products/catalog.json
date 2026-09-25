@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGT3ZPT",
+      "name": "素方简约木椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "餐厅",
+      "wood": "白蜡木",
+      "size": "",
+      "image": "products/uploads/1790331432241-2zxreGJNS5.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "简约直板靠背，通体实木打造，结构稳固结实，线条干净利落，适配餐桌使用，家用百搭耐看。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGT0V9R",
       "name": "木语藤编扶手椅",
       "brand": "原木家具",
