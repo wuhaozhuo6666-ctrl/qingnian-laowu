@@ -12,7 +12,14 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790302512755-vpcy04.webp",
+        "products/uploads/wood-1790302515026-npqqvf.webp",
+        "products/uploads/wood-1790302517185-ge5pwe.webp",
+        "products/uploads/wood-1790302518833-skbpjt.webp",
+        "products/uploads/wood-1790302521105-tby9eg.webp",
+        "products/uploads/wood-1790302523202-bo2ypb.webp"
+      ],
       "visible": true,
       "sortOrder": 1
     }
