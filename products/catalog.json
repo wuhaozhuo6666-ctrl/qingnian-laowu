@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTGEBQ",
+      "name": "睦禾中古担任沙发椅",
+      "brand": "原木家具",
+      "category": "沙发",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790332011349-pZGaJBeyFJ.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木弯曲扶手搭配方格软包，坐靠饱满厚实，复古格调拉满，客厅阳台摆放，休闲小憩十分惬意。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTDH5N",
       "name": "雅韵圈椅",
       "brand": "原木家具",
