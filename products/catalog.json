@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTDH5N",
+      "name": "雅韵圈椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790331875051-LCg25jL6Xs.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "流畅弧形围合扶手，实木纹理清晰，布艺座垫舒缓臀部，结构稳固，兼具古典美感与现代舒适体验。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTAW08",
       "name": "温雅软包原木餐椅",
       "brand": "原木家具",
