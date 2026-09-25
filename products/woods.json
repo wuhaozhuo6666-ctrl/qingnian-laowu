@@ -44,16 +44,18 @@
     {
       "id": "WOOD-1790312541986-9967",
       "name": "北美樱桃木",
-      "intro": "",
-      "color": "",
-      "grain": "",
-      "density": "",
-      "hardness": "",
-      "stability": "",
+      "intro": "11",
+      "color": "11",
+      "grain": "1",
+      "density": "11",
+      "hardness": "1",
+      "stability": "1",
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790312694657-g7tatg.webp"
+      ],
       "visible": true,
       "sortOrder": 3
     },
