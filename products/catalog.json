@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTL7YQ",
+      "name": "如意雕花圆鼓凳",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "客厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790332236425-UUI8OE7uhr.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "中式古典雕花工艺，弯腿如意纹饰，搭配软包坐垫，坐感舒适，做工精致，茶室客厅陈设实用兼具观赏。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTIQTF",
       "name": "简致靠背木椅",
       "brand": "原木家具",
