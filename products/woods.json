@@ -3,15 +3,15 @@
     {
       "id": "WOOD-1790262529171-ylkr",
       "name": "非洲红胡桃",
-      "intro": "",
-      "color": "",
-      "grain": "",
-      "density": "",
-      "hardness": "",
-      "stability": "",
-      "uses": "",
-      "care": "",
-      "colorChange": "",
+      "intro": "1",
+      "color": "1",
+      "grain": "1",
+      "density": "1",
+      "hardness": "1",
+      "stability": "1",
+      "uses": "1",
+      "care": "1",
+      "colorChange": "1",
       "images": [
         "products/uploads/wood-1790302512755-vpcy04.webp",
         "products/uploads/wood-1790302515026-npqqvf.webp",
@@ -22,6 +22,22 @@
       ],
       "visible": true,
       "sortOrder": 1
+    },
+    {
+      "id": "WOOD-1790306081697-1vwt",
+      "name": "选择木材名称…",
+      "intro": "",
+      "color": "",
+      "grain": "",
+      "density": "",
+      "hardness": "",
+      "stability": "",
+      "uses": "",
+      "care": "",
+      "colorChange": "",
+      "images": [],
+      "visible": true,
+      "sortOrder": 2
     }
   ]
 }
