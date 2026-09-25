@@ -93,16 +93,18 @@
     {
       "id": "WOOD-1790323311024-mfew",
       "name": "白蜡木",
-      "intro": "",
-      "color": "",
-      "grain": "",
-      "density": "",
+      "intro": "1",
+      "color": "1",
+      "grain": "1",
+      "density": "1",
       "hardness": "",
       "stability": "",
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790323354041-ezrf1r.webp"
+      ],
       "visible": true,
       "sortOrder": 5
     }
