@@ -50,7 +50,7 @@
     },
     {
       "id": "WOOD-1790312636746-wux1",
-      "name": "选择木材名称…",
+      "name": "北美黑胡桃",
       "intro": "",
       "color": "",
       "grain": "",
@@ -60,7 +60,20 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790321566525-xw36dy.webp",
+        "products/uploads/wood-1790321568046-io1ujv.webp",
+        "products/uploads/wood-1790321569937-yl43x2.webp",
+        "products/uploads/wood-1790321571333-z5w8pc.webp",
+        "products/uploads/wood-1790321573131-ynbgu3.webp",
+        "products/uploads/wood-1790321574760-bq2gmg.webp",
+        "products/uploads/wood-1790321576447-c7vhkf.webp",
+        "products/uploads/wood-1790321577932-6q6rn9.webp",
+        "products/uploads/wood-1790321579693-clnmqx.webp",
+        "products/uploads/wood-1790321581434-52jt3p.webp",
+        "products/uploads/wood-1790321584832-chmd94.webp",
+        "products/uploads/wood-1790321587469-pl5pfv.webp"
+      ],
       "visible": true,
       "sortOrder": 3
     }
