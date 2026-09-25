@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGSXUC0",
+      "name": "淳木休闲单人椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "客厅",
+      "wood": "乌金木",
+      "size": "",
+      "image": "products/uploads/1790331144654-feF0dRMhh3.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "原木框架搭配软质皮座，造型简约厚重，靠背扶手一体设计，坐感舒适，客厅书房摆放，氛围感十足。",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUFMNEYH",
       "name": "瑞韵长地柜",
       "brand": "原木家具",
