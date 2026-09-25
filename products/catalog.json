@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTWL9R",
+      "name": "羽柔曲线餐椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "餐厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790332766996-dmJVKpxXKf.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGTUAUL",
       "name": "逸朴复古单人沙发椅",
       "brand": "原木家具",
