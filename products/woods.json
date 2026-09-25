@@ -24,24 +24,6 @@
       "sortOrder": 1
     },
     {
-      "id": "WOOD-1790306081697-1vwt",
-      "name": "北美樱桃木",
-      "intro": "1",
-      "color": "111",
-      "grain": "111",
-      "density": "1",
-      "hardness": "1",
-      "stability": "1",
-      "uses": "1",
-      "care": "1",
-      "colorChange": "1",
-      "images": [
-        "products/uploads/wood-1790312570737-bgx4t6.webp"
-      ],
-      "visible": true,
-      "sortOrder": 2
-    },
-    {
       "id": "WOOD-1790312541986-9967",
       "name": "北美樱桃木",
       "intro": "11",
@@ -57,7 +39,7 @@
         "products/uploads/wood-1790312694657-g7tatg.webp"
       ],
       "visible": true,
-      "sortOrder": 3
+      "sortOrder": 2
     },
     {
       "id": "WOOD-1790312636746-wux1",
@@ -73,7 +55,7 @@
       "colorChange": "",
       "images": [],
       "visible": true,
-      "sortOrder": 4
+      "sortOrder": 3
     }
   ]
 }
