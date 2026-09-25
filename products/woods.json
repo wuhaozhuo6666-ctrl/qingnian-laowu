@@ -2,7 +2,7 @@
   "profiles": [
     {
       "id": "WOOD-1790262529171-ylkr",
-      "name": "选择木材名称…",
+      "name": "非洲红胡桃",
       "intro": "",
       "color": "",
       "grain": "",
@@ -12,7 +12,9 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790302446778-w1awxg.webp"
+      ],
       "visible": true,
       "sortOrder": 1
     }
