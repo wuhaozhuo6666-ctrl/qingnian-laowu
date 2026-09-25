@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUGTAW08",
+      "name": "温雅软包原木餐椅",
+      "brand": "原木家具",
+      "category": "原木椅",
+      "room": "餐厅",
+      "wood": "非洲红胡桃",
+      "size": "",
+      "image": "products/uploads/1790331754463-jvW6DjPUgE.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "圆润弧形实木框，搭配浅米色软包，坐靠柔软舒适，线条温婉流畅，家用餐桌搭配，简约又显质感。",
+      "availability": "待确认",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUGT7HPW",
       "name": "山序创意半月椅",
       "brand": "原木家具",
