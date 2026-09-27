@@ -2394,6 +2394,16 @@
   "cases": [],
   "contacts": [
     {
+      "id": "CONTACT-MUJALPBB",
+      "type": "sales",
+      "name": "米富华",
+      "title": "",
+      "phone": "17731324108",
+      "wechat": "17731324108",
+      "bio": "",
+      "image": "products/uploads/1790481744655-jAgRtHejx7.webp"
+    },
+    {
       "id": "CONTACT-MUF54NQM",
       "type": "designer",
       "name": "任晓伟",
