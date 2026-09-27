@@ -2556,6 +2556,20 @@
         "visible": true,
         "layout": "left",
         "sortOrder": 0
+      },
+      {
+        "id": "SECTION-MUK0QXCF",
+        "type": "imageText",
+        "title": "1",
+        "eyebrow": "",
+        "body": "",
+        "image": "products/uploads/1790525662632-9kB6hJo21f.webp",
+        "images": [],
+        "link": "",
+        "buttonText": "",
+        "visible": true,
+        "layout": "left",
+        "sortOrder": 1
       }
     ]
   }
