@@ -218,6 +218,22 @@
       ],
       "visible": true,
       "sortOrder": 9
+    },
+    {
+      "id": "WOOD-1790491463586-v2oi",
+      "name": "非洲花梨",
+      "intro": "",
+      "color": "",
+      "grain": "",
+      "density": "",
+      "hardness": "",
+      "stability": "",
+      "uses": "",
+      "care": "",
+      "colorChange": "",
+      "images": [],
+      "visible": true,
+      "sortOrder": 10
     }
   ]
 }
