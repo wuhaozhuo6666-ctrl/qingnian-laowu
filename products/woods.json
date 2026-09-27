@@ -303,7 +303,7 @@
     },
     {
       "id": "WOOD-1790502484478-d1bv",
-      "name": "选择木材名称…",
+      "name": "柚木",
       "intro": "",
       "color": "",
       "grain": "",
@@ -315,7 +315,10 @@
       "colorChange": "",
       "images": [
         "products/uploads/wood-1790502512012-glzfe5.webp",
-        "products/uploads/wood-1790502513599-yqn80x.webp"
+        "products/uploads/wood-1790502513599-yqn80x.webp",
+        "products/uploads/wood-1790502534525-f781od.webp",
+        "products/uploads/wood-1790502536180-xpfe6x.webp",
+        "products/uploads/wood-1790502537611-67tahp.webp"
       ],
       "visible": true,
       "sortOrder": 14
