@@ -281,7 +281,7 @@
     },
     {
       "id": "WOOD-1790501460879-jw3n",
-      "name": "选择木材名称…",
+      "name": "欧洲榉木",
       "intro": "",
       "color": "",
       "grain": "",
@@ -291,7 +291,11 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790501629364-osthnm.webp",
+        "products/uploads/wood-1790501630936-2kpk8z.webp",
+        "products/uploads/wood-1790501632432-b3rnc5.webp"
+      ],
       "visible": true,
       "sortOrder": 13
     }
