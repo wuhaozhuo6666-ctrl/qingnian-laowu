@@ -21,6 +21,7 @@ if (!files.length) process.exit(0);
 const deployless = files.every(path =>
   path === 'products/catalog.json' ||
   path === 'products/woods.json' ||
+  path === 'products/craft.json' ||
   path.startsWith('products/uploads/')
 );
 
