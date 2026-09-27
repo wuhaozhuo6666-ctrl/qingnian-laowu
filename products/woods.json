@@ -236,6 +236,22 @@
       ],
       "visible": true,
       "sortOrder": 10
+    },
+    {
+      "id": "WOOD-1790493544189-s45h",
+      "name": "新西兰松木",
+      "intro": "",
+      "color": "",
+      "grain": "",
+      "density": "",
+      "hardness": "",
+      "stability": "",
+      "uses": "",
+      "care": "",
+      "colorChange": "",
+      "images": [],
+      "visible": true,
+      "sortOrder": 11
     }
   ]
 }
