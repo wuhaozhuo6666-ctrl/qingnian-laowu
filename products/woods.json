@@ -313,7 +313,10 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790502512012-glzfe5.webp",
+        "products/uploads/wood-1790502513599-yqn80x.webp"
+      ],
       "visible": true,
       "sortOrder": 14
     }
