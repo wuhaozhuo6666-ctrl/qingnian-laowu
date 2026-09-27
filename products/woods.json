@@ -170,7 +170,7 @@
     },
     {
       "id": "WOOD-1790480479180-e4j4",
-      "name": "选择木材名称…",
+      "name": "红橡",
       "intro": "",
       "color": "",
       "grain": "",
@@ -180,7 +180,10 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790481006911-caqseb.webp",
+        "products/uploads/wood-1790481009024-0rosea.webp"
+      ],
       "visible": true,
       "sortOrder": 8
     }
