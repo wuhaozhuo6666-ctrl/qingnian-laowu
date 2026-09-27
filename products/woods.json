@@ -222,7 +222,7 @@
     {
       "id": "WOOD-1790491463586-v2oi",
       "name": "非洲花梨",
-      "intro": "",
+      "intro": "标准材种名称为刺猬紫檀，是一种主要产自西非的紫檀属阔叶硬木，也是我国《红木》国家标准中的花梨木类木材。其心材从浅黄褐、红褐到紫红褐色不等，常伴有深色条纹，木质较重、硬度较高，适合红木家具、柜体、地板、雕刻及精细木作。",
       "color": "",
       "grain": "",
       "density": "",
@@ -231,7 +231,9 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790492334119-b3tzgu.webp"
+      ],
       "visible": true,
       "sortOrder": 10
     }
