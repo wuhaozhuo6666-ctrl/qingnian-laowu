@@ -144,7 +144,7 @@
     },
     {
       "id": "WOOD-1790474513423-427e",
-      "name": "选择木材名称…",
+      "name": "北美白橡",
       "intro": "",
       "color": "",
       "grain": "",
@@ -154,7 +154,9 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790476378913-a5erf0.webp"
+      ],
       "visible": true,
       "sortOrder": 7
     }
