@@ -365,7 +365,7 @@
     },
     {
       "id": "WOOD-1790581002716-a1gj",
-      "name": "选择木材名称…",
+      "name": "沙比利",
       "intro": "",
       "color": "",
       "grain": "",
@@ -375,7 +375,10 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790581034938-vqjxh6.webp",
+        "products/uploads/wood-1790581036701-wsa8xf.webp"
+      ],
       "visible": true,
       "sortOrder": 17
     }
