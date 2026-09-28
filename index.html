@@ -108,7 +108,7 @@ header,main,footer{position:relative;z-index:1}
 .breeze-layer,.leaf-cluster{display:none!important}
 .hero-cinematic{background-image:url("products/showroom/home-hero.webp")!important;background-color:#151515!important}
 .hero-cinematic-copy{will-change:transform,opacity;transition:opacity .08s linear}
-.hero-cinematic h1{font-family:"STKaiti","KaiTi","Songti SC","STSong",serif!important;font-size:clamp(38px,4.8vw,70px)!important;line-height:1.12!important;font-weight:400!important;letter-spacing:.015em!important}
+.hero-cinematic h1{font-family:"Songti SC","STSong",SimSun,serif!important;font-size:clamp(38px,4.8vw,70px)!important;line-height:1.12!important;font-weight:400!important;letter-spacing:.015em!important}
 .hero-line-one,.hero-line-two{-webkit-background-clip:text;background-clip:text;color:transparent!important}
 .hero-line-one{background-image:linear-gradient(90deg,#b98c43 0%,#d9bd84 38%,#f1eee6 100%)}
 .hero-line-two{background-image:linear-gradient(90deg,#f2efe7 0%,#e7d7b5 45%,#bd914c 100%)}
@@ -550,7 +550,7 @@ body.detail-open{overflow:hidden!important}
   </div>
 </section>
 <section id="brandPrelude" class="brand-prelude" aria-label="关于青年老吴">
-  <span class="eyebrow">ABOUT US · 关于我们</span>
+  <span class="eyebrow">ABOUT US · 品牌故事</span>
   <h2>在怀来做了25年家具，我们更愿意把时间留给品质。</h2>
   <p>从皇玛康之家的长期经营，到青年老吴原木定制工厂的建立，我们始终坚持先把材料、工艺和价格讲清楚，再为一个家选择真正合适的家具。</p>
   <button type="button" data-view="about">了解我们的故事 →</button>
@@ -562,7 +562,7 @@ body.detail-open{overflow:hidden!important}
   <button type="button" class="heritage-item" data-target="craft"><strong>自有工厂</strong><span><b>原木家具与全屋定制</b><em>选材、生产、安装直接沟通</em></span><span class="heritage-arrow">→</span></button>
   <button type="button" class="heritage-item" data-target="contacts"><strong>实体展厅</strong><span><b>河北怀来 · 华美家具城</b><em>家具、木样与工艺支持到店查看</em></span><span class="heritage-arrow">→</span></button>
 </section>
-<nav class="nav main-directory" aria-label="主要目录"><button data-view="products" class="active">原木家具</button><button data-view="huangma">皇玛康之家</button><button data-view="showroom">展厅惠品</button><button data-view="spaces">全屋定制案例</button><button data-view="woods">木材展示</button><button data-view="craft">定制工艺</button><button data-view="creative">文创产品</button><button data-view="about">关于我们</button><button data-view="contacts">联系我们</button></nav>
+<nav class="nav main-directory" aria-label="主要目录"><button data-view="products" class="active">原木家具</button><button data-view="huangma">皇玛康之家</button><button data-view="showroom">展厅惠品</button><button data-view="spaces">全屋定制案例</button><button data-view="woods">木材展示</button><button data-view="craft">定制工艺</button><button data-view="creative">文创产品</button><button data-view="about">品牌故事</button><button data-view="contacts">到店咨询</button></nav>
 <div class="notice"><strong>关于图片</strong><span>标注“展厅实拍”的为店内真实家具；“定制示意”为款式参考。木材、尺寸、做法与报价以实际沟通为准。</span></div>
 <section id="catalogView" class="workspace"><aside class="sidebar"><h2>按空间选家具</h2><div class="rooms" id="rooms"></div><div class="side-note"><b>真正耐看的空间，先把比例做对。</b>家具、木色与收纳需要一起考虑。具体方案再结合户型、生活习惯与现场尺寸确认。</div></aside><div class="catalog-main"><details class="filter-panel"><summary>搜索与木材筛选</summary><div class="fields"><input id="searchInput" type="search" aria-label="搜索家具" placeholder="搜索名称、编号、木材"><select id="woodSelect" aria-label="木材筛选"></select></div></details><div id="categories" class="categories" aria-label="家具类别"></div><div class="resultbar"><span id="resultCount" aria-live="polite"></span><button id="resetFilters" class="textbutton">重置筛选</button></div><div class="grid" id="productGrid"></div><div id="productEmpty" class="empty" hidden><h3>还没有符合条件的款式</h3><p>试试其他木材或空间；未上传类别将在收到实拍后补充。</p><button id="emptyReset" class="plain">查看全部家具</button></div></div></section>
 <section id="huangmaView" hidden class="huangma-view">
@@ -585,7 +585,7 @@ body.detail-open{overflow:hidden!important}
   <div id="creativeEmpty" class="brand-empty" hidden><span>WOOD · CREATIVE</span><strong>文创产品正在整理</strong><p>后续可直接从店主管理后台添加。</p></div>
 </section>
 <section id="contactsView" hidden class="contacts-view">
-  <div class="section-heading"><span class="eyebrow">STORE · CONTACT</span><h2>联系我们</h2><p>销售咨询与空间设计分别对接，找到适合你的店内工作人员。</p></div>
+  <div class="section-heading"><span class="eyebrow">VISIT · CONSULT</span><h2>到店咨询</h2><p>销售咨询与空间设计分别对接，也可以查看门店地址、营业时间和到店导航。</p></div>
   <section class="store-info-card" aria-labelledby="storeInfoHeading">
     <div class="store-info-copy"><span class="eyebrow">VISIT OUR SHOWROOM</span><h3 id="storeInfoHeading">到店看样</h3><p id="storeAddressText">河北张家口怀来 · 华美家具城</p></div>
     <dl class="store-facts"><div id="businessHoursRow" hidden><dt>营业时间</dt><dd id="businessHoursText"></dd></div><div id="parkingRow" hidden><dt>停车说明</dt><dd id="parkingText"></dd></div><div><dt>服务区域</dt><dd>京津冀及周边</dd></div></dl>
@@ -624,9 +624,9 @@ body.detail-open{overflow:hidden!important}
 </dialog>
 <dialog id="imageViewer" aria-label="照片放大查看"><div class="viewer-shell"><div class="viewer-topbar"><button id="closeViewer" class="viewer-close" aria-label="关闭大图">×</button><strong id="viewerTitle">照片详情</strong><span></span></div><div class="viewer-stage"><button id="viewerPrev" class="viewer-arrow" aria-label="上一张照片">‹</button><img id="viewerImage" alt=""><button id="viewerNext" class="viewer-arrow" aria-label="下一张照片">›</button></div><div class="viewer-footer"><span id="viewerCounter"></span> · 可双指缩放查看细节</div></div></dialog>
 <dialog id="caseDialog" class="case-dialog" aria-labelledby="caseTitle"><button id="closeCase" class="close" aria-label="关闭案例">×</button><div class="case-dialog-body"><div><span class="eyebrow" id="caseTag"></span><h2 id="caseTitle"></h2><p id="caseSummary"></p></div><div id="caseGallery" class="case-gallery"></div></div></dialog>
-<dialog id="consultDialog" class="consult-dialog" aria-labelledby="consultTitle"><button id="closeConsult" class="close" aria-label="关闭咨询">×</button><div class="consult-body"><span class="eyebrow">ONE-TO-ONE SERVICE</span><h2 id="consultTitle">选择销售咨询</h2><p id="consultIntro">选择一位店内销售，复制带产品编号的咨询内容后即可去微信联系。</p><div id="consultContextText" class="consult-context"></div><div id="consultStaffGrid" class="consult-staff-grid"></div><div id="consultEmpty" class="contact-empty" hidden>暂未添加对应工作人员，请先到“联系我们”查看门店信息。</div><button id="consultOpenContacts" class="plain consult-contacts-button">查看全部联系方式</button></div></dialog>
+<dialog id="consultDialog" class="consult-dialog" aria-labelledby="consultTitle"><button id="closeConsult" class="close" aria-label="关闭咨询">×</button><div class="consult-body"><span class="eyebrow">ONE-TO-ONE SERVICE</span><h2 id="consultTitle">选择销售咨询</h2><p id="consultIntro">选择一位店内销售，复制带产品编号的咨询内容后即可去微信联系。</p><div id="consultContextText" class="consult-context"></div><div id="consultStaffGrid" class="consult-staff-grid"></div><div id="consultEmpty" class="contact-empty" hidden>暂未添加对应工作人员，请先到“到店咨询”查看门店信息。</div><button id="consultOpenContacts" class="plain consult-contacts-button">查看门店与全部联系方式</button></div></dialog>
 <dialog id="posterDialog" class="poster-dialog" aria-labelledby="posterTitle"><div class="poster-shell"><div class="poster-topbar"><button id="closePoster" class="detail-back" aria-label="关闭海报"><span class="detail-back-icon" aria-hidden="true">‹</span><span>返回</span></button><strong id="posterTitle">选品海报</strong><span></span></div><div class="poster-body"><p id="posterStatus">正在生成带二维码的选品海报…</p><img id="posterPreview" alt="选品清单分享海报" hidden><div class="poster-actions"><a id="downloadPoster" class="primary" download="青年老吴-选品清单.png" hidden>保存海报</a><p>手机可长按海报保存，再发送给微信好友。</p></div></div></div></dialog>
 <dialog id="wechatShareDialog" aria-labelledby="wechatShareTitle"><div class="wechat-share-card"><button id="closeWechatShare" class="close" aria-label="关闭分享说明">×</button><div class="wechat-share-mark" aria-hidden="true">微</div><h2 id="wechatShareTitle">在微信中分享选品清单</h2><p id="wechatShareIntro">清单链接已经准备好。</p><div id="wechatShareSteps" class="wechat-steps"></div><div class="wechat-share-actions"><button id="copyWechatLink" class="primary">复制清单链接</button><button id="posterFromWechat" class="plain">生成选品海报</button><button id="doneWechatShare" class="plain">知道了</button></div><textarea id="wechatFallback" class="copyarea" aria-label="微信分享链接，长按复制" readonly hidden></textarea></div></dialog><textarea id="globalCopyFallback" aria-label="复制内容，长按选择" readonly hidden></textarea><div id="toast" class="toast" role="status" hidden></div>
 <script src="/assets/qrcode.js?v=20260924-1"></script>
-<script src="/assets/motion-system.js?v=20260928-1"></script>
-<script src="/assets/app.js?v=20260928-2"></script><script src="/assets/craft-page.js?v=20260928-2"></script><script src="/assets/about-page.js?v=20260928-1"></script></body></html>
+<script src="/assets/motion-system.js?v=20260928-2"></script>
+<script src="/assets/app.js?v=20260928-2"></script><script src="/assets/craft-page.js?v=20260928-2"></script><script src="/assets/about-page.js?v=20260928-2"></script></body></html>

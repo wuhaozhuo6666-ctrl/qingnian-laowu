@@ -33,8 +33,8 @@ export default async function handler(request){
   if(request.method==='POST'&&request.headers.get('X-CSRF-Token')!==session.csrf)return reply({error:'验证过期，请重新登录。'},403);
   if(url.pathname==='/about-admin/api/save'&&request.method==='POST'){
    if(Number(request.headers.get('Content-Length')||0)>220000)return reply({error:'页面资料过大，请精简后再保存。'},413);
-   const body=await request.json(),current=await readAbout(session.token);if((body.sha||null)!==(current.sha||null))return reply({error:'关于我们资料已在其他页面更新，请重新加载。'},409);
-   const page=normalize(body.page),sha=await writeAbout(session.token,current.sha,page);return reply({sha,page,message:'关于我们页面已保存，顾客端会自动更新。'});
+   const body=await request.json(),current=await readAbout(session.token);if((body.sha||null)!==(current.sha||null))return reply({error:'品牌故事资料已在其他页面更新，请重新加载。'},409);
+   const page=normalize(body.page),sha=await writeAbout(session.token,current.sha,page);return reply({sha,page,message:'品牌故事页面已保存，顾客端会自动更新。'});
   }
   if(url.pathname==='/about-admin/api/image'&&request.method==='POST'){
    if(Number(request.headers.get('Content-Length')||0)>3000000)return reply({error:'照片数据过大，请压缩后重试。'},413);

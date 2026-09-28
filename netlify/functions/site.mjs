@@ -12,10 +12,10 @@ export default async function handler(request){
     .replace('MATERIAL DISPLAY','WOOD ARCHIVE')
     .replace('这里集中查看可讨论的木材。实际颜色、纹理、等级与供料，以实样和当批木料为准。','这里集中整理木材本身的纹理、颜色、性能、适用场景与实拍照片，帮助你在选家具前先把木材看明白。')
     .replace('>查看木材</button>','>查看木材档案</button>');
-  if(!html.includes('/assets/wood-archive.js'))html=html.replace('</body>','<script src="/assets/wood-archive.js?v=20260927-archive-3"></script></body>');
+  if(!html.includes('/assets/wood-archive.js'))html=html.replace('</body>','<script src="/assets/wood-archive.js?v=20260928-archive-4"></script></body>');
   if(!html.includes('/assets/craft-page.js'))html=html.replace('</body>','<script src="/assets/craft-page.js?v=20260927-3"></script></body>');
-  if(!html.includes('/assets/motion-system.js'))html=html.replace('</body>','<script src="/assets/motion-system.js?v=20260928-1"></script></body>');
-  if(!html.includes('/assets/about-page.js'))html=html.replace('</body>','<script src="/assets/about-page.js?v=20260928-1"></script></body>');
+  if(!html.includes('/assets/motion-system.js'))html=html.replace('</body>','<script src="/assets/motion-system.js?v=20260928-2"></script></body>');
+  if(!html.includes('/assets/about-page.js'))html=html.replace('</body>','<script src="/assets/about-page.js?v=20260928-2"></script></body>');
   return new Response(html,{status:200,headers:{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-store, max-age=0, must-revalidate','CDN-Cache-Control':'no-store','Netlify-CDN-Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
  }catch{return new Response('页面暂时不可用',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8'}})}
 }

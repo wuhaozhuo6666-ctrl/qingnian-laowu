@@ -251,6 +251,7 @@ body.craft-open{overflow:hidden}
     dialog.scrollTop = 0;
     document.body.classList.add('craft-open');
     requestAnimationFrame(prepareReveals);
+    if (window.SiteMotion) { window.SiteMotion.scan(dialog); requestAnimationFrame(() => window.SiteMotion.refresh()); }
     if (!fromRoute) {
       const url = new URL(location.href);
       url.searchParams.set('craft', '1');
