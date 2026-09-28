@@ -343,30 +343,6 @@
       "sortOrder": 15
     },
     {
-      "id": "WOOD-1790581002716-a1gj",
-      "name": "沙比利",
-      "intro": "沙比利，学名 Entandrophragma cylindricum，是一种主要产自热带非洲的楝科阔叶硬木。其心材多呈金棕至深红褐色，纹理常呈明显交错结构，径切表面能够形成极具辨识度的条带状光影，并可出现Pommelé、波浪、琴背等特殊纹理。木材重量和硬度适中偏高，具有较好的加工、胶合和涂装性能，广泛应用于家具、柜体、木门、木饰面、地板和乐器。",
-      "color": "边材：灰白、浅黄、淡粉灰色。\n心材：金棕、中红褐、深红褐、紫红褐。",
-      "grain": "直纹和交错纹为主，部分还会有波浪纹、泡泡纹、云纹、琴背纹",
-      "density": "约665～690 kg/m³中等偏高，家具比较有分量",
-      "hardness": "约6060 N / 1360 lbf中等偏高硬度",
-      "stability": "径向总干缩约5.0～5.2%，中等\n弦向总干缩约7.2%，中等\n体积干缩约12.9%，总体中等\nT/R约1.4，径弦向比例比较协调，干燥后尺寸稳定性好",
-      "uses": "",
-      "care": "",
-      "colorChange": "沙比利新鲜心材通常呈金棕至红褐色，透明涂装后颜色会明显加深并增强纹理层次；随着时间和光照，心材通常会进一步向更加成熟、深沉的红褐色发展。",
-      "images": [
-        "products/uploads/wood-1790581063944-c1eyz1.webp",
-        "products/uploads/wood-1790581062050-ks0pq1.webp",
-        "products/uploads/wood-1790581036701-wsa8xf.webp",
-        "products/uploads/wood-1790581034938-vqjxh6.webp",
-        "products/uploads/wood-1790581065651-3uheli.webp",
-        "products/uploads/wood-1790581081265-j0bq20.webp",
-        "products/uploads/wood-1790581082670-0l9uex.webp"
-      ],
-      "visible": true,
-      "sortOrder": 16
-    },
-    {
       "id": "WOOD-1790583763247-cgbm",
       "name": "巴西花梨",
       "intro": "红褐底色、深色条纹、密度极高、花纹变化丰富，是非常典型的非洲高密度大板硬木。",
@@ -389,6 +365,30 @@
         "products/uploads/wood-1790583860478-n51q3t.webp",
         "products/uploads/wood-1790583862317-6rm7ji.webp",
         "products/uploads/wood-1790583865200-u6v7yf.webp"
+      ],
+      "visible": true,
+      "sortOrder": 16
+    },
+    {
+      "id": "WOOD-1790581002716-a1gj",
+      "name": "沙比利",
+      "intro": "沙比利，学名 Entandrophragma cylindricum，是一种主要产自热带非洲的楝科阔叶硬木。其心材多呈金棕至深红褐色，纹理常呈明显交错结构，径切表面能够形成极具辨识度的条带状光影，并可出现Pommelé、波浪、琴背等特殊纹理。木材重量和硬度适中偏高，具有较好的加工、胶合和涂装性能，广泛应用于家具、柜体、木门、木饰面、地板和乐器。",
+      "color": "边材：灰白、浅黄、淡粉灰色。\n心材：金棕、中红褐、深红褐、紫红褐。",
+      "grain": "直纹和交错纹为主，部分还会有波浪纹、泡泡纹、云纹、琴背纹",
+      "density": "约665～690 kg/m³中等偏高，家具比较有分量",
+      "hardness": "约6060 N / 1360 lbf中等偏高硬度",
+      "stability": "径向总干缩约5.0～5.2%，中等\n弦向总干缩约7.2%，中等\n体积干缩约12.9%，总体中等\nT/R约1.4，径弦向比例比较协调，干燥后尺寸稳定性好",
+      "uses": "",
+      "care": "",
+      "colorChange": "沙比利新鲜心材通常呈金棕至红褐色，透明涂装后颜色会明显加深并增强纹理层次；随着时间和光照，心材通常会进一步向更加成熟、深沉的红褐色发展。",
+      "images": [
+        "products/uploads/wood-1790581063944-c1eyz1.webp",
+        "products/uploads/wood-1790581062050-ks0pq1.webp",
+        "products/uploads/wood-1790581036701-wsa8xf.webp",
+        "products/uploads/wood-1790581034938-vqjxh6.webp",
+        "products/uploads/wood-1790581065651-3uheli.webp",
+        "products/uploads/wood-1790581081265-j0bq20.webp",
+        "products/uploads/wood-1790581082670-0l9uex.webp"
       ],
       "visible": true,
       "sortOrder": 17
