@@ -389,7 +389,7 @@
     },
     {
       "id": "WOOD-1790581536332-qm20",
-      "name": "选择木材名称…",
+      "name": "大果紫檀",
       "intro": "",
       "color": "",
       "grain": "",
@@ -399,7 +399,10 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790582059044-e6vntw.webp",
+        "products/uploads/wood-1790582060603-nhkx0e.webp"
+      ],
       "visible": true,
       "sortOrder": 18
     }
