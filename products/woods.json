@@ -387,6 +387,33 @@
       "sortOrder": 17
     },
     {
+      "id": "WOOD-1790583763247-cgbm",
+      "name": "巴西花梨",
+      "intro": "红褐底色、深色条纹、密度极高、花纹变化丰富，是非常典型的非洲高密度大板硬木。",
+      "color": "巴花心材通常：粉红红色 → 红褐色 → 深红褐色\n其中经常穿插：紫褐色或近黑色深纹。\n边材明显较浅：淡黄色、麦秆色。",
+      "grain": "巴花的纹理通常：直纹至交错纹。质地细到中等，并比较均匀。\n巴花有着非常著名的瀑布纹，大家可以看上面的照片参考。",
+      "density": "约890 kg/m³高密度，非常重",
+      "hardness": "约10,720 N / 2410 lbf高硬度",
+      "stability": "径向干缩6.0%，中等偏大\n弦向干缩8.2%，中等偏大\n体积干缩13.9%\t总干缩明显\nT/R约1.4，径弦向比例较协调",
+      "uses": "",
+      "care": "",
+      "colorChange": "透明涂装后巴花的红褐色和深色条纹会进一步加深，特殊纹理的明暗和立体光影也会更加明显。",
+      "images": [
+        "products/uploads/wood-1790583809402-h4bsmv.webp",
+        "products/uploads/wood-1790583811628-350tkr.webp",
+        "products/uploads/wood-1790583787262-yt2ofu.webp",
+        "products/uploads/wood-1790583790221-qkez8l.webp",
+        "products/uploads/wood-1790583792262-er0g0u.webp",
+        "products/uploads/wood-1790583807120-px05ol.webp",
+        "products/uploads/wood-1790583813810-nmayo5.webp",
+        "products/uploads/wood-1790583860478-n51q3t.webp",
+        "products/uploads/wood-1790583862317-6rm7ji.webp",
+        "products/uploads/wood-1790583865200-u6v7yf.webp"
+      ],
+      "visible": true,
+      "sortOrder": 18
+    },
+    {
       "id": "WOOD-1790493544189-s45h",
       "name": "新西兰松木",
       "intro": "新西兰松木通常指新西兰人工林种植的辐射松 Pinus radiata。木材色泽浅淡，以黄白、奶油色至浅黄褐色为主，纹理通常较直，年轮清晰。它重量适中、加工和胶合性能良好，适合家具、柜体、儿童家具、木门及室内木作。优质无节等级板材视觉干净，但木材本身硬度不高，表面相对容易产生磕碰压痕。",
@@ -403,33 +430,6 @@
         "products/uploads/wood-1790494226524-fhtxp2.webp",
         "products/uploads/wood-1790494240362-v7c3dq.webp",
         "products/uploads/wood-1790494227844-f2yruu.webp"
-      ],
-      "visible": true,
-      "sortOrder": 18
-    },
-    {
-      "id": "WOOD-1790583763247-cgbm",
-      "name": "巴西花梨",
-      "intro": "",
-      "color": "",
-      "grain": "",
-      "density": "",
-      "hardness": "",
-      "stability": "",
-      "uses": "",
-      "care": "",
-      "colorChange": "",
-      "images": [
-        "products/uploads/wood-1790583809402-h4bsmv.webp",
-        "products/uploads/wood-1790583811628-350tkr.webp",
-        "products/uploads/wood-1790583787262-yt2ofu.webp",
-        "products/uploads/wood-1790583790221-qkez8l.webp",
-        "products/uploads/wood-1790583792262-er0g0u.webp",
-        "products/uploads/wood-1790583807120-px05ol.webp",
-        "products/uploads/wood-1790583813810-nmayo5.webp",
-        "products/uploads/wood-1790583860478-n51q3t.webp",
-        "products/uploads/wood-1790583862317-6rm7ji.webp",
-        "products/uploads/wood-1790583865200-u6v7yf.webp"
       ],
       "visible": true,
       "sortOrder": 19
