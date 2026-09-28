@@ -346,7 +346,7 @@
     },
     {
       "id": "WOOD-1790580031279-1baf",
-      "name": "选择木材名称…",
+      "name": "俄罗斯柞木",
       "intro": "",
       "color": "",
       "grain": "",
@@ -356,7 +356,10 @@
       "uses": "",
       "care": "",
       "colorChange": "",
-      "images": [],
+      "images": [
+        "products/uploads/wood-1790580090213-h0qvnc.webp",
+        "products/uploads/wood-1790580091928-v4olvt.webp"
+      ],
       "visible": true,
       "sortOrder": 16
     }
