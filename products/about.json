@@ -6,7 +6,7 @@
   "homeButton": "了解我们的故事",
   "heroTitle": "二十五年，始终认真做好每一件家具",
   "heroSubtitle": "从实体门店到自有原木工厂，时间让我们更懂家具，也更懂一个家真正需要什么。",
-  "heroImage": "products/uploads/about-1790588369265-z1ixbl.webp",
+  "heroImage": "products/uploads/about-1790588428077-yy0b86.webp",
   "storyTitle": "从华美家具，到青年老吴原木定制工厂",
   "storyParagraphs": [
     "华美家具店扎根怀来已经25年。多年来，我们始终坚持实体经营、诚信待客，用时间和口碑服务每一位顾客。",
@@ -31,12 +31,7 @@
     "自有工厂｜原木家具与全屋定制｜选材、生产、安装直接沟通｜craft",
     "实体展厅｜河北怀来 · 华美家具城｜家具、木样与工艺支持到店查看｜contacts"
   ],
-  "gallery": [
-    {
-      "image": "products/uploads/about-1790588379487-sqlvoh.webp",
-      "caption": ""
-    }
-  ],
+  "gallery": [],
   "ctaTitle": "欢迎到店看样，也欢迎带着户型来聊",
   "ctaText": "家具、木样和工艺细节都可以现场看；有全屋定制需求，也可以直接选择设计师沟通。",
   "storeButton": "到店看样",
