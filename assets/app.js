@@ -1,6 +1,7 @@
 'use strict';
 
 (async function () {
+  if (window.SiteMotion) window.SiteMotion.begin({ text: '正在加载内容…', retry: () => location.reload() });
   const $ = id => document.getElementById(id);
   const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, char => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -95,6 +96,7 @@
     contacts = [];
   } finally {
     clearTimeout(timeout);
+    if (catalogLoaded && window.SiteMotion) window.SiteMotion.end();
   }
 
   if (!catalogLoaded) {
@@ -263,6 +265,7 @@
   function renderHomeSections() {
     const list = (Array.isArray(settings.homeSections) ? settings.homeSections : [])
       .filter(section => section && section.visible !== false)
+      .filter(section => !(/公司介绍/i.test(String(section.title || '')) || /ABOUT\s*US/i.test(String(section.eyebrow || ''))))
       .sort((a, b) => Number(a.sortOrder || 0) - Number(b.sortOrder || 0));
     $('homeSections').replaceChildren(...list.map(section => {
       const article = document.createElement('section');
@@ -400,6 +403,10 @@
       creative: 'creativeView', contacts: 'contactsView', collection: 'collectionView'
     };
     Object.entries(viewMap).forEach(([name, id]) => { $(id).hidden = name !== view; });
+    if (viewMap[view] && window.SiteMotion) {
+      window.SiteMotion.enter($(viewMap[view]));
+      window.SiteMotion.reveal($(viewMap[view]));
+    }
     document.querySelectorAll('[data-view]').forEach(button => {
       button.classList.toggle('active', button.dataset.view === view);
       button.setAttribute('aria-current', button.dataset.view === view ? 'page' : 'false');

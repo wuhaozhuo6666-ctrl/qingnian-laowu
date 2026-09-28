@@ -14,6 +14,8 @@ export default async function handler(request){
     .replace('>查看木材</button>','>查看木材档案</button>');
   if(!html.includes('/assets/wood-archive.js'))html=html.replace('</body>','<script src="/assets/wood-archive.js?v=20260927-archive-3"></script></body>');
   if(!html.includes('/assets/craft-page.js'))html=html.replace('</body>','<script src="/assets/craft-page.js?v=20260927-3"></script></body>');
+  if(!html.includes('/assets/motion-system.js'))html=html.replace('</body>','<script src="/assets/motion-system.js?v=20260928-1"></script></body>');
+  if(!html.includes('/assets/about-page.js'))html=html.replace('</body>','<script src="/assets/about-page.js?v=20260928-1"></script></body>');
   return new Response(html,{status:200,headers:{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-store, max-age=0, must-revalidate','CDN-Cache-Control':'no-store','Netlify-CDN-Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
  }catch{return new Response('页面暂时不可用',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8'}})}
 }
