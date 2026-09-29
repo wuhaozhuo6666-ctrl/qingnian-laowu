@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "LW-MUM2XX3B",
+      "name": "W7南美胡桃木茶盘桌",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "南美胡桃",
+      "size": "190*69*6.5",
+      "image": "products/uploads/1790650261256-xoYTxDZYTA.webp",
+      "images": [
+        "products/uploads/1790650264214-DXHtoEoI2-.webp",
+        "products/uploads/1790650267944-2eBfbA31NR.webp",
+        "products/uploads/1790650271503-g3qluX3HFb.webp",
+        "products/uploads/1790650276040-pSvSruYcOV.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "现货 · 支持定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "3680"
+    },
+    {
       "id": "LW-MUM2MZ7B",
       "name": "2厅南美胡桃木实木大板 自然边",
       "brand": "原木家具",
