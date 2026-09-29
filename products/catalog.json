@@ -1,6 +1,34 @@
 {
   "products": [
     {
+      "id": "LW-MUM1OHYC",
+      "name": "二厅黑边雨木5.0",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "南美胡桃",
+      "size": "252*96*5.7",
+      "image": "products/uploads/1790648133227-md3hDFZucj.webp",
+      "images": [
+        "products/uploads/1790648137278-8NaqjSENi8.webp",
+        "products/uploads/1790648141396-r1en9pd-bp.webp",
+        "products/uploads/1790648146089-8OHcMxvTgP.webp",
+        "products/uploads/1790648150192-ARHSGnBQxr.webp",
+        "products/uploads/1790648153310-kjloOSrLLM.webp",
+        "products/uploads/1790648156033-3dRrHliamv.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "11860"
+    },
+    {
       "id": "LW-MUM1GPFZ",
       "name": "12度烘干雨木 极简",
       "brand": "原木家具",
