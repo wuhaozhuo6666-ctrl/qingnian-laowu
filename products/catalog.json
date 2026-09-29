@@ -1,6 +1,33 @@
 {
   "products": [
     {
+      "id": "LW-MUM4CI12",
+      "name": "M05南美胡桃木大板",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "南美胡桃",
+      "size": "190*88*6",
+      "image": "products/uploads/1790652623067-n7TAqPefCH.webp",
+      "images": [
+        "products/uploads/1790652625884-IjtIocuKDk.webp",
+        "products/uploads/1790652628932-nH0_2M_Pnd.webp",
+        "products/uploads/1790652631236-qAbP9jgNt1.webp",
+        "products/uploads/1790652633988-ZXyYz4BZ7T.webp",
+        "products/uploads/1790652636263-_JM0O1pAbw.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "5560"
+    },
+    {
       "id": "LW-MUM48CJK",
       "name": "斐济南美胡桃木大板 自然边",
       "brand": "原木家具",
