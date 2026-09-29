@@ -1,6 +1,31 @@
 {
   "products": [
     {
+      "id": "LW-MUM16UJ6",
+      "name": "12度烘干雨木5.0",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "南美胡桃",
+      "size": "210*88*6",
+      "image": "products/uploads/1790647319654-9EAWi6fbuV.webp",
+      "images": [
+        "products/uploads/1790647321959-SK_4uqquQm.webp",
+        "products/uploads/1790647325042-FDokUAwbhY.webp",
+        "products/uploads/1790647328375-dA8VVa6ETg.webp",
+        "products/uploads/1790647333204-vkRz7U9GWo.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUM0ZKL5",
       "name": "南美胡桃大板 倒圆边",
       "brand": "原木家具",
