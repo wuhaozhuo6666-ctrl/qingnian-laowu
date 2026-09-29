@@ -2,17 +2,17 @@
   "products": [
     {
       "id": "LW-MUM2872X",
-      "name": "W7北美色胡桃木大板",
+      "name": "W7北美色胡桃木大板 自然边",
       "brand": "原木家具",
       "category": "大板桌",
       "room": "茶室",
       "wood": "南美胡桃",
       "size": "200*84*6",
-      "image": "products/uploads/1790649065543-YcG2woiU3u.webp",
+      "image": "products/uploads/1790649076057-eWu67wFAlF.webp",
       "images": [
+        "products/uploads/1790649065543-YcG2woiU3u.webp",
         "products/uploads/1790649068874-4upQBT-VPM.webp",
-        "products/uploads/1790649072307-di7A-siO6O.webp",
-        "products/uploads/1790649076057-eWu67wFAlF.webp"
+        "products/uploads/1790649072307-di7A-siO6O.webp"
       ],
       "real": true,
       "options": "",
