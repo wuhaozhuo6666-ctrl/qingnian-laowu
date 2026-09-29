@@ -49,7 +49,8 @@
       "featured": false,
       "pinned": false,
       "visible": true,
-      "sortOrder": 0
+      "sortOrder": 0,
+      "price": "7120"
     },
     {
       "id": "LW-MUM0ZKL5",
@@ -151,7 +152,8 @@
       "featured": false,
       "pinned": false,
       "visible": true,
-      "sortOrder": 0
+      "sortOrder": 0,
+      "price": "6620"
     },
     {
       "id": "LW-MUGU18EK",
