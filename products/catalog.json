@@ -1,6 +1,31 @@
 {
   "products": [
     {
+      "id": "LW-MUM3YW64",
+      "name": "L08南美胡桃大板 自然边",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "书房",
+      "wood": "南美胡桃",
+      "size": "145*68*6",
+      "image": "products/uploads/1790651991623-UyjWNHLAUk.webp",
+      "images": [
+        "products/uploads/1790651994888-Bv81oysLXT.webp",
+        "products/uploads/1790651997989-AmYMOzx_m-.webp",
+        "products/uploads/1790652000687-rxWeI--tqC.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "2760"
+    },
+    {
       "id": "LW-MUM3SYBU",
       "name": "南美胡桃大板 全方",
       "brand": "原木家具",
