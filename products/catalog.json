@@ -1,6 +1,33 @@
 {
   "products": [
     {
+      "id": "LW-MUMESH8G",
+      "name": "白蜡木大板 倒边原木色",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "白蜡木",
+      "size": "180*82*4.5",
+      "image": "products/uploads/1790670161012-kJxbGy_RmY.webp",
+      "images": [
+        "products/uploads/1790670164816-wXt8r2EzxL.webp",
+        "products/uploads/1790670167837-0QxGgLF-zQ.webp",
+        "products/uploads/1790670171500-kS0NPSRFTE.webp",
+        "products/uploads/1790670175317-f_HF9pnWKK.webp",
+        "products/uploads/1790670177822-aCCIek6ata.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "7750"
+    },
+    {
       "id": "LW-MUMEL2OX",
       "name": "白蜡木大板 全方原木色",
       "brand": "原木家具",
