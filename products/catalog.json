@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "LW-MUM0ZKL5",
+      "name": "南美胡桃大板 倒圆边",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "书房",
+      "wood": "南美胡桃",
+      "size": "205*97*5.8",
+      "image": "products/uploads/1790646980150-1bZOP5xt4j.webp",
+      "images": [
+        "products/uploads/1790646983243-TRH0USLBGr.webp",
+        "products/uploads/1790646986130-pCTz1QUQE2.webp",
+        "products/uploads/1790646990159-0J_Mjd2huA.webp",
+        "products/uploads/1790646994005-0v84vOyrJ-.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "6960"
+    },
+    {
       "id": "LW-MUM0WJVB",
       "name": "南美胡桃大板 倒圆边",
       "brand": "原木家具",
