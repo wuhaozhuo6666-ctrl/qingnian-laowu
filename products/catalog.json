@@ -1,6 +1,31 @@
 {
   "products": [
     {
+      "id": "LW-MUM1TEZG",
+      "name": "赢北美胡桃木大板 自然边",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "北美黑胡桃",
+      "size": "225*81*6.4",
+      "image": "products/uploads/1790648378313-eWLSMfNWhi.webp",
+      "images": [
+        "products/uploads/1790648380353-HPQwfm2kLo.webp",
+        "products/uploads/1790648382675-GUYxiFvf_5.webp",
+        "products/uploads/1790648386047-h_3oGFI6uS.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "5100"
+    },
+    {
       "id": "LW-MUM1OHYC",
       "name": "二厅黑边雨木5.0",
       "brand": "原木家具",
