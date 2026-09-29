@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "LW-MUMF3VGF",
+      "name": "品骏黑白蜡木大板 全方",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "书房",
+      "wood": "白蜡木",
+      "size": "171*81*4.3",
+      "image": "products/uploads/1790670697131-GEBgMhvET-.webp",
+      "images": [
+        "products/uploads/1790670699991-yH-vaKXQlP.webp",
+        "products/uploads/1790670702750-QLn0BLhBlC.webp",
+        "products/uploads/1790670706086-faVCTyAAWC.webp",
+        "products/uploads/1790670709304-SY5Z6yL-vT.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "6060"
+    },
+    {
       "id": "LW-MUMF03F8",
       "name": "白蜡木大板 自然边原木色",
       "brand": "原木家具",
