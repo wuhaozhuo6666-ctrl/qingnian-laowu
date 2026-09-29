@@ -1,6 +1,31 @@
 {
   "products": [
     {
+      "id": "LW-MUM23OJE",
+      "name": "赢北美胡桃木大板 自然边",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "书房",
+      "wood": "南美胡桃",
+      "size": "180*74*5.8",
+      "image": "products/uploads/1790648856285-6fzqucCW_u.webp",
+      "images": [
+        "products/uploads/1790648859067-bpDNRvpYYi.webp",
+        "products/uploads/1790648861994-P0frteAERJ.webp",
+        "products/uploads/1790648865373-t62uRRSX1a.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "4200"
+    },
+    {
       "id": "LW-MUM1TEZG",
       "name": "赢北美胡桃木大板 自然边",
       "brand": "原木家具",
