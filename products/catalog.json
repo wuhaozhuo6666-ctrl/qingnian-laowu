@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "LW-MUMEB547",
+      "name": "白蜡木大板 倒圆边",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "书房",
+      "wood": "白蜡木",
+      "size": "200*84*4.5",
+      "image": "products/uploads/1790669353316-t-zNNb_rPL.webp",
+      "images": [
+        "products/uploads/1790669357364-By8jpEhd3W.webp",
+        "products/uploads/1790669360916-ulKZuveM3w.webp",
+        "products/uploads/1790669364391-2eafT_HSSM.webp",
+        "products/uploads/1790669368630-i4fws3hycm.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "8530"
+    },
+    {
       "id": "LW-MUM4CI12",
       "name": "M05南美胡桃木大板",
       "brand": "原木家具",
