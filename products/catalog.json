@@ -9,7 +9,12 @@
       "wood": "南美胡桃",
       "size": "215*88*5.7",
       "image": "products/uploads/1790646022486-L-bj5QB0nx.webp",
-      "images": [],
+      "images": [
+        "products/uploads/1790646223190-frbu_FNp7l.webp",
+        "products/uploads/1790646232489-7_HcCx4aOx.webp",
+        "products/uploads/1790646254964-noYltiOjzi.webp",
+        "products/uploads/1790646283430-lgJsvldLr8.webp"
+      ],
       "real": true,
       "options": "",
       "desc": "",
