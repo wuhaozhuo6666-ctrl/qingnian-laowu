@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "LW-MUMFAZPF",
+      "name": "白蜡木大板 全方原木色",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "书房",
+      "wood": "白蜡木",
+      "size": "160*82*4.6",
+      "image": "products/uploads/1790671031234-UKntOyxMgk.webp",
+      "images": [
+        "products/uploads/1790671033373-17FiwwSIJ1.webp",
+        "products/uploads/1790671035692-QJEspcAL35.webp",
+        "products/uploads/1790671038899-JCjEMY-Gxu.webp",
+        "products/uploads/1790671041574-lkY50EYlkc.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "6890"
+    },
+    {
       "id": "LW-MUMF7B1I",
       "name": "白蜡木大板 自然边黑胡桃色",
       "brand": "原木家具",
