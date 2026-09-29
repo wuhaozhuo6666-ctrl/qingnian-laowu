@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "LW-MUMF7B1I",
+      "name": "白蜡木大板 自然边黑胡桃色",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "白蜡木",
+      "size": "160*70*4.7",
+      "image": "products/uploads/1790670861241-27DBrTXCjG.webp",
+      "images": [
+        "products/uploads/1790670863063-URbmjPgial.webp",
+        "products/uploads/1790670864911-huFn8YFSkE.webp",
+        "products/uploads/1790670866608-j0ElVS1s66.webp",
+        "products/uploads/1790670868966-VaCnnGQQgv.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "6270"
+    },
+    {
       "id": "LW-MUMF3VGF",
       "name": "品骏黑白蜡木大板 全方",
       "brand": "原木家具",
