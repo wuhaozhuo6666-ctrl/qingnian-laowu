@@ -1,6 +1,36 @@
 {
   "products": [
     {
+      "id": "LW-MUM2MZ7B",
+      "name": "2厅南美胡桃木实木大板 自然边",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "南美胡桃",
+      "size": "340*88*6.5",
+      "image": "products/uploads/1790649746014--S28f_wCPE.webp",
+      "images": [
+        "products/uploads/1790649748394-WLsbClJQGY.webp",
+        "products/uploads/1790649750955-FD7Vi1yJGU.webp",
+        "products/uploads/1790649753144-oJs8nlH0yU.webp",
+        "products/uploads/1790649755243-31uGP00QvT.webp",
+        "products/uploads/1790649757620-6QXZOO3cO6.webp",
+        "products/uploads/1790649760170-8f95GzTndd.webp",
+        "products/uploads/1790649762636-1A0RZg0bC4.webp",
+        "products/uploads/1790649765697-RLCye3htsD.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "现货 · 支持定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "11650"
+    },
+    {
       "id": "LW-MUM2J5RH",
       "name": "W7北美色胡桃木大板 全方",
       "brand": "原木家具",
