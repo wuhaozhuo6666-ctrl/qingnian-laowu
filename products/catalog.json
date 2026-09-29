@@ -1,6 +1,32 @@
 {
   "products": [
     {
+      "id": "LW-MUM3SYBU",
+      "name": "南美胡桃大板 全方",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "书房",
+      "wood": "南美胡桃",
+      "size": "195*68*6",
+      "image": "products/uploads/1790651714580-O_IhbHiWKQ.webp",
+      "images": [
+        "products/uploads/1790651716664-tQp9acrWqp.webp",
+        "products/uploads/1790651719051-71w-34SO3W.webp",
+        "products/uploads/1790651721426-24hgKJ8Jny.webp",
+        "products/uploads/1790651724161-iu__b4V0M9.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "3950"
+    },
+    {
       "id": "LW-MUM3LOMS",
       "name": "南美胡桃木大板 全方",
       "brand": "原木家具",
