@@ -1,6 +1,33 @@
 {
   "products": [
     {
+      "id": "LW-MUMGF2IG",
+      "name": "白蜡木大板 全方原木色",
+      "brand": "原木家具",
+      "category": "大板桌",
+      "room": "茶室",
+      "wood": "白蜡木",
+      "size": "200*76*4.7",
+      "image": "products/uploads/1790672896624-zGdjRUuNd1.webp",
+      "images": [
+        "products/uploads/1790672898651-FrzQMkYl_v.webp",
+        "products/uploads/1790672901144-5AVMq3kqxv.webp",
+        "products/uploads/1790672904313-wc_-su6ay5.webp",
+        "products/uploads/1790672907472-iY-H49a8KV.webp",
+        "products/uploads/1790672911170-5tTEFvjBw9.webp"
+      ],
+      "real": true,
+      "options": "",
+      "desc": "",
+      "availability": "可定制",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0,
+      "price": "7980"
+    },
+    {
       "id": "LW-MUMG4O83",
       "name": "白蜡木大板 全方",
       "brand": "原木家具",
