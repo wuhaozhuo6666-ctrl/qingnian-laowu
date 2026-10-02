@@ -1,6 +1,26 @@
 {
   "products": [
     {
+      "id": "LW-MUQNF23C",
+      "name": "四时木韵·四季书签",
+      "brand": "文创产品",
+      "category": "原木文创",
+      "room": "其他",
+      "wood": "金丝楠木",
+      "size": "",
+      "image": "products/uploads/1790926532631-AcCtNYYPVl.webp",
+      "images": [],
+      "real": true,
+      "options": "",
+      "desc": "四时木韵，一签藏四季。\n春｜金丝楠木·幽兰，春风入怀，清雅淡然\n夏｜非洲花梨·青竹，清风竹影，自在安然\n秋｜乌金木·秋菊，菊染秋霜，静享清欢\n冬｜白蜡木·寒梅，梅迎飞雪，傲骨留香",
+      "availability": "现货",
+      "leadTime": "请咨询门店",
+      "featured": false,
+      "pinned": false,
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "LW-MUMGF2IG",
       "name": "白蜡木大板 全方原木色",
       "brand": "原木家具",
@@ -3367,7 +3387,9 @@
       "images": [
         "products/uploads/1790913381650-46Bgk55F4h.webp",
         "products/uploads/1790913383438-79divusHaq.webp"
-      ]
+      ],
+      "visible": true,
+      "sortOrder": 0
     },
     {
       "id": "CASE-MUQFHT8X",
@@ -3387,7 +3409,9 @@
         "products/uploads/1790913220845-Ng-qkuoo6d.webp",
         "products/uploads/1790913222894-OKPfjirqMT.webp",
         "products/uploads/1790913224635-53TZTRKrkQ.webp"
-      ]
+      ],
+      "visible": true,
+      "sortOrder": 1
     },
     {
       "id": "CASE-MUQFCHEQ",
@@ -3400,7 +3424,9 @@
         "products/uploads/1790912970656-PH6AncMFGq.webp",
         "products/uploads/1790912973746-OeC9FIh3h_.webp",
         "products/uploads/1790912975892-Lvf8KPWAxX.webp"
-      ]
+      ],
+      "visible": true,
+      "sortOrder": 2
     }
   ],
   "contacts": [
@@ -3506,6 +3532,8 @@
     }
   ],
   "settings": {
+    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
+    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "woods": [
       "非洲红胡桃",
       "北美黑胡桃",
@@ -3544,8 +3572,6 @@
       "茶室",
       "书房"
     ],
-    "heroImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
-    "shareImage": "products/uploads/1790160324779-T2-YTgotmL.webp",
     "storeAddress": "河北张家口怀来 · 华美家具城",
     "businessHours": "8：30-22：00",
     "parkingInfo": "家具城院内可停车",
