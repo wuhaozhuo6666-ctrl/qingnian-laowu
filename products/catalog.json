@@ -3383,6 +3383,25 @@
   ],
   "cases": [
     {
+      "id": "CASE-MUQPBQ36",
+      "title": "北京大兴",
+      "summary": "黑胡桃+樱桃木",
+      "tag": "全屋原木定制",
+      "cover": "products/uploads/1790929628936-Sf1Pu8qdxp.webp",
+      "images": [
+        "products/uploads/1790929632335-OrMtWLGm2H.webp",
+        "products/uploads/1790929664432-YbQRk6kTfN.webp",
+        "products/uploads/1790929672545-RbSzEa2HXs.webp",
+        "products/uploads/1790929680598-VuYCTisqfv.webp",
+        "products/uploads/1790929691761-kVHKIQ1X22.webp",
+        "products/uploads/1790929730625-A7cbspPCpw.webp",
+        "products/uploads/1790929734382-FMaMbw5hCl.webp",
+        "products/uploads/1790929736566-l1zSlNe3cZ.webp"
+      ],
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "CASE-MUQOWZG6",
       "title": "河南周口",
       "summary": "",
@@ -3401,7 +3420,7 @@
         "products/uploads/1790929048666-BINCnDmnDb.webp"
       ],
       "visible": true,
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "CASE-MUQFL80Z",
@@ -3414,7 +3433,7 @@
         "products/uploads/1790913383438-79divusHaq.webp"
       ],
       "visible": true,
-      "sortOrder": 1
+      "sortOrder": 2
     },
     {
       "id": "CASE-MUQFHT8X",
@@ -3436,7 +3455,7 @@
         "products/uploads/1790913224635-53TZTRKrkQ.webp"
       ],
       "visible": true,
-      "sortOrder": 2
+      "sortOrder": 3
     },
     {
       "id": "CASE-MUQFCHEQ",
@@ -3451,7 +3470,7 @@
         "products/uploads/1790912975892-Lvf8KPWAxX.webp"
       ],
       "visible": true,
-      "sortOrder": 3
+      "sortOrder": 4
     }
   ],
   "contacts": [
