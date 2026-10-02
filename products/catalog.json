@@ -3357,7 +3357,22 @@
       "sortOrder": 68
     }
   ],
-  "cases": [],
+  "cases": [
+    {
+      "id": "CASE-MUQEJ9IN",
+      "title": "凤凰城3期",
+      "summary": "",
+      "tag": "全屋原木定制",
+      "cover": "products/uploads/1790911603168-cSkOSsB6bI.webp",
+      "images": [
+        "products/uploads/1790911605197-WWtixMjtUn.webp",
+        "products/uploads/1790911607002-QgcdtpBMxX.webp",
+        "products/uploads/1790911608754-EsZKPBNzKI.webp",
+        "products/uploads/1790911610681-3q0FqxKJpG.webp",
+        "products/uploads/1790911612579-jygaUz00Fm.webp"
+      ]
+    }
+  ],
   "contacts": [
     {
       "id": "CONTACT-MUJALPBB",
