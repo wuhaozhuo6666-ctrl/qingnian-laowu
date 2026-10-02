@@ -3383,6 +3383,27 @@
   ],
   "cases": [
     {
+      "id": "CASE-MUQOWZG6",
+      "title": "河南周口",
+      "summary": "",
+      "tag": "全屋原木定制",
+      "cover": "products/uploads/1790929030063-4wfiGbar9Z.webp",
+      "images": [
+        "products/uploads/1790929032270-GHE50qHSND.webp",
+        "products/uploads/1790929033914-F2ezEHoMsi.webp",
+        "products/uploads/1790929035751-N7cz7PZTga.webp",
+        "products/uploads/1790929037457-8RtXNGAzoT.webp",
+        "products/uploads/1790929039440-3c9SmB1oOl.webp",
+        "products/uploads/1790929041176-VV5FoY8oz9.webp",
+        "products/uploads/1790929043030-8EtN0mVshD.webp",
+        "products/uploads/1790929044740-uZEdFYqh63.webp",
+        "products/uploads/1790929046631-Tx-WkTA7Pr.webp",
+        "products/uploads/1790929048666-BINCnDmnDb.webp"
+      ],
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "CASE-MUQFL80Z",
       "title": "百旺茉莉园-宋先生",
       "summary": "全材非洲红胡桃",
@@ -3393,7 +3414,7 @@
         "products/uploads/1790913383438-79divusHaq.webp"
       ],
       "visible": true,
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "CASE-MUQFHT8X",
@@ -3415,7 +3436,7 @@
         "products/uploads/1790913224635-53TZTRKrkQ.webp"
       ],
       "visible": true,
-      "sortOrder": 1
+      "sortOrder": 2
     },
     {
       "id": "CASE-MUQFCHEQ",
@@ -3430,7 +3451,7 @@
         "products/uploads/1790912975892-Lvf8KPWAxX.webp"
       ],
       "visible": true,
-      "sortOrder": 2
+      "sortOrder": 3
     }
   ],
   "contacts": [
