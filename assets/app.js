@@ -79,7 +79,9 @@
         .filter(item => item.id && item.name && item.image);
       catalogLoaded = true;
     }
-    if (Array.isArray(data.cases)) cases = data.cases.filter(item => item && item.id && item.cover);
+    if (Array.isArray(data.cases)) cases = data.cases
+      .filter(item => item && item.id && item.cover && item.visible !== false)
+      .sort((a, b) => Number(a.sortOrder || 0) - Number(b.sortOrder || 0));
     if (Array.isArray(data.contacts)) {
       contacts = data.contacts
         .filter(item => item && ['sales', 'designer'].includes(item.type) && item.name)
@@ -651,13 +653,15 @@
   function openWechatShareGuide(payload, inWechat, kind) {
     pendingShare = payload;
     $('wechatFallback').hidden = true;
-    $('wechatShareTitle').textContent = inWechat ? '在微信中分享' + (kind === 'product' ? '这款产品' : '选品清单') : '把' + (kind === 'product' ? '产品' : '选品清单') + '发到微信';
-    $('wechatShareIntro').textContent = inWechat ? '分享卡片已准备好标题、简介和缩略图。' : '当前浏览器没有提供系统分享菜单，可以复制链接后发送到微信。';
+    $('wechatShareTitle').textContent = inWechat ? '发送' + (kind === 'product' ? '产品选品卡' : '选品清单卡') : '把' + (kind === 'product' ? '产品' : '选品清单') + '发到微信';
+    $('wechatShareIntro').textContent = inWechat ? '正式小程序发布前，建议先生成带产品封面和二维码的选品海报，避免只发送一串网址。' : '当前浏览器没有提供系统分享菜单，可以生成选品海报后发送到微信。';
     $('wechatShareSteps').innerHTML = inWechat
-      ? '点击右上角 <strong>···</strong>，再选 <strong>发送给朋友</strong> 或 <strong>分享到朋友圈</strong>。'
-      : '点击 <strong>复制分享链接</strong>，打开微信并粘贴发送；对方点开后会看到完整内容。';
-    $('copyWechatLink').textContent = '复制分享链接';
+      ? '推荐点击 <strong>生成选品海报</strong>，保存后发送给顾客；小程序正式发布后，可直接发送微信原生小程序卡片。'
+      : '点击 <strong>生成选品海报</strong> 并保存，再打开微信发送给顾客；链接仅作为备用。';
+    $('copyWechatLink').textContent = '备用：复制链接';
     $('posterFromWechat').textContent = kind === 'product' ? '生成产品海报' : '生成选品海报';
+    $('copyWechatLink').className = 'plain';
+    $('posterFromWechat').className = 'primary';
     openDialog($('wechatShareDialog'));
   }
 

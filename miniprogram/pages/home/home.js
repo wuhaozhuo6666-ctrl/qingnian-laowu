@@ -6,5 +6,6 @@ Page({
   filter(){const products=(this.catalog.products||[]).filter(p=>p.visible!==false&&p.brand===this.data.brand).sort((a,b)=>Number(b.pinned)-Number(a.pinned)||(a.sortOrder||0)-(b.sortOrder||0)).map(p=>({...p,imageUrl:app.imageUrl(p.image)}));this.setData({products})},
   chooseBrand(e){this.setData({brand:e.currentTarget.dataset.brand});this.filter()},
   openProduct(e){wx.navigateTo({url:'/pages/product/product?id='+encodeURIComponent(e.currentTarget.dataset.id)})},
-  onShareAppMessage(){const s=(this.catalog&&this.catalog.settings)||{};return{title:s.shareTitle||'青年老吴实木家具｜在线选品',path:'/pages/home/home',imageUrl:app.imageUrl(s.shareImage||s.heroImage)}}
+  onShareAppMessage(){const s=(this.catalog&&this.catalog.settings)||{};return{title:s.shareTitle||'青年老吴实木家具｜在线选品',path:'/pages/home/home',imageUrl:app.imageUrl(s.shareImage||s.heroImage)}},
+  onShareTimeline(){const s=(this.catalog&&this.catalog.settings)||{};return{title:s.shareTitle||'青年老吴实木家具｜在线选品',query:'',imageUrl:app.imageUrl(s.shareImage||s.heroImage)}}
 });

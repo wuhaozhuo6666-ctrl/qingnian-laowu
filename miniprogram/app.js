@@ -8,7 +8,7 @@ App({
       fail: reject
     }));
   },
-  imageUrl(path) { return this.globalData.baseUrl + (String(path || '').startsWith('/') ? '' : '/') + String(path || ''); },
+  imageUrl(path) { const value=String(path||'').replace(/^\//,'');return this.globalData.baseUrl+(value.startsWith('products/uploads/')?'/media/':'/')+value; },
   favorites() { try { return wx.getStorageSync('favorites') || []; } catch (e) { return []; } },
   toggleFavorite(id) { const set = new Set(this.favorites()); set.has(id) ? set.delete(id) : set.add(id); const list = [...set]; wx.setStorageSync('favorites', list); return list; }
 });

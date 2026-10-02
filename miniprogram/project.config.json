@@ -4,6 +4,6 @@
   "setting": {"urlCheck": true, "es6": true, "enhance": true, "postcss": true, "minified": true},
   "compileType": "miniprogram",
   "appid": "touristappid",
-  "projectname": "qingnian-laowu",
+  "projectname": "青年老吴原木家具",
   "miniprogramRoot": "./"
 }
