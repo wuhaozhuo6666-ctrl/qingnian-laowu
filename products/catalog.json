@@ -3383,6 +3383,25 @@
   ],
   "cases": [
     {
+      "id": "CASE-MUQQ8D1H",
+      "title": "保定",
+      "summary": "",
+      "tag": "全屋原木定制",
+      "cover": "products/uploads/1790931243405-90DASf_ZK3.webp",
+      "images": [
+        "products/uploads/1790931245446-cCYvRhjqOP.webp",
+        "products/uploads/1790931247287-8gW5eRJ74J.webp",
+        "products/uploads/1790931249060-DMIZDYWRsu.webp",
+        "products/uploads/1790931250925-u2BmDqbBAS.webp",
+        "products/uploads/1790931252794-_CLZ041riG.webp",
+        "products/uploads/1790931254698-LPeaV-1QfO.webp",
+        "products/uploads/1790931256534-SMlJXVl5xE.webp",
+        "products/uploads/1790931258311-byGfBmulL0.webp"
+      ],
+      "visible": true,
+      "sortOrder": 0
+    },
+    {
       "id": "CASE-MUQQ5QI9",
       "title": "张家口",
       "summary": "全材花梨",
@@ -3394,7 +3413,7 @@
         "products/uploads/1790931136569-zm7a-MdHCW.webp"
       ],
       "visible": true,
-      "sortOrder": 0
+      "sortOrder": 1
     },
     {
       "id": "CASE-MUQPBQ36",
@@ -3413,7 +3432,7 @@
         "products/uploads/1790929736566-l1zSlNe3cZ.webp"
       ],
       "visible": true,
-      "sortOrder": 1
+      "sortOrder": 2
     },
     {
       "id": "CASE-MUQOWZG6",
@@ -3434,7 +3453,7 @@
         "products/uploads/1790929048666-BINCnDmnDb.webp"
       ],
       "visible": true,
-      "sortOrder": 2
+      "sortOrder": 3
     },
     {
       "id": "CASE-MUQFL80Z",
@@ -3447,7 +3466,7 @@
         "products/uploads/1790913383438-79divusHaq.webp"
       ],
       "visible": true,
-      "sortOrder": 3
+      "sortOrder": 4
     },
     {
       "id": "CASE-MUQFHT8X",
@@ -3469,7 +3488,7 @@
         "products/uploads/1790913224635-53TZTRKrkQ.webp"
       ],
       "visible": true,
-      "sortOrder": 4
+      "sortOrder": 5
     },
     {
       "id": "CASE-MUQFCHEQ",
@@ -3484,7 +3503,7 @@
         "products/uploads/1790912975892-Lvf8KPWAxX.webp"
       ],
       "visible": true,
-      "sortOrder": 5
+      "sortOrder": 6
     }
   ],
   "contacts": [
